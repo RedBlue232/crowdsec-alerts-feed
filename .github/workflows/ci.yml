@@ -1,0 +1,16 @@
+name: Validate feeds
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate feeds format & freshness
+        run: python3 tools/validate_feeds.py

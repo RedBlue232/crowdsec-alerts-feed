@@ -1,0 +1,30 @@
+name: Monitor feed freshness
+
+on:
+  schedule:
+    - cron: "0 */13 * * *"   # toutes les 13h (décalé vs publication 12h)
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run validator (freshness gate)
+        id: validate
+        run: python3 tools/validate_feeds.py
+
+      - name: Ouvrir une issue si échec
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: "Feed CrowdSec non mis à jour ou invalide",
+              body: "Le workflow monitor a détecté un problème. Vérifier n8n, la LAPI CrowdSec, ou le publish GitHub."
+            });
