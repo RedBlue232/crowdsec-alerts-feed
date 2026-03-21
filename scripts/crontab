@@ -1,0 +1,2 @@
+# Toutes les 12h — décalé à 01:00 et 13:00 pour éviter les pics
+0 1,13 * * * python /app/feed.py

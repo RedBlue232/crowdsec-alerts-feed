@@ -1,0 +1,8 @@
+services:
+  crowdsec-feed:
+    build:
+      context: ./script
+    container_name: crowdsec-feed
+    restart: unless-stopped
+    env_file:
+ 
