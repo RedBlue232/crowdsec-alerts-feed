@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "ttl_days": 7,
-  "updated_at": "2026-03-21T13:42:21.614132Z",
+  "updated_at": "2026-03-22T01:00:01.462351Z",
   "items": {
     "4.204.200.32": {
       "ip": "4.204.200.32",
@@ -39,11 +39,11 @@
       "last_seen": "2026-03-21T12:44:25Z",
       "scenarios": {
         "crowdsecurity/jira_cve-2021-26086": {
-          "count": 5,
+          "count": 6,
           "last_seen": "2026-03-21T12:44:25Z"
         },
         "crowdsecurity/http-probing": {
-          "count": 5,
+          "count": 6,
           "last_seen": "2026-03-21T12:44:25Z"
         }
       },
@@ -60,24 +60,62 @@
       "last_seen": "2026-03-21T13:15:35Z",
       "scenarios": {
         "crowdsecurity/http-crawl-non_statics": {
-          "count": 1,
+          "count": 2,
           "last_seen": "2026-03-21T13:15:35Z"
         },
         "crowdsecurity/http-wordpress-scan": {
-          "count": 1,
+          "count": 2,
           "last_seen": "2026-03-21T13:15:35Z"
         },
         "crowdsecurity/http-admin-interface-probing": {
-          "count": 1,
+          "count": 2,
           "last_seen": "2026-03-21T13:15:35Z"
         },
         "crowdsecurity/http-probing": {
-          "count": 1,
+          "count": 2,
           "last_seen": "2026-03-21T13:15:35Z"
         }
       },
       "last_alert_id": 5110,
       "last_alert_uuid": "13892cb8-1dde-42be-8c67-567811450bd9",
+      "machines": [
+        "localhost"
+      ]
+    },
+    "104.208.81.111": {
+      "ip": "104.208.81.111",
+      "family": "v4",
+      "first_seen": "2026-03-21T20:40:50Z",
+      "last_seen": "2026-03-21T20:40:53Z",
+      "scenarios": {
+        "crowdsecurity/http-admin-interface-probing": {
+          "count": 1,
+          "last_seen": "2026-03-21T20:40:53Z"
+        },
+        "crowdsecurity/http-probing": {
+          "count": 1,
+          "last_seen": "2026-03-21T20:40:53Z"
+        }
+      },
+      "last_alert_id": 5116,
+      "last_alert_uuid": "80441234-cb28-496a-a0da-072950524cf0",
+      "machines": [
+        "localhost"
+      ]
+    },
+    "162.142.125.43": {
+      "ip": "162.142.125.43",
+      "family": "v4",
+      "first_seen": "2026-03-21T19:48:50Z",
+      "last_seen": "2026-03-21T19:48:50Z",
+      "scenarios": {
+        "crowdsecurity/http-bad-user-agent": {
+          "count": 1,
+          "last_seen": "2026-03-21T19:48:50Z"
+        }
+      },
+      "last_alert_id": 5114,
+      "last_alert_uuid": "f94762c2-ccfd-4792-baef-a65089532248",
       "machines": [
         "localhost"
       ]
