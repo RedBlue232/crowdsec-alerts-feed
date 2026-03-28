@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T13:00:00Z",
+  "generated_at": "2026-03-28T01:00:00Z",
   "ttl_days": 7,
   "counts": {
     "total": 31,
@@ -94,36 +94,6 @@
       "last_seen": "2026-03-22T02:00:00Z",
       "scenarios": [
         "crowdsecurity/http-bad-user-agent"
-      ]
-    },
-    {
-      "ip": "124.29.194.213",
-      "family": "v4",
-      "first_seen": "2026-03-20T21:00:00Z",
-      "last_seen": "2026-03-20T21:00:00Z",
-      "scenarios": [
-        "crowdsecurity/netgear_rce",
-        "crowdsecurity/http-cve-probing"
-      ]
-    },
-    {
-      "ip": "66.132.172.99",
-      "family": "v4",
-      "first_seen": "2026-03-20T18:00:00Z",
-      "last_seen": "2026-03-20T18:00:00Z",
-      "scenarios": [
-        "crowdsecurity/http-bad-user-agent"
-      ]
-    },
-    {
-      "ip": "4.193.168.228",
-      "family": "v4",
-      "first_seen": "2026-03-20T00:00:00Z",
-      "last_seen": "2026-03-20T17:00:00Z",
-      "scenarios": [
-        "crowdsecurity/http-wordpress-scan",
-        "crowdsecurity/http-probing",
-        "crowdsecurity/http-admin-interface-probing"
       ]
     },
     {
@@ -309,7 +279,7 @@
       "ip": "20.63.209.197",
       "family": "v4",
       "first_seen": "2026-03-26T22:00:00Z",
-      "last_seen": "2026-03-26T22:00:00Z",
+      "last_seen": "2026-03-27T13:00:00Z",
       "scenarios": [
         "crowdsecurity/http-wordpress-scan",
         "crowdsecurity/http-probing",
@@ -338,6 +308,37 @@
         "crowdsecurity/http-crawl-non_statics",
         "crowdsecurity/http-wordpress-scan",
         "crowdsecurity/http-probing"
+      ]
+    },
+    {
+      "ip": "20.151.201.236",
+      "family": "v4",
+      "first_seen": "2026-03-27T23:00:00Z",
+      "last_seen": "2026-03-27T23:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-crawl-non_statics",
+        "crowdsecurity/http-admin-interface-probing",
+        "crowdsecurity/http-wordpress-scan",
+        "crowdsecurity/http-probing"
+      ]
+    },
+    {
+      "ip": "199.45.155.95",
+      "family": "v4",
+      "first_seen": "2026-03-27T22:00:00Z",
+      "last_seen": "2026-03-27T22:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-bad-user-agent"
+      ]
+    },
+    {
+      "ip": "110.38.242.223",
+      "family": "v4",
+      "first_seen": "2026-03-27T17:00:00Z",
+      "last_seen": "2026-03-27T17:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-cve-probing",
+        "crowdsecurity/netgear_rce"
       ]
     }
   ]
