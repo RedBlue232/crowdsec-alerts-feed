@@ -1,44 +1,12 @@
 {
-  "generated_at": "2026-03-28T13:00:00Z",
+  "generated_at": "2026-03-29T01:00:00Z",
   "ttl_days": 7,
   "counts": {
-    "total": 32,
-    "v4": 32,
+    "total": 31,
+    "v4": 31,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "20.151.2.242",
-      "family": "v4",
-      "first_seen": "2026-03-21T13:00:00Z",
-      "last_seen": "2026-03-21T13:00:00Z",
-      "scenarios": [
-        "crowdsecurity/http-crawl-non_statics",
-        "crowdsecurity/http-wordpress-scan",
-        "crowdsecurity/http-admin-interface-probing",
-        "crowdsecurity/http-probing"
-      ]
-    },
-    {
-      "ip": "104.208.81.111",
-      "family": "v4",
-      "first_seen": "2026-03-19T20:00:00Z",
-      "last_seen": "2026-03-21T20:00:00Z",
-      "scenarios": [
-        "crowdsecurity/http-admin-interface-probing",
-        "crowdsecurity/http-probing",
-        "crowdsecurity/http-wordpress-scan"
-      ]
-    },
-    {
-      "ip": "162.142.125.43",
-      "family": "v4",
-      "first_seen": "2026-03-19T08:00:00Z",
-      "last_seen": "2026-03-21T19:00:00Z",
-      "scenarios": [
-        "crowdsecurity/http-bad-user-agent"
-      ]
-    },
     {
       "ip": "20.240.46.49",
       "family": "v4",
@@ -347,6 +315,27 @@
         "crowdsecurity/http-admin-interface-probing",
         "crowdsecurity/http-wordpress-scan",
         "crowdsecurity/http-backdoors-attempts",
+        "crowdsecurity/http-crawl-non_statics",
+        "crowdsecurity/http-probing"
+      ]
+    },
+    {
+      "ip": "199.45.155.91",
+      "family": "v4",
+      "first_seen": "2026-03-28T20:00:00Z",
+      "last_seen": "2026-03-28T20:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-bad-user-agent"
+      ]
+    },
+    {
+      "ip": "20.197.233.108",
+      "family": "v4",
+      "first_seen": "2026-03-28T14:00:00Z",
+      "last_seen": "2026-03-28T14:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-admin-interface-probing",
+        "crowdsecurity/http-wordpress-scan",
         "crowdsecurity/http-crawl-non_statics",
         "crowdsecurity/http-probing"
       ]
