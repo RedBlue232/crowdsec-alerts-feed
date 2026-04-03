@@ -1,25 +1,12 @@
 {
-  "generated_at": "2026-04-03T01:00:00Z",
+  "generated_at": "2026-04-03T13:00:00Z",
   "ttl_days": 7,
   "counts": {
-    "total": 30,
-    "v4": 30,
+    "total": 32,
+    "v4": 32,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "74.235.238.88",
-      "family": "v4",
-      "first_seen": "2026-03-25T21:00:00Z",
-      "last_seen": "2026-03-27T03:00:00Z",
-      "scenarios": [
-        "crowdsecurity/http-crawl-non_statics",
-        "crowdsecurity/http-admin-interface-probing",
-        "crowdsecurity/http-probing",
-        "crowdsecurity/http-wordpress-scan",
-        "crowdsecurity/http-backdoors-attempts"
-      ]
-    },
     {
       "ip": "20.63.209.197",
       "family": "v4",
@@ -331,6 +318,38 @@
         "crowdsecurity/http-wordpress-scan",
         "crowdsecurity/http-crawl-non_statics",
         "crowdsecurity/http-probing"
+      ]
+    },
+    {
+      "ip": "20.151.229.110",
+      "family": "v4",
+      "first_seen": "2026-04-03T11:00:00Z",
+      "last_seen": "2026-04-03T11:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-crawl-non_statics",
+        "crowdsecurity/http-backdoors-attempts",
+        "crowdsecurity/http-admin-interface-probing",
+        "crowdsecurity/http-wordpress-scan",
+        "crowdsecurity/http-probing"
+      ]
+    },
+    {
+      "ip": "66.132.195.67",
+      "family": "v4",
+      "first_seen": "2026-04-03T07:00:00Z",
+      "last_seen": "2026-04-03T07:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-bad-user-agent"
+      ]
+    },
+    {
+      "ip": "15.220.169.114",
+      "family": "v4",
+      "first_seen": "2026-04-03T03:00:00Z",
+      "last_seen": "2026-04-03T03:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-probing",
+        "crowdsecurity/http-sensitive-files"
       ]
     }
   ]
