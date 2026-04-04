@@ -1,54 +1,12 @@
 {
-  "generated_at": "2026-04-03T13:00:00Z",
+  "generated_at": "2026-04-04T01:00:00Z",
   "ttl_days": 7,
   "counts": {
-    "total": 32,
-    "v4": 32,
+    "total": 29,
+    "v4": 29,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "20.63.209.197",
-      "family": "v4",
-      "first_seen": "2026-03-26T22:00:00Z",
-      "last_seen": "2026-03-27T13:00:00Z",
-      "scenarios": [
-        "crowdsecurity/http-wordpress-scan",
-        "crowdsecurity/http-probing",
-        "crowdsecurity/http-admin-interface-probing"
-      ]
-    },
-    {
-      "ip": "20.151.201.236",
-      "family": "v4",
-      "first_seen": "2026-03-27T23:00:00Z",
-      "last_seen": "2026-03-27T23:00:00Z",
-      "scenarios": [
-        "crowdsecurity/http-crawl-non_statics",
-        "crowdsecurity/http-admin-interface-probing",
-        "crowdsecurity/http-wordpress-scan",
-        "crowdsecurity/http-probing"
-      ]
-    },
-    {
-      "ip": "199.45.155.95",
-      "family": "v4",
-      "first_seen": "2026-03-27T22:00:00Z",
-      "last_seen": "2026-03-27T22:00:00Z",
-      "scenarios": [
-        "crowdsecurity/http-bad-user-agent"
-      ]
-    },
-    {
-      "ip": "110.38.242.223",
-      "family": "v4",
-      "first_seen": "2026-03-27T17:00:00Z",
-      "last_seen": "2026-03-27T17:00:00Z",
-      "scenarios": [
-        "crowdsecurity/http-cve-probing",
-        "crowdsecurity/netgear_rce"
-      ]
-    },
     {
       "ip": "20.9.49.147",
       "family": "v4",
@@ -350,6 +308,15 @@
       "scenarios": [
         "crowdsecurity/http-probing",
         "crowdsecurity/http-sensitive-files"
+      ]
+    },
+    {
+      "ip": "158.158.32.192",
+      "family": "v4",
+      "first_seen": "2026-04-03T20:00:00Z",
+      "last_seen": "2026-04-03T20:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-probing"
       ]
     }
   ]
