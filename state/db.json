@@ -1,63 +1,8 @@
 {
   "schema_version": "1",
   "ttl_days": 7,
-  "updated_at": "2026-04-05T13:00:01.385434Z",
+  "updated_at": "2026-04-06T01:00:01.432037Z",
   "items": {
-    "199.45.155.91": {
-      "ip": "199.45.155.91",
-      "family": "v4",
-      "first_seen": "2026-03-28T20:01:28Z",
-      "last_seen": "2026-03-30T00:46:13Z",
-      "scenarios": {
-        "crowdsecurity/http-bad-user-agent": {
-          "count": 3,
-          "last_seen": "2026-03-30T00:46:13Z"
-        }
-      },
-      "last_alert_id": 5315,
-      "last_alert_uuid": "8800f3c7-203a-48e5-8049-f8c862fb121a",
-      "machines": [
-        "localhost"
-      ]
-    },
-    "139.135.59.11": {
-      "ip": "139.135.59.11",
-      "family": "v4",
-      "first_seen": "2026-03-29T23:58:27Z",
-      "last_seen": "2026-03-29T23:58:27Z",
-      "scenarios": {
-        "crowdsecurity/http-cve-probing": {
-          "count": 1,
-          "last_seen": "2026-03-29T23:58:27Z"
-        },
-        "crowdsecurity/netgear_rce": {
-          "count": 1,
-          "last_seen": "2026-03-29T23:58:27Z"
-        }
-      },
-      "last_alert_id": 5314,
-      "last_alert_uuid": "23e6b5c0-dcc0-4463-b5c2-7431d4378b8d",
-      "machines": [
-        "localhost"
-      ]
-    },
-    "199.45.155.70": {
-      "ip": "199.45.155.70",
-      "family": "v4",
-      "first_seen": "2026-03-29T19:06:51Z",
-      "last_seen": "2026-03-29T19:06:51Z",
-      "scenarios": {
-        "crowdsecurity/http-bad-user-agent": {
-          "count": 1,
-          "last_seen": "2026-03-29T19:06:51Z"
-        }
-      },
-      "last_alert_id": 5309,
-      "last_alert_uuid": "9f501edd-7caf-43b6-8bc5-d0d8ef429794",
-      "machines": [
-        "localhost"
-      ]
-    },
     "20.208.32.234": {
       "ip": "20.208.32.234",
       "family": "v4",
@@ -747,6 +692,27 @@
       },
       "last_alert_id": 5466,
       "last_alert_uuid": "5432a23a-b90f-4fb2-a780-75d862df2a52",
+      "machines": [
+        "localhost"
+      ]
+    },
+    "47.253.11.110": {
+      "ip": "47.253.11.110",
+      "family": "v4",
+      "first_seen": "2026-04-06T00:06:49Z",
+      "last_seen": "2026-04-06T00:06:52Z",
+      "scenarios": {
+        "crowdsecurity/http-probing": {
+          "count": 1,
+          "last_seen": "2026-04-06T00:06:52Z"
+        },
+        "crowdsecurity/http-sensitive-files": {
+          "count": 1,
+          "last_seen": "2026-04-06T00:06:52Z"
+        }
+      },
+      "last_alert_id": 5488,
+      "last_alert_uuid": "65a37452-22df-4d82-8bf0-988841398cf0",
       "machines": [
         "localhost"
       ]
