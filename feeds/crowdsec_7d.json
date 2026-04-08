@@ -1,21 +1,12 @@
 {
-  "generated_at": "2026-04-07T13:00:00Z",
+  "generated_at": "2026-04-08T01:00:00Z",
   "ttl_days": 7,
   "counts": {
-    "total": 39,
-    "v4": 39,
+    "total": 43,
+    "v4": 43,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "8.209.96.179",
-      "family": "v4",
-      "first_seen": "2026-03-31T23:00:00Z",
-      "last_seen": "2026-03-31T23:00:00Z",
-      "scenarios": [
-        "crowdsecurity/http-probing"
-      ]
-    },
     {
       "ip": "158.158.32.26",
       "family": "v4",
@@ -424,6 +415,57 @@
         "crowdsecurity/http-cve-probing",
         "crowdsecurity/http-probing",
         "crowdsecurity/http-sensitive-files"
+      ]
+    },
+    {
+      "ip": "77.237.236.95",
+      "family": "v4",
+      "first_seen": "2026-04-07T23:00:00Z",
+      "last_seen": "2026-04-07T23:00:00Z",
+      "scenarios": [
+        "crowdsecurity/CVE-2017-9841"
+      ]
+    },
+    {
+      "ip": "54.205.103.186",
+      "family": "v4",
+      "first_seen": "2026-04-07T20:00:00Z",
+      "last_seen": "2026-04-07T20:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-cve-probing"
+      ]
+    },
+    {
+      "ip": "20.104.201.101",
+      "family": "v4",
+      "first_seen": "2026-04-07T18:00:00Z",
+      "last_seen": "2026-04-07T18:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-backdoors-attempts",
+        "crowdsecurity/http-admin-interface-probing",
+        "crowdsecurity/http-wordpress-scan",
+        "crowdsecurity/http-probing"
+      ]
+    },
+    {
+      "ip": "20.198.83.136",
+      "family": "v4",
+      "first_seen": "2026-04-07T18:00:00Z",
+      "last_seen": "2026-04-07T18:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-admin-interface-probing",
+        "crowdsecurity/http-probing"
+      ]
+    },
+    {
+      "ip": "68.221.68.133",
+      "family": "v4",
+      "first_seen": "2026-04-07T17:00:00Z",
+      "last_seen": "2026-04-07T17:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-wordpress-scan",
+        "crowdsecurity/http-crawl-non_statics",
+        "crowdsecurity/http-probing"
       ]
     }
   ]
