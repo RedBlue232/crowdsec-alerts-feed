@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-10T01:00:00Z",
+  "generated_at": "2026-04-10T13:00:00Z",
   "ttl_days": 7,
   "counts": {
-    "total": 40,
-    "v4": 40,
+    "total": 38,
+    "v4": 38,
     "v6": 0
   },
   "items": [
@@ -11,39 +11,7 @@
       "ip": "185.177.72.61",
       "family": "v4",
       "first_seen": "2026-04-03T00:00:00Z",
-      "last_seen": "2026-04-08T23:00:00Z",
-      "scenarios": [
-        "crowdsecurity/http-probing",
-        "crowdsecurity/http-sensitive-files"
-      ]
-    },
-    {
-      "ip": "20.151.229.110",
-      "family": "v4",
-      "first_seen": "2026-04-03T11:00:00Z",
-      "last_seen": "2026-04-03T11:00:00Z",
-      "scenarios": [
-        "crowdsecurity/http-crawl-non_statics",
-        "crowdsecurity/http-backdoors-attempts",
-        "crowdsecurity/http-admin-interface-probing",
-        "crowdsecurity/http-wordpress-scan",
-        "crowdsecurity/http-probing"
-      ]
-    },
-    {
-      "ip": "66.132.195.67",
-      "family": "v4",
-      "first_seen": "2026-04-03T07:00:00Z",
-      "last_seen": "2026-04-03T07:00:00Z",
-      "scenarios": [
-        "crowdsecurity/http-bad-user-agent"
-      ]
-    },
-    {
-      "ip": "15.220.169.114",
-      "family": "v4",
-      "first_seen": "2026-04-03T03:00:00Z",
-      "last_seen": "2026-04-03T03:00:00Z",
+      "last_seen": "2026-04-10T12:00:00Z",
       "scenarios": [
         "crowdsecurity/http-probing",
         "crowdsecurity/http-sensitive-files"
@@ -426,6 +394,15 @@
         "crowdsecurity/http-wordpress-scan",
         "crowdsecurity/http-probing",
         "crowdsecurity/CVE-2017-9841"
+      ]
+    },
+    {
+      "ip": "157.245.69.67",
+      "family": "v4",
+      "first_seen": "2026-04-10T11:00:00Z",
+      "last_seen": "2026-04-10T11:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-bad-user-agent"
       ]
     }
   ]
