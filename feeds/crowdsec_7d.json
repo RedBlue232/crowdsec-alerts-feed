@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-16T01:00:00Z",
+  "generated_at": "2026-04-16T13:00:00Z",
   "ttl_days": 7,
   "counts": {
-    "total": 35,
-    "v4": 35,
+    "total": 36,
+    "v4": 36,
     "v6": 0
   },
   "items": [
@@ -15,17 +15,6 @@
       "scenarios": [
         "crowdsecurity/http-probing",
         "crowdsecurity/http-sensitive-files"
-      ]
-    },
-    {
-      "ip": "52.5.136.60",
-      "family": "v4",
-      "first_seen": "2026-04-09T12:00:00Z",
-      "last_seen": "2026-04-09T12:00:00Z",
-      "scenarios": [
-        "crowdsecurity/http-admin-interface-probing",
-        "crowdsecurity/http-crawl-non_statics",
-        "crowdsecurity/http-probing"
       ]
     },
     {
@@ -383,6 +372,26 @@
       "last_seen": "2026-04-15T21:00:00Z",
       "scenarios": [
         "crowdsecurity/http-bad-user-agent"
+      ]
+    },
+    {
+      "ip": "51.107.222.225",
+      "family": "v4",
+      "first_seen": "2026-04-16T11:00:00Z",
+      "last_seen": "2026-04-16T11:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-crawl-non_statics",
+        "crowdsecurity/http-probing"
+      ]
+    },
+    {
+      "ip": "20.215.69.226",
+      "family": "v4",
+      "first_seen": "2026-04-16T11:00:00Z",
+      "last_seen": "2026-04-16T11:00:00Z",
+      "scenarios": [
+        "crowdsecurity/http-crawl-non_statics",
+        "crowdsecurity/http-probing"
       ]
     }
   ]
