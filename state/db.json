@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "ttl_days": 7,
-  "updated_at": "2026-04-16T01:00:01.536359Z",
+  "updated_at": "2026-04-16T13:00:01.552347Z",
   "items": {
     "185.177.72.61": {
       "ip": "185.177.72.61",
@@ -20,31 +20,6 @@
       },
       "last_alert_id": 5615,
       "last_alert_uuid": "cf859163-6c54-4ce4-ad40-15e67639b96c",
-      "machines": [
-        "localhost"
-      ]
-    },
-    "52.5.136.60": {
-      "ip": "52.5.136.60",
-      "family": "v4",
-      "first_seen": "2026-04-09T12:54:21Z",
-      "last_seen": "2026-04-09T12:54:21Z",
-      "scenarios": {
-        "crowdsecurity/http-admin-interface-probing": {
-          "count": 2,
-          "last_seen": "2026-04-09T12:54:21Z"
-        },
-        "crowdsecurity/http-crawl-non_statics": {
-          "count": 2,
-          "last_seen": "2026-04-09T12:54:21Z"
-        },
-        "crowdsecurity/http-probing": {
-          "count": 2,
-          "last_seen": "2026-04-09T12:54:21Z"
-        }
-      },
-      "last_alert_id": 5595,
-      "last_alert_uuid": "2c25d874-86f7-4374-ba2d-6a24d55bce52",
       "machines": [
         "localhost"
       ]
@@ -846,6 +821,48 @@
       },
       "last_alert_id": 5765,
       "last_alert_uuid": "e3e8ee40-80e2-4326-9587-cc550abd7b5c",
+      "machines": [
+        "localhost"
+      ]
+    },
+    "51.107.222.225": {
+      "ip": "51.107.222.225",
+      "family": "v4",
+      "first_seen": "2026-04-16T11:47:01Z",
+      "last_seen": "2026-04-16T11:47:08Z",
+      "scenarios": {
+        "crowdsecurity/http-crawl-non_statics": {
+          "count": 1,
+          "last_seen": "2026-04-16T11:47:08Z"
+        },
+        "crowdsecurity/http-probing": {
+          "count": 1,
+          "last_seen": "2026-04-16T11:47:08Z"
+        }
+      },
+      "last_alert_id": 5785,
+      "last_alert_uuid": "b990029e-5a25-4e4a-88d6-e44875c4eefa",
+      "machines": [
+        "localhost"
+      ]
+    },
+    "20.215.69.226": {
+      "ip": "20.215.69.226",
+      "family": "v4",
+      "first_seen": "2026-04-16T11:32:25Z",
+      "last_seen": "2026-04-16T11:32:31Z",
+      "scenarios": {
+        "crowdsecurity/http-crawl-non_statics": {
+          "count": 1,
+          "last_seen": "2026-04-16T11:32:31Z"
+        },
+        "crowdsecurity/http-probing": {
+          "count": 1,
+          "last_seen": "2026-04-16T11:32:31Z"
+        }
+      },
+      "last_alert_id": 5783,
+      "last_alert_uuid": "08990228-e117-480a-94e0-c64128b8f7ab",
       "machines": [
         "localhost"
       ]
