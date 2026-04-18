@@ -1,9 +1,12 @@
 {
-  "updated_at": "2026-04-18T13:00:00Z",
+  "updated_at": "2026-04-18T17:00:00Z",
   "ttl_days": 7,
   "counts": {
-    "total": 38,
-    "v4": 38,
+    "total": 42,
+    "v4": 42,
     "v6": 0
+  },
+  "sources": {
+    "crowdsec": 42
   }
 }
