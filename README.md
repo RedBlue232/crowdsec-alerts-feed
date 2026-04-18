@@ -18,7 +18,7 @@ Consume the feed directly from GitHub raw URLs:
 | IPv4 only | Plain text | `https://raw.githubusercontent.com/RedBlue232/threat-feed-publisher/main/feeds/crowdsec_7d_v4.txt` |
 | IPv6 only | Plain text | `https://raw.githubusercontent.com/RedBlue232/threat-feed-publisher/main/feeds/crowdsec_7d_v6.txt` |
 | Enriched | JSON | `https://raw.githubusercontent.com/RedBlue232/threat-feed-publisher/main/feeds/crowdsec_7d.json` |
-| MISP Feed | MISP Feed format | `https://raw.githubusercontent.com/RedBlue232/threat-feed-publisher/main/misp-feed/` |
+| MISP Feed | MISP Feed format | `https://raw.githubusercontent.com/RedBlue232/threat-feed-publisher/main/misp-feed` *(no trailing slash)* |
 
 Use the plain text feeds for direct firewall blocking. Use the JSON feed when you need scenario metadata and observation timestamps. Use the MISP feed if you run a MISP instance and want native ingestion with correlation.
 
@@ -328,7 +328,7 @@ Requires `MISP_URL`, `MISP_KEY`, and `MISP_EVENT_UUID`.
 Consumers with a MISP instance can subscribe to the feed natively. In MISP → **Sync Actions → Feeds → Add Feed**:
 
 - Provider: `cyberdefense.blue`
-- URL: `https://raw.githubusercontent.com/RedBlue232/threat-feed-publisher/main/misp-feed/`
+- URL: `https://raw.githubusercontent.com/RedBlue232/threat-feed-publisher/main/misp-feed` *(no trailing slash — MISP appends `/manifest.json` itself)*
 - Source Format: `MISP Feed`
 - Enabled: ✓
 

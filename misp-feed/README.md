@@ -7,7 +7,7 @@ This folder is a [MISP feed](https://www.misp-project.org/) root, refreshed ever
 **Sync Actions → Feeds → Add Feed**
 
 - Provider: `cyberdefense.blue`
-- URL: `https://raw.githubusercontent.com/RedBlue232/threat-feed-publisher/main/misp-feed/`
+- URL: `https://raw.githubusercontent.com/RedBlue232/threat-feed-publisher/main/misp-feed` *(no trailing slash — MISP appends `/manifest.json` itself)*
 - Source Format: `MISP Feed`
 - Enabled: ✓
 
