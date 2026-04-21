@@ -1,54 +1,12 @@
 {
-  "generated_at": "2026-04-20T13:00:00Z",
+  "generated_at": "2026-04-21T01:00:00Z",
   "ttl_days": 7,
   "counts": {
-    "total": 61,
-    "v4": 61,
+    "total": 65,
+    "v4": 65,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "34.101.239.103",
-      "family": "v4",
-      "first_seen": "2026-04-13T22:00:00Z",
-      "last_seen": "2026-04-13T22:00:00Z",
-      "scenarios": [
-        "crowdsec/http-probing",
-        "crowdsec/http-sensitive-files"
-      ],
-      "sources": [
-        "crowdsec"
-      ]
-    },
-    {
-      "ip": "20.24.192.90",
-      "family": "v4",
-      "first_seen": "2026-04-13T18:00:00Z",
-      "last_seen": "2026-04-13T18:00:00Z",
-      "scenarios": [
-        "crowdsec/http-admin-interface-probing",
-        "crowdsec/http-probing",
-        "crowdsec/http-wordpress-scan"
-      ],
-      "sources": [
-        "crowdsec"
-      ]
-    },
-    {
-      "ip": "52.169.206.229",
-      "family": "v4",
-      "first_seen": "2026-04-13T17:00:00Z",
-      "last_seen": "2026-04-13T17:00:00Z",
-      "scenarios": [
-        "crowdsec/http-admin-interface-probing",
-        "crowdsec/http-crawl-non_statics",
-        "crowdsec/http-probing",
-        "crowdsec/http-wordpress-scan"
-      ],
-      "sources": [
-        "crowdsec"
-      ]
-    },
     {
       "ip": "52.236.68.31",
       "family": "v4",
@@ -805,6 +763,92 @@
       "last_seen": "2026-04-20T11:00:00Z",
       "scenarios": [
         "suricata/ET SCAN Zmap User-Agent (Inbound)"
+      ],
+      "sources": [
+        "suricata"
+      ]
+    },
+    {
+      "ip": "104.28.235.59",
+      "family": "v4",
+      "first_seen": "2026-04-20T17:00:00Z",
+      "last_seen": "2026-04-20T17:00:00Z",
+      "scenarios": [
+        "crowdsec/http-admin-interface-probing",
+        "crowdsec/http-probing",
+        "crowdsec/http-wordpress-scan"
+      ],
+      "sources": [
+        "crowdsec"
+      ]
+    },
+    {
+      "ip": "3.131.220.121",
+      "family": "v4",
+      "first_seen": "2026-04-20T18:00:00Z",
+      "last_seen": "2026-04-20T18:00:00Z",
+      "scenarios": [
+        "suricata/SURICATA SSH invalid banner"
+      ],
+      "sources": [
+        "suricata"
+      ]
+    },
+    {
+      "ip": "160.119.76.17",
+      "family": "v4",
+      "first_seen": "2026-04-20T17:00:00Z",
+      "last_seen": "2026-04-20T17:00:00Z",
+      "scenarios": [
+        "suricata/SURICATA HTTP unable to match response to request"
+      ],
+      "sources": [
+        "suricata"
+      ]
+    },
+    {
+      "ip": "3.151.241.153",
+      "family": "v4",
+      "first_seen": "2026-04-20T17:00:00Z",
+      "last_seen": "2026-04-20T17:00:00Z",
+      "scenarios": [
+        "suricata/SURICATA SSH invalid banner"
+      ],
+      "sources": [
+        "suricata"
+      ]
+    },
+    {
+      "ip": "172.189.127.1",
+      "family": "v4",
+      "first_seen": "2026-04-20T15:00:00Z",
+      "last_seen": "2026-04-20T15:00:00Z",
+      "scenarios": [
+        "suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response"
+      ],
+      "sources": [
+        "suricata"
+      ]
+    },
+    {
+      "ip": "194.165.16.166",
+      "family": "v4",
+      "first_seen": "2026-04-20T15:00:00Z",
+      "last_seen": "2026-04-20T15:00:00Z",
+      "scenarios": [
+        "suricata/ET SCAN MS Terminal Server Traffic on Non-standard Port"
+      ],
+      "sources": [
+        "suricata"
+      ]
+    },
+    {
+      "ip": "172.189.127.17",
+      "family": "v4",
+      "first_seen": "2026-04-20T22:00:00Z",
+      "last_seen": "2026-04-20T22:00:00Z",
+      "scenarios": [
+        "suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response"
       ],
       "sources": [
         "suricata"
