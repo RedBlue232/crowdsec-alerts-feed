@@ -1,74 +1,8 @@
 {
   "schema_version": "2",
   "ttl_days": 7,
-  "updated_at": "2026-04-21T01:00:01.785783Z",
+  "updated_at": "2026-04-21T13:00:01.999159Z",
   "items": {
-    "52.236.68.31": {
-      "ip": "52.236.68.31",
-      "family": "v4",
-      "first_seen": "2026-04-14T04:53:31Z",
-      "last_seen": "2026-04-14T04:53:38Z",
-      "scenarios": {
-        "crowdsec/http-backdoors-attempts": {
-          "count": 2,
-          "last_seen": "2026-04-14T04:53:38Z"
-        },
-        "crowdsec/http-crawl-non_statics": {
-          "count": 2,
-          "last_seen": "2026-04-14T04:53:38Z"
-        },
-        "crowdsec/http-wordpress-scan": {
-          "count": 2,
-          "last_seen": "2026-04-14T04:53:38Z"
-        },
-        "crowdsec/http-probing": {
-          "count": 2,
-          "last_seen": "2026-04-14T04:53:38Z"
-        }
-      },
-      "sources": {
-        "crowdsec": {
-          "count": 8,
-          "first_seen": "2026-04-14T04:53:31Z",
-          "last_seen": "2026-04-14T04:53:38Z",
-          "last_alert_id": 5732,
-          "last_alert_uuid": "2e883c73-76e9-4fc6-ba9d-2500012d4b5f"
-        }
-      }
-    },
-    "52.243.57.116": {
-      "ip": "52.243.57.116",
-      "family": "v4",
-      "first_seen": "2026-04-14T02:43:29Z",
-      "last_seen": "2026-04-14T02:43:46Z",
-      "scenarios": {
-        "crowdsec/http-crawl-non_statics": {
-          "count": 2,
-          "last_seen": "2026-04-14T02:43:46Z"
-        },
-        "crowdsec/http-wordpress-scan": {
-          "count": 2,
-          "last_seen": "2026-04-14T02:43:46Z"
-        },
-        "crowdsec/http-probing": {
-          "count": 2,
-          "last_seen": "2026-04-14T02:43:46Z"
-        },
-        "crowdsec/http-backdoors-attempts": {
-          "count": 2,
-          "last_seen": "2026-04-14T02:43:46Z"
-        }
-      },
-      "sources": {
-        "crowdsec": {
-          "count": 8,
-          "first_seen": "2026-04-14T02:43:29Z",
-          "last_seen": "2026-04-14T02:43:46Z",
-          "last_alert_id": 5727,
-          "last_alert_uuid": "50866747-626d-47b1-a3ba-58ceac524612"
-        }
-      }
-    },
     "20.92.87.114": {
       "ip": "20.92.87.114",
       "family": "v4",
@@ -1693,6 +1627,227 @@
             2021076
           ],
           "max_priority": 2
+        }
+      }
+    },
+    "172.202.75.66": {
+      "ip": "172.202.75.66",
+      "family": "v4",
+      "first_seen": "2026-04-21T10:23:39Z",
+      "last_seen": "2026-04-21T10:23:53Z",
+      "scenarios": {
+        "crowdsec/http-crawl-non_statics": {
+          "count": 1,
+          "last_seen": "2026-04-21T10:23:53Z"
+        },
+        "crowdsec/http-backdoors-attempts": {
+          "count": 1,
+          "last_seen": "2026-04-21T10:23:46Z"
+        },
+        "crowdsec/http-admin-interface-probing": {
+          "count": 1,
+          "last_seen": "2026-04-21T10:23:41Z"
+        },
+        "crowdsec/http-wordpress-scan": {
+          "count": 1,
+          "last_seen": "2026-04-21T10:23:41Z"
+        },
+        "crowdsec/http-probing": {
+          "count": 1,
+          "last_seen": "2026-04-21T10:23:39Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 5,
+          "first_seen": "2026-04-21T10:23:39Z",
+          "last_seen": "2026-04-21T10:23:53Z",
+          "last_alert_id": 5923,
+          "last_alert_uuid": "2418f7e1-4cc8-4edb-99bb-83415ea64b4e"
+        }
+      }
+    },
+    "193.30.244.60": {
+      "ip": "193.30.244.60",
+      "family": "v4",
+      "first_seen": "2026-04-21T07:15:06Z",
+      "last_seen": "2026-04-21T07:15:06Z",
+      "scenarios": {
+        "suricata/SURICATA SSH invalid banner": {
+          "count": 1,
+          "last_seen": "2026-04-21T07:15:06Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-21T07:15:06Z",
+          "last_seen": "2026-04-21T07:15:06Z",
+          "sids": [
+            2228000
+          ],
+          "max_priority": 3
+        }
+      }
+    },
+    "109.248.170.188": {
+      "ip": "109.248.170.188",
+      "family": "v4",
+      "first_seen": "2026-04-21T07:08:10Z",
+      "last_seen": "2026-04-21T07:08:10Z",
+      "scenarios": {
+        "suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 1": {
+          "count": 1,
+          "last_seen": "2026-04-21T07:08:10Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-21T07:08:10Z",
+          "last_seen": "2026-04-21T07:08:10Z",
+          "sids": [
+            2500000
+          ],
+          "max_priority": 2
+        }
+      }
+    },
+    "66.240.223.208": {
+      "ip": "66.240.223.208",
+      "family": "v4",
+      "first_seen": "2026-04-21T06:58:10Z",
+      "last_seen": "2026-04-21T06:58:10Z",
+      "scenarios": {
+        "suricata/ET SCAN Zmap User-Agent (Inbound)": {
+          "count": 1,
+          "last_seen": "2026-04-21T06:58:10Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-21T06:58:10Z",
+          "last_seen": "2026-04-21T06:58:10Z",
+          "sids": [
+            2029054
+          ],
+          "max_priority": 3
+        }
+      }
+    },
+    "172.189.127.2": {
+      "ip": "172.189.127.2",
+      "family": "v4",
+      "first_seen": "2026-04-21T04:08:31Z",
+      "last_seen": "2026-04-21T04:08:31Z",
+      "scenarios": {
+        "suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response": {
+          "count": 1,
+          "last_seen": "2026-04-21T04:08:31Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-21T04:08:31Z",
+          "last_seen": "2026-04-21T04:08:31Z",
+          "sids": [
+            2021076
+          ],
+          "max_priority": 2
+        }
+      }
+    },
+    "163.7.1.156": {
+      "ip": "163.7.1.156",
+      "family": "v4",
+      "first_seen": "2026-04-21T03:55:30Z",
+      "last_seen": "2026-04-21T03:55:30Z",
+      "scenarios": {
+        "suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 4": {
+          "count": 1,
+          "last_seen": "2026-04-21T03:55:30Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-21T03:55:30Z",
+          "last_seen": "2026-04-21T03:55:30Z",
+          "sids": [
+            2500006
+          ],
+          "max_priority": 2
+        }
+      }
+    },
+    "159.89.50.64": {
+      "ip": "159.89.50.64",
+      "family": "v4",
+      "first_seen": "2026-04-21T03:50:25Z",
+      "last_seen": "2026-04-21T03:50:25Z",
+      "scenarios": {
+        "suricata/ET SCAN Zmap User-Agent (Inbound)": {
+          "count": 1,
+          "last_seen": "2026-04-21T03:50:25Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-21T03:50:25Z",
+          "last_seen": "2026-04-21T03:50:25Z",
+          "sids": [
+            2029054
+          ],
+          "max_priority": 3
+        }
+      }
+    },
+    "104.168.56.24": {
+      "ip": "104.168.56.24",
+      "family": "v4",
+      "first_seen": "2026-04-21T01:20:18Z",
+      "last_seen": "2026-04-21T01:20:18Z",
+      "scenarios": {
+        "suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 1": {
+          "count": 1,
+          "last_seen": "2026-04-21T01:20:18Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-21T01:20:18Z",
+          "last_seen": "2026-04-21T01:20:18Z",
+          "sids": [
+            2500000
+          ],
+          "max_priority": 2
+        }
+      }
+    },
+    "20.169.80.121": {
+      "ip": "20.169.80.121",
+      "family": "v4",
+      "first_seen": "2026-04-21T12:22:53Z",
+      "last_seen": "2026-04-21T12:22:53Z",
+      "scenarios": {
+        "suricata/ET SCAN Zmap User-Agent (Inbound)": {
+          "count": 1,
+          "last_seen": "2026-04-21T12:22:53Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-21T12:22:53Z",
+          "last_seen": "2026-04-21T12:22:53Z",
+          "sids": [
+            2029054
+          ],
+          "max_priority": 3
         }
       }
     }
