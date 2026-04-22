@@ -1,39 +1,12 @@
 {
-  "generated_at": "2026-04-22T01:00:00Z",
+  "generated_at": "2026-04-22T13:00:00Z",
   "ttl_days": 7,
   "counts": {
-    "total": 79,
-    "v4": 79,
+    "total": 78,
+    "v4": 78,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "20.92.87.114",
-      "family": "v4",
-      "first_seen": "2026-04-15T06:00:00Z",
-      "last_seen": "2026-04-15T06:00:00Z",
-      "scenarios": [
-        "crowdsec/http-admin-interface-probing",
-        "crowdsec/http-backdoors-attempts",
-        "crowdsec/http-probing",
-        "crowdsec/http-wordpress-scan"
-      ],
-      "sources": [
-        "crowdsec"
-      ]
-    },
-    {
-      "ip": "51.68.111.205",
-      "family": "v4",
-      "first_seen": "2026-04-15T03:00:00Z",
-      "last_seen": "2026-04-15T03:00:00Z",
-      "scenarios": [
-        "crowdsec/http-bad-user-agent"
-      ],
-      "sources": [
-        "crowdsec"
-      ]
-    },
     {
       "ip": "52.187.249.150",
       "family": "v4",
@@ -1022,6 +995,22 @@
       ],
       "sources": [
         "suricata"
+      ]
+    },
+    {
+      "ip": "20.216.170.198",
+      "family": "v4",
+      "first_seen": "2026-04-22T10:00:00Z",
+      "last_seen": "2026-04-22T10:00:00Z",
+      "scenarios": [
+        "crowdsec/http-admin-interface-probing",
+        "crowdsec/http-backdoors-attempts",
+        "crowdsec/http-crawl-non_statics",
+        "crowdsec/http-probing",
+        "crowdsec/http-wordpress-scan"
+      ],
+      "sources": [
+        "crowdsec"
       ]
     }
   ]
