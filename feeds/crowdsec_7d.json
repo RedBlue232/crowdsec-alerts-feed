@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T13:00:00Z",
+  "generated_at": "2026-04-23T01:00:00Z",
   "ttl_days": 7,
   "counts": {
     "total": 78,
@@ -7,60 +7,6 @@
     "v6": 0
   },
   "items": [
-    {
-      "ip": "52.187.249.150",
-      "family": "v4",
-      "first_seen": "2026-04-14T17:00:00Z",
-      "last_seen": "2026-04-15T22:00:00Z",
-      "scenarios": [
-        "crowdsec/http-admin-interface-probing",
-        "crowdsec/http-backdoors-attempts",
-        "crowdsec/http-probing",
-        "crowdsec/http-wordpress-scan"
-      ],
-      "sources": [
-        "crowdsec"
-      ]
-    },
-    {
-      "ip": "20.46.225.117",
-      "family": "v4",
-      "first_seen": "2026-04-15T22:00:00Z",
-      "last_seen": "2026-04-15T22:00:00Z",
-      "scenarios": [
-        "crowdsec/http-cve-probing"
-      ],
-      "sources": [
-        "crowdsec"
-      ]
-    },
-    {
-      "ip": "52.178.176.146",
-      "family": "v4",
-      "first_seen": "2026-04-15T21:00:00Z",
-      "last_seen": "2026-04-15T21:00:00Z",
-      "scenarios": [
-        "crowdsec/http-admin-interface-probing",
-        "crowdsec/http-crawl-non_statics",
-        "crowdsec/http-probing",
-        "crowdsec/http-wordpress-scan"
-      ],
-      "sources": [
-        "crowdsec"
-      ]
-    },
-    {
-      "ip": "51.68.111.203",
-      "family": "v4",
-      "first_seen": "2026-04-15T21:00:00Z",
-      "last_seen": "2026-04-15T21:00:00Z",
-      "scenarios": [
-        "crowdsec/http-bad-user-agent"
-      ],
-      "sources": [
-        "crowdsec"
-      ]
-    },
     {
       "ip": "51.107.222.225",
       "family": "v4",
@@ -1008,6 +954,54 @@
         "crowdsec/http-crawl-non_statics",
         "crowdsec/http-probing",
         "crowdsec/http-wordpress-scan"
+      ],
+      "sources": [
+        "crowdsec"
+      ]
+    },
+    {
+      "ip": "199.45.155.83",
+      "family": "v4",
+      "first_seen": "2026-04-23T00:00:00Z",
+      "last_seen": "2026-04-23T00:00:00Z",
+      "scenarios": [
+        "crowdsec/http-bad-user-agent"
+      ],
+      "sources": [
+        "crowdsec"
+      ]
+    },
+    {
+      "ip": "199.45.154.157",
+      "family": "v4",
+      "first_seen": "2026-04-22T23:00:00Z",
+      "last_seen": "2026-04-22T23:00:00Z",
+      "scenarios": [
+        "crowdsec/http-bad-user-agent"
+      ],
+      "sources": [
+        "crowdsec"
+      ]
+    },
+    {
+      "ip": "199.45.154.123",
+      "family": "v4",
+      "first_seen": "2026-04-22T22:00:00Z",
+      "last_seen": "2026-04-22T22:00:00Z",
+      "scenarios": [
+        "crowdsec/http-bad-user-agent"
+      ],
+      "sources": [
+        "crowdsec"
+      ]
+    },
+    {
+      "ip": "199.45.154.125",
+      "family": "v4",
+      "first_seen": "2026-04-22T22:00:00Z",
+      "last_seen": "2026-04-22T22:00:00Z",
+      "scenarios": [
+        "crowdsec/http-bad-user-agent"
       ],
       "sources": [
         "crowdsec"
