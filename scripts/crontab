@@ -1,5 +1,10 @@
+# Sortie redirigée vers /proc/1/fd/1 (stdout du PID 1 = supercronic) pour que
+# les logs d'exécution apparaissent dans `docker logs` / Portainer. Sans cette
+# redirection, supercronic capture la sortie en interne mais ne la propage
+# pas systématiquement au stream du container selon la version.
+
 # CrowdSec → feed + MISP (existant)
-0 1,13 * * * python /app/feed.py
+0 1,13 * * * python /app/feed.py >> /proc/1/fd/1 2>&1
 
 # MISP event → feed GitHub (nouveau) — décalé de 30 min
-30 1,13 * * * python /app/misp_export.py
+30 1,13 * * * python /app/misp_export.py >> /proc/1/fd/1 2>&1
