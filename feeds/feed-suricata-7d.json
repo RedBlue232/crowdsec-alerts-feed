@@ -3,8 +3,8 @@
   "ttl_days": 7,
   "scope": "suricata",
   "counts": {
-    "total": 27,
-    "v4": 27,
+    "total": 29,
+    "v4": 29,
     "v6": 0
   },
   "items": [
@@ -40,6 +40,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "16509",
+      "asn_name": "AMAZON-02 - Amazon.com",
+      "asn_prefix": "3.131.0.0/16",
       "tags": [
         "mwl:cloud=\"aws\""
       ]
@@ -54,7 +57,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "49870",
+      "asn_name": "AS49870-BV - Alsycon B.V.",
+      "asn_prefix": "160.119.76.0/23"
     },
     {
       "ip": "3.151.241.153",
@@ -67,6 +73,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "16509",
+      "asn_name": "AMAZON-02 - Amazon.com",
+      "asn_prefix": "3.144.0.0/13",
       "tags": [
         "mwl:cloud=\"aws\""
       ]
@@ -82,6 +91,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "172.160.0.0/11",
       "tags": [
         "mwl:cloud=\"azure\""
       ]
@@ -96,7 +108,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "48721",
+      "asn_name": "FLYSERVERS-ENDCLIENTS - Flyservers S.A.",
+      "asn_prefix": "194.165.16.0/24"
     },
     {
       "ip": "172.189.127.17",
@@ -109,6 +124,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "172.160.0.0/11",
       "tags": [
         "mwl:cloud=\"azure\""
       ]
@@ -123,7 +141,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "43815",
+      "asn_name": "NASHPROSTIR-LLC - Nash Prostir LLC",
+      "asn_prefix": "193.30.244.0/24"
     },
     {
       "ip": "109.248.170.188",
@@ -135,7 +156,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "203087",
+      "asn_name": "GOHOST-KZ - Fedinyak Sergey Vyacheslavovich",
+      "asn_prefix": "109.248.170.0/24"
     },
     {
       "ip": "66.240.223.208",
@@ -147,7 +171,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "10439",
+      "asn_name": "CARINET - CariNet",
+      "asn_prefix": "66.240.192.0/18"
     },
     {
       "ip": "172.189.127.2",
@@ -160,6 +187,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "172.160.0.0/11",
       "tags": [
         "mwl:cloud=\"azure\""
       ]
@@ -174,7 +204,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "150436",
+      "asn_name": "BYTEPLUS-AS-AP Byteplus Pte. Ltd.",
+      "asn_prefix": "163.7.0.0/21"
     },
     {
       "ip": "159.89.50.64",
@@ -186,7 +219,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "14061",
+      "asn_name": "DIGITALOCEAN-ASN - DigitalOcean",
+      "asn_prefix": "159.89.48.0/21"
     },
     {
       "ip": "104.168.56.24",
@@ -198,7 +234,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "36352",
+      "asn_name": "AS-COLOCROSSING - HostPapa",
+      "asn_prefix": "104.168.56.0/22"
     },
     {
       "ip": "20.169.80.121",
@@ -211,6 +250,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.160.0.0/12",
       "tags": [
         "mwl:cloud=\"azure\""
       ]
@@ -226,6 +268,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "172.160.0.0/11",
       "tags": [
         "mwl:cloud=\"azure\""
       ]
@@ -240,7 +285,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "4766",
+      "asn_name": "KIXS-AS-KR Korea Telecom",
+      "asn_prefix": "175.208.0.0/13"
     },
     {
       "ip": "37.10.113.220",
@@ -252,7 +300,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "25369",
+      "asn_name": "BANDWIDTH-AS - Hydra Communications Ltd",
+      "asn_prefix": "37.10.113.0/24"
     },
     {
       "ip": "172.189.127.24",
@@ -265,6 +316,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "172.160.0.0/11",
       "tags": [
         "mwl:cloud=\"azure\""
       ]
@@ -279,7 +333,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "20473",
+      "asn_name": "AS-VULTR - The Constant Company",
+      "asn_prefix": "45.63.96.0/21"
     },
     {
       "ip": "185.224.128.16",
@@ -291,7 +348,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "49870",
+      "asn_name": "AS49870-BV - Alsycon B.V.",
+      "asn_prefix": "185.224.128.0/24"
     },
     {
       "ip": "89.32.41.145",
@@ -303,7 +363,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "48874",
+      "asn_name": "HOSTMAZE - HOSTMAZE INC SRL-D",
+      "asn_prefix": "89.32.41.0/24"
     },
     {
       "ip": "124.221.64.62",
@@ -393,6 +456,36 @@
       "asn_prefix": "143.198.16.0/20",
       "payloads": [
         "GET /wordpress/wp-includes/wlwmanifest.xml"
+      ]
+    },
+    {
+      "ip": "45.84.107.198",
+      "family": "v4",
+      "first_seen": "2026-04-27T11:00:00Z",
+      "last_seen": "2026-04-27T11:00:00Z",
+      "scenarios": [
+        "suricata/ET TOR Known Tor Exit Node Traffic group 111"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "tags": [
+        "tor:exit-node"
+      ]
+    },
+    {
+      "ip": "45.84.107.97",
+      "family": "v4",
+      "first_seen": "2026-04-27T11:00:00Z",
+      "last_seen": "2026-04-27T11:00:00Z",
+      "scenarios": [
+        "suricata/ET TOR Known Tor Exit Node Traffic group 112"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "tags": [
+        "tor:exit-node"
       ]
     }
   ]
