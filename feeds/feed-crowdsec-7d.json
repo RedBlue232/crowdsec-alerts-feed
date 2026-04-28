@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-27T13:00:00Z",
+  "generated_at": "2026-04-28T01:00:00Z",
   "ttl_days": 7,
   "scope": "crowdsec",
   "counts": {
-    "total": 19,
-    "v4": 19,
+    "total": 20,
+    "v4": 20,
     "v6": 0
   },
   "items": [
@@ -28,23 +28,6 @@
       "payloads": [
         "POST /"
       ]
-    },
-    {
-      "ip": "104.28.235.59",
-      "family": "v4",
-      "first_seen": "2026-04-20T17:00:00Z",
-      "last_seen": "2026-04-20T17:00:00Z",
-      "scenarios": [
-        "crowdsec/http-admin-interface-probing",
-        "crowdsec/http-probing",
-        "crowdsec/http-wordpress-scan"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "13335",
-      "asn_name": "CLOUDFLARENET - Cloudflare",
-      "asn_prefix": "104.28.235.0/24"
     },
     {
       "ip": "172.202.75.66",
@@ -377,6 +360,66 @@
       "payloads": [
         "GET /",
         "GET /debug/pprof/"
+      ]
+    },
+    {
+      "ip": "66.232.121.182",
+      "family": "v4",
+      "first_seen": "2026-04-27T22:00:00Z",
+      "last_seen": "2026-04-27T22:00:00Z",
+      "scenarios": [
+        "crowdsec/http-probing",
+        "crowdsec/http-sensitive-files"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /localhost.sql",
+        "GET /dump.sql",
+        "GET /sql.sql",
+        "GET /wp-content/uploads/dump.sql",
+        "GET /dbdump.sql",
+        "GET /[REDACTED_DOMAIN]_db.sql",
+        "GET /backup.sql",
+        "GET /wp-content/mysql.sql",
+        "GET /mysqldump.sql",
+        "GET /translate.sql",
+        "GET /[REDACTED_DOMAIN].sql"
+      ]
+    },
+    {
+      "ip": "20.215.50.140",
+      "family": "v4",
+      "first_seen": "2026-04-27T20:00:00Z",
+      "last_seen": "2026-04-27T20:00:00Z",
+      "scenarios": [
+        "crowdsec/http-admin-interface-probing",
+        "crowdsec/http-probing",
+        "crowdsec/http-wordpress-scan"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "tags": [
+        "mwl:cloud=\"azure\""
+      ],
+      "payloads": [
+        "GET /admin.php",
+        "GET /wp-admin/user.php",
+        "GET /wp-login.php",
+        "GET /wp-content/uploads/index.php",
+        "GET /wp-conf.php",
+        "GET /wp-content/themes/hideo/network.php",
+        "GET /inputs.php",
+        "GET /ioxi-o.php",
+        "GET /function/function.php",
+        "GET /rip.php",
+        "GET /cache.php",
+        "GET /themes.php",
+        "GET /an.php",
+        "GET /index/function.php",
+        "GET /randkeyword.PhP7"
       ]
     }
   ]
