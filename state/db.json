@@ -1,7 +1,7 @@
 {
   "schema_version": "2",
   "ttl_days": 7,
-  "updated_at": "2026-04-30T01:00:02.142738Z",
+  "updated_at": "2026-04-30T13:00:02.847590Z",
   "items": {
     "79.124.40.174": {
       "ip": "79.124.40.174",
@@ -1707,21 +1707,21 @@
       "last_seen": "2026-04-30T00:46:27Z",
       "scenarios": {
         "crowdsec/http-admin-interface-probing": {
-          "count": 1,
+          "count": 2,
           "last_seen": "2026-04-30T00:46:27Z"
         },
         "crowdsec/http-probing": {
-          "count": 1,
+          "count": 2,
           "last_seen": "2026-04-30T00:46:10Z"
         },
         "crowdsec/http-sensitive-files": {
-          "count": 1,
+          "count": 2,
           "last_seen": "2026-04-30T00:46:09Z"
         }
       },
       "sources": {
         "crowdsec": {
-          "count": 3,
+          "count": 6,
           "first_seen": "2026-04-30T00:46:09Z",
           "last_seen": "2026-04-30T00:46:27Z",
           "last_alert_id": 6111,
@@ -1774,11 +1774,11 @@
       "ip": "158.158.98.94",
       "family": "v4",
       "first_seen": "2026-04-29T15:06:42Z",
-      "last_seen": "2026-04-29T21:56:13Z",
+      "last_seen": "2026-04-30T04:01:49Z",
       "scenarios": {
         "crowdsec/http-probing": {
-          "count": 2,
-          "last_seen": "2026-04-29T21:56:13Z"
+          "count": 3,
+          "last_seen": "2026-04-30T04:01:49Z"
         },
         "crowdsec/http-admin-interface-probing": {
           "count": 1,
@@ -1791,23 +1791,12 @@
       },
       "sources": {
         "crowdsec": {
-          "count": 4,
+          "count": 5,
           "first_seen": "2026-04-29T15:06:42Z",
-          "last_seen": "2026-04-29T21:56:13Z",
-          "last_alert_id": 6105,
-          "last_alert_uuid": "b6a22357-fcd6-4cf6-bccd-c025cfceda03",
+          "last_seen": "2026-04-30T04:01:49Z",
+          "last_alert_id": 6113,
+          "last_alert_uuid": "70fddbaa-c7f4-4853-8167-475675cc8d06",
           "payloads": [
-            "GET /images/index.php",
-            "GET /index.php",
-            "GET /index/function.php",
-            "GET /install.php",
-            "GET /ioxi-o.php",
-            "GET /k.php",
-            "GET /lock360.php",
-            "GET /meta.php",
-            "GET /admin.php",
-            "GET /admin/controller/extension/",
-            "GET /adminfuns.php",
             "GET /xleet.php",
             "GET /xmrlpc.php",
             "GET /1.php",
@@ -1816,7 +1805,18 @@
             "GET /aa.php",
             "GET /aaa.php",
             "GET /abcd.php",
-            "GET /about.php"
+            "GET /about.php",
+            "GET /xmlrpc.php",
+            "GET /wk/index.php",
+            "GET /inputs.php",
+            "GET /classwithtostring.php",
+            "GET /autoload_classmap/function.php",
+            "GET /b.php",
+            "GET /cache.php",
+            "GET /abc.php",
+            "GET /.well-known/",
+            "GET /.well-known/gecko-litespeed.php",
+            "GET /.well-known/pki-validation/mariju.php"
           ]
         }
       }
@@ -1916,6 +1916,282 @@
             2221010
           ],
           "max_priority": 3
+        }
+      }
+    },
+    "15.223.44.210": {
+      "ip": "15.223.44.210",
+      "family": "v4",
+      "first_seen": "2026-04-30T04:59:21Z",
+      "last_seen": "2026-04-30T04:59:33Z",
+      "scenarios": {
+        "crowdsec/http-admin-interface-probing": {
+          "count": 1,
+          "last_seen": "2026-04-30T04:59:33Z"
+        },
+        "crowdsec/http-probing": {
+          "count": 1,
+          "last_seen": "2026-04-30T04:59:22Z"
+        },
+        "crowdsec/http-sensitive-files": {
+          "count": 1,
+          "last_seen": "2026-04-30T04:59:21Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 3,
+          "first_seen": "2026-04-30T04:59:21Z",
+          "last_seen": "2026-04-30T04:59:33Z",
+          "last_alert_id": 6117,
+          "last_alert_uuid": "0bf186ec-a854-4c17-b9e5-0fadb0141855",
+          "payloads": [
+            "GET /admin/.env",
+            "GET /administrator/.env",
+            "GET /phpinfo.php",
+            "GET /",
+            "GET /.git/config",
+            "GET /.env",
+            "GET /.env.local",
+            "GET /.env.production",
+            "GET /.env.staging",
+            "GET /.env.development",
+            "GET /.env.test",
+            "GET /.env.remote",
+            "GET /.env.bak",
+            "GET /.env.backup"
+          ]
+        }
+      }
+    },
+    "45.165.148.70": {
+      "ip": "45.165.148.70",
+      "family": "v4",
+      "first_seen": "2026-04-30T10:14:44Z",
+      "last_seen": "2026-04-30T10:14:44Z",
+      "scenarios": {
+        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt": {
+          "count": 1,
+          "last_seen": "2026-04-30T10:14:44Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-30T10:14:44Z",
+          "last_seen": "2026-04-30T10:14:44Z",
+          "sids": [
+            58276
+          ],
+          "max_priority": 1,
+          "payloads": [
+            "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
+            "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
+          ]
+        }
+      }
+    },
+    "160.30.142.213": {
+      "ip": "160.30.142.213",
+      "family": "v4",
+      "first_seen": "2026-04-30T08:19:23Z",
+      "last_seen": "2026-04-30T08:19:23Z",
+      "scenarios": {
+        "suricata/ET EXPLOIT HackingTrio UA (Hello, World)": {
+          "count": 1,
+          "last_seen": "2026-04-30T08:19:23Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-30T08:19:23Z",
+          "last_seen": "2026-04-30T08:19:23Z",
+          "sids": [
+            2025576
+          ],
+          "max_priority": 1,
+          "payloads": [
+            "POST /GponForm/diag_Form?images/"
+          ]
+        }
+      }
+    },
+    "79.127.184.158": {
+      "ip": "79.127.184.158",
+      "family": "v4",
+      "first_seen": "2026-04-30T07:59:27Z",
+      "last_seen": "2026-04-30T07:59:27Z",
+      "scenarios": {
+        "suricata/ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/12 Obfuscation Observed M2 (udp) (Outbound) (CVE-2021-44228)": {
+          "count": 1,
+          "last_seen": "2026-04-30T07:59:27Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-30T07:59:27Z",
+          "last_seen": "2026-04-30T07:59:27Z",
+          "sids": [
+            2034805
+          ],
+          "max_priority": 1
+        }
+      }
+    },
+    "51.158.205.47": {
+      "ip": "51.158.205.47",
+      "family": "v4",
+      "first_seen": "2026-04-30T06:25:59Z",
+      "last_seen": "2026-04-30T06:25:59Z",
+      "scenarios": {
+        "suricata/ET SCAN NETWORK Incoming Masscan detected": {
+          "count": 1,
+          "last_seen": "2026-04-30T06:25:59Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-30T06:25:59Z",
+          "last_seen": "2026-04-30T06:25:59Z",
+          "sids": [
+            2017616
+          ],
+          "max_priority": 3,
+          "payloads": [
+            "GET /"
+          ]
+        }
+      }
+    },
+    "217.154.92.76": {
+      "ip": "217.154.92.76",
+      "family": "v4",
+      "first_seen": "2026-04-30T05:03:37Z",
+      "last_seen": "2026-04-30T05:03:37Z",
+      "scenarios": {
+        "suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 7": {
+          "count": 1,
+          "last_seen": "2026-04-30T05:03:37Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-30T05:03:37Z",
+          "last_seen": "2026-04-30T05:03:37Z",
+          "sids": [
+            2500012
+          ],
+          "max_priority": 2
+        }
+      }
+    },
+    "115.248.8.65": {
+      "ip": "115.248.8.65",
+      "family": "v4",
+      "first_seen": "2026-04-30T04:53:14Z",
+      "last_seen": "2026-04-30T04:53:14Z",
+      "scenarios": {
+        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt": {
+          "count": 1,
+          "last_seen": "2026-04-30T04:53:14Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-30T04:53:14Z",
+          "last_seen": "2026-04-30T04:53:14Z",
+          "sids": [
+            58276
+          ],
+          "max_priority": 1,
+          "payloads": [
+            "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
+            "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
+          ]
+        }
+      }
+    },
+    "103.165.11.185": {
+      "ip": "103.165.11.185",
+      "family": "v4",
+      "first_seen": "2026-04-30T04:25:02Z",
+      "last_seen": "2026-04-30T04:25:02Z",
+      "scenarios": {
+        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt": {
+          "count": 1,
+          "last_seen": "2026-04-30T04:25:02Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-30T04:25:02Z",
+          "last_seen": "2026-04-30T04:25:02Z",
+          "sids": [
+            58276
+          ],
+          "max_priority": 1,
+          "payloads": [
+            "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
+            "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
+          ]
+        }
+      }
+    },
+    "20.65.195.30": {
+      "ip": "20.65.195.30",
+      "family": "v4",
+      "first_seen": "2026-04-30T01:36:47Z",
+      "last_seen": "2026-04-30T01:36:47Z",
+      "scenarios": {
+        "suricata/ET SCAN Zmap User-Agent (Inbound)": {
+          "count": 1,
+          "last_seen": "2026-04-30T01:36:47Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-30T01:36:47Z",
+          "last_seen": "2026-04-30T01:36:47Z",
+          "sids": [
+            2029054
+          ],
+          "max_priority": 3,
+          "payloads": [
+            "GET /manager/text/list"
+          ]
+        }
+      }
+    },
+    "104.198.206.16": {
+      "ip": "104.198.206.16",
+      "family": "v4",
+      "first_seen": "2026-04-30T13:00:01Z",
+      "last_seen": "2026-04-30T13:00:01Z",
+      "scenarios": {
+        "suricata/ET SCAN WordPress Scanner Performing Multiple Requests to Windows Live Writer XML": {
+          "count": 1,
+          "last_seen": "2026-04-30T13:00:01Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-04-30T13:00:01Z",
+          "last_seen": "2026-04-30T13:00:01Z",
+          "sids": [
+            2031505
+          ],
+          "max_priority": 3,
+          "payloads": [
+            "GET /wordpress/wp-includes/wlwmanifest.xml"
+          ]
         }
       }
     }
