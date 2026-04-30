@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-30T01:00:00Z",
+  "generated_at": "2026-04-30T13:00:00Z",
   "ttl_days": 7,
   "scope": "crowdsec",
   "counts": {
-    "total": 27,
-    "v4": 27,
+    "total": 28,
+    "v4": 28,
     "v6": 0
   },
   "items": [
@@ -612,7 +612,7 @@
       "ip": "158.158.98.94",
       "family": "v4",
       "first_seen": "2026-04-29T15:00:00Z",
-      "last_seen": "2026-04-29T21:00:00Z",
+      "last_seen": "2026-04-30T04:00:00Z",
       "scenarios": [
         "crowdsec/http-admin-interface-probing",
         "crowdsec/http-backdoors-attempts",
@@ -625,17 +625,6 @@
         "mwl:cloud=\"azure\""
       ],
       "payloads": [
-        "GET /images/index.php",
-        "GET /index.php",
-        "GET /index/function.php",
-        "GET /install.php",
-        "GET /ioxi-o.php",
-        "GET /k.php",
-        "GET /lock360.php",
-        "GET /meta.php",
-        "GET /admin.php",
-        "GET /admin/controller/extension/",
-        "GET /adminfuns.php",
         "GET /xleet.php",
         "GET /xmrlpc.php",
         "GET /1.php",
@@ -644,7 +633,51 @@
         "GET /aa.php",
         "GET /aaa.php",
         "GET /abcd.php",
-        "GET /about.php"
+        "GET /about.php",
+        "GET /xmlrpc.php",
+        "GET /wk/index.php",
+        "GET /inputs.php",
+        "GET /classwithtostring.php",
+        "GET /autoload_classmap/function.php",
+        "GET /b.php",
+        "GET /cache.php",
+        "GET /abc.php",
+        "GET /.well-known/",
+        "GET /.well-known/gecko-litespeed.php",
+        "GET /.well-known/pki-validation/mariju.php"
+      ]
+    },
+    {
+      "ip": "15.223.44.210",
+      "family": "v4",
+      "first_seen": "2026-04-30T04:00:00Z",
+      "last_seen": "2026-04-30T04:00:00Z",
+      "scenarios": [
+        "crowdsec/http-admin-interface-probing",
+        "crowdsec/http-probing",
+        "crowdsec/http-sensitive-files"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "tags": [
+        "mwl:cloud=\"aws\""
+      ],
+      "payloads": [
+        "GET /admin/.env",
+        "GET /administrator/.env",
+        "GET /phpinfo.php",
+        "GET /",
+        "GET /.git/config",
+        "GET /.env",
+        "GET /.env.local",
+        "GET /.env.production",
+        "GET /.env.staging",
+        "GET /.env.development",
+        "GET /.env.test",
+        "GET /.env.remote",
+        "GET /.env.bak",
+        "GET /.env.backup"
       ]
     }
   ]
