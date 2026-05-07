@@ -1,91 +1,13 @@
 {
-  "generated_at": "2026-05-07T01:00:00Z",
+  "generated_at": "2026-05-07T13:00:00Z",
   "ttl_days": 7,
   "scope": "crowdsec",
   "counts": {
-    "total": 27,
-    "v4": 27,
+    "total": 26,
+    "v4": 26,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "158.158.98.94",
-      "family": "v4",
-      "first_seen": "2026-04-29T15:00:00Z",
-      "last_seen": "2026-04-30T04:00:00Z",
-      "scenarios": [
-        "crowdsec/http-admin-interface-probing",
-        "crowdsec/http-backdoors-attempts",
-        "crowdsec/http-probing"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "158.158.0.0/16",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /xleet.php",
-        "GET /xmrlpc.php",
-        "GET /1.php",
-        "GET /2.php",
-        "GET /a.php",
-        "GET /aa.php",
-        "GET /aaa.php",
-        "GET /abcd.php",
-        "GET /about.php",
-        "GET /xmlrpc.php",
-        "GET /wk/index.php",
-        "GET /inputs.php",
-        "GET /classwithtostring.php",
-        "GET /autoload_classmap/function.php",
-        "GET /b.php",
-        "GET /cache.php",
-        "GET /abc.php",
-        "GET /.well-known/",
-        "GET /.well-known/gecko-litespeed.php",
-        "GET /.well-known/pki-validation/mariju.php"
-      ]
-    },
-    {
-      "ip": "15.223.44.210",
-      "family": "v4",
-      "first_seen": "2026-04-30T04:00:00Z",
-      "last_seen": "2026-04-30T04:00:00Z",
-      "scenarios": [
-        "crowdsec/http-admin-interface-probing",
-        "crowdsec/http-probing",
-        "crowdsec/http-sensitive-files"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "16509",
-      "asn_name": "AMAZON-02 - Amazon.com",
-      "asn_prefix": "15.222.0.0/15",
-      "tags": [
-        "mwl:cloud=\"aws\""
-      ],
-      "payloads": [
-        "GET /admin/.env",
-        "GET /administrator/.env",
-        "GET /phpinfo.php",
-        "GET /",
-        "GET /.git/config",
-        "GET /.env",
-        "GET /.env.local",
-        "GET /.env.production",
-        "GET /.env.staging",
-        "GET /.env.development",
-        "GET /.env.test",
-        "GET /.env.remote",
-        "GET /.env.bak",
-        "GET /.env.backup"
-      ]
-    },
     {
       "ip": "172.212.217.10",
       "family": "v4",
@@ -631,6 +553,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.64.0.0/10",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -664,6 +589,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "13.64.0.0/11",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -724,6 +652,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "4.192.0.0/12",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -765,6 +696,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.40.0.0/13",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -802,6 +736,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.40.0.0/13",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -822,11 +759,40 @@
         "crowdsec",
         "suricata"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.64.0.0/10",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
       "payloads": [
         "GET /developmentserver/metadatauploader"
+      ]
+    },
+    {
+      "ip": "208.84.100.197",
+      "family": "v4",
+      "first_seen": "2026-05-07T10:00:00Z",
+      "last_seen": "2026-05-07T10:00:00Z",
+      "scenarios": [
+        "crowdsec/http-probing",
+        "crowdsec/http-sensitive-files"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /",
+        "GET /secrets.json",
+        "GET /.env",
+        "GET /credentials.json",
+        "GET /backend/.env",
+        "GET /.aws/credentials",
+        "GET /.env.local",
+        "GET /.env.production",
+        "GET /api/.env",
+        "GET /serviceAccountKey.json",
+        "GET /app/.env"
       ]
     }
   ]
