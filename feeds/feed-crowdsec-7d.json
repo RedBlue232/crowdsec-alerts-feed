@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-08T01:00:00Z",
+  "generated_at": "2026-05-08T13:00:00Z",
   "ttl_days": 7,
   "scope": "crowdsec",
   "counts": {
-    "total": 27,
-    "v4": 27,
+    "total": 29,
+    "v4": 29,
     "v6": 0
   },
   "items": [
@@ -814,6 +814,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "13335",
+      "asn_name": "CLOUDFLARENET - Cloudflare",
+      "asn_prefix": "104.28.246.0/24",
       "payloads": [
         "GET /wp-admin/style.php",
         "GET /wp-admin/admin-ajax.php",
@@ -828,6 +831,61 @@
         "GET /gifclass.php",
         "GET /bless.php",
         "GET /class-t.api.php"
+      ]
+    },
+    {
+      "ip": "208.84.100.152",
+      "family": "v4",
+      "first_seen": "2026-05-08T11:00:00Z",
+      "last_seen": "2026-05-08T11:00:00Z",
+      "scenarios": [
+        "crowdsec/http-probing",
+        "crowdsec/http-sensitive-files"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /",
+        "GET /secrets.json",
+        "GET /.env",
+        "GET /serviceAccountKey.json",
+        "GET /api/.env",
+        "GET /.aws/credentials",
+        "GET /backend/.env",
+        "GET /credentials.json",
+        "GET /.env.production",
+        "GET /.env.local",
+        "GET /app/.env"
+      ]
+    },
+    {
+      "ip": "3.81.115.206",
+      "family": "v4",
+      "first_seen": "2026-05-08T03:00:00Z",
+      "last_seen": "2026-05-08T03:00:00Z",
+      "scenarios": [
+        "crowdsec/http-probing",
+        "crowdsec/http-sensitive-files"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "tags": [
+        "mwl:cloud=\"aws\""
+      ],
+      "payloads": [
+        "GET /dpgpbcobylm4md",
+        "GET /.env",
+        "GET /.env.local",
+        "GET /.env.production",
+        "GET /.env.development",
+        "GET /.env.dev",
+        "GET /.env.prod",
+        "GET /.env.test",
+        "GET /.env.staging",
+        "GET /.env.backup",
+        "GET /.env.save"
       ]
     }
   ]
