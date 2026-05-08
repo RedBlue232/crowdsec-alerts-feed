@@ -1,55 +1,13 @@
 {
-  "generated_at": "2026-05-08T01:00:00Z",
+  "generated_at": "2026-05-08T13:00:00Z",
   "ttl_days": 7,
   "scope": "all",
   "counts": {
-    "total": 80,
-    "v4": 80,
+    "total": 82,
+    "v4": 82,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "20.106.17.55",
-      "family": "v4",
-      "first_seen": "2026-05-01T09:00:00Z",
-      "last_seen": "2026-05-01T09:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN Zmap User-Agent (Inbound)"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "20.64.0.0/10",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /"
-      ]
-    },
-    {
-      "ip": "172.189.127.18",
-      "family": "v4",
-      "first_seen": "2026-05-01T12:00:00Z",
-      "last_seen": "2026-05-01T12:00:00Z",
-      "scenarios": [
-        "suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "172.160.0.0/11",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /filestreamingservice/files/3b646567-edd8-4d79-a43d-e9ae952e6a56?P1=1778241724&P2=404&P3=2&P4=bUYbAAAKKZqmzpy6CpQr9aZpi%2b%2fhoeb2H835kVBXE93cgZKn%2btmvLOHlikE87d%2bZf8%2bg04dphnEbT2q7bBp5TQ%3d%3d&cacheHostOrigin=msedge.b.tlu.dl.delivery.mp.microsoft.com"
-      ]
-    },
     {
       "ip": "172.212.217.10",
       "family": "v4",
@@ -1698,6 +1656,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "13335",
+      "asn_name": "CLOUDFLARENET - Cloudflare",
+      "asn_prefix": "104.28.246.0/24",
       "payloads": [
         "GET /wp-admin/style.php",
         "GET /wp-admin/admin-ajax.php",
@@ -1725,6 +1686,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "10439",
+      "asn_name": "CARINET - CariNet",
+      "asn_prefix": "66.240.192.0/18",
       "payloads": [
         "GET /"
       ]
@@ -1740,6 +1704,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.160.0.0/12",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -1758,6 +1725,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "16276",
+      "asn_name": "OVH OVH SAS",
+      "asn_prefix": "51.68.0.0/16",
       "payloads": [
         "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
         "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
@@ -1774,8 +1744,97 @@
       "sources": [
         "suricata"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.64.0.0/10",
       "tags": [
         "mwl:cloud=\"azure\""
+      ]
+    },
+    {
+      "ip": "208.84.100.152",
+      "family": "v4",
+      "first_seen": "2026-05-08T11:00:00Z",
+      "last_seen": "2026-05-08T11:00:00Z",
+      "scenarios": [
+        "crowdsec/http-probing",
+        "crowdsec/http-sensitive-files"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /",
+        "GET /secrets.json",
+        "GET /.env",
+        "GET /serviceAccountKey.json",
+        "GET /api/.env",
+        "GET /.aws/credentials",
+        "GET /backend/.env",
+        "GET /credentials.json",
+        "GET /.env.production",
+        "GET /.env.local",
+        "GET /app/.env"
+      ]
+    },
+    {
+      "ip": "3.81.115.206",
+      "family": "v4",
+      "first_seen": "2026-05-08T03:00:00Z",
+      "last_seen": "2026-05-08T03:00:00Z",
+      "scenarios": [
+        "crowdsec/http-probing",
+        "crowdsec/http-sensitive-files"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "tags": [
+        "mwl:cloud=\"aws\""
+      ],
+      "payloads": [
+        "GET /dpgpbcobylm4md",
+        "GET /.env",
+        "GET /.env.local",
+        "GET /.env.production",
+        "GET /.env.development",
+        "GET /.env.dev",
+        "GET /.env.prod",
+        "GET /.env.test",
+        "GET /.env.staging",
+        "GET /.env.backup",
+        "GET /.env.save"
+      ]
+    },
+    {
+      "ip": "85.208.10.202",
+      "family": "v4",
+      "first_seen": "2026-05-08T05:00:00Z",
+      "last_seen": "2026-05-08T05:00:00Z",
+      "scenarios": [
+        "suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "payloads": [
+        "GET /d/msdownload/update/software/defu/2026/05/am_delta_patch_1.449.496.0_20b1dc22ad3fdaa98bbe6124ebc83480788e3fec.exe?cacheHostOrigin=4.au.download.windowsupdate.com"
+      ]
+    },
+    {
+      "ip": "94.231.113.91",
+      "family": "v4",
+      "first_seen": "2026-05-08T07:00:00Z",
+      "last_seen": "2026-05-08T07:00:00Z",
+      "scenarios": [
+        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "payloads": [
+        "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
+        "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
       ]
     }
   ]
