@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T13:00:00Z",
+  "generated_at": "2026-05-08T01:00:00Z",
   "ttl_days": 7,
   "scope": "suricata",
   "counts": {
@@ -8,84 +8,6 @@
     "v6": 0
   },
   "items": [
-    {
-      "ip": "134.122.30.157",
-      "family": "v4",
-      "first_seen": "2026-04-30T19:00:00Z",
-      "last_seen": "2026-04-30T19:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN Zmap User-Agent (Inbound)"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "14061",
-      "asn_name": "DIGITALOCEAN-ASN - DigitalOcean",
-      "asn_prefix": "134.122.16.0/20",
-      "payloads": [
-        "GET /"
-      ]
-    },
-    {
-      "ip": "172.189.127.5",
-      "family": "v4",
-      "first_seen": "2026-04-30T18:00:00Z",
-      "last_seen": "2026-04-30T18:00:00Z",
-      "scenarios": [
-        "suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "172.160.0.0/11",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /c/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.357.0_3980e8944b88bd722e5702380e7eee3f5ad75571.exe?cacheHostOrigin=4.au.download.windowsupdate.com"
-      ]
-    },
-    {
-      "ip": "172.189.127.2",
-      "family": "v4",
-      "first_seen": "2026-04-30T13:00:00Z",
-      "last_seen": "2026-04-30T13:00:00Z",
-      "scenarios": [
-        "suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "172.160.0.0/11",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /c/msdownload/update/software/defu/2026/04/am_delta_patch_1.449.357.0_3980e8944b88bd722e5702380e7eee3f5ad75571.exe?cacheHostOrigin=au.download.windowsupdate.com"
-      ]
-    },
-    {
-      "ip": "172.232.133.233",
-      "family": "v4",
-      "first_seen": "2026-04-30T20:00:00Z",
-      "last_seen": "2026-04-30T20:00:00Z",
-      "scenarios": [
-        "suricata/SURICATA HTTP unable to match response to request"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "63949",
-      "asn_name": "AKAMAI-LINODE-AP Akamai Connected Cloud",
-      "asn_prefix": "172.232.128.0/19",
-      "tags": [
-        "mwl:cdn=\"akamai\""
-      ]
-    },
     {
       "ip": "20.106.17.55",
       "family": "v4",
@@ -866,6 +788,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "41608",
+      "asn_name": "NextGenWebs-NL NextGenWebs, S.L.",
+      "asn_prefix": "185.213.175.0/24",
       "payloads": [
         "GET /"
       ]
@@ -903,7 +828,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "49981",
+      "asn_name": "WorldStream WorldStream B.V.",
+      "asn_prefix": "190.2.128.0/20"
     },
     {
       "ip": "40.124.171.173",
@@ -936,7 +864,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "215540",
+      "asn_name": "GCS-AS GLOBAL CONNECTIVITY SOLUTIONS LLP",
+      "asn_prefix": "109.172.55.0/24"
     },
     {
       "ip": "8.145.53.115",
@@ -966,7 +897,10 @@
       ],
       "sources": [
         "suricata"
-      ]
+      ],
+      "asn": "214472",
+      "asn_name": "STORMINDUSTRIES Offshore LC",
+      "asn_prefix": "176.65.139.0/24"
     },
     {
       "ip": "14.19.192.138",
@@ -979,6 +913,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "4134",
+      "asn_name": "CHINANET-BACKBONE No.31,Jin-rong Street",
+      "asn_prefix": "14.16.0.0/12",
       "payloads": [
         "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
         "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
@@ -995,6 +932,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "10439",
+      "asn_name": "CARINET - CariNet",
+      "asn_prefix": "66.240.192.0/18",
       "tags": [
         "mwl:scanner=\"shodan\""
       ],
@@ -1013,8 +953,75 @@
       "sources": [
         "suricata"
       ],
+      "asn": "138759",
+      "asn_name": "NETMAX-IN NETMAX COMPUTERS",
+      "asn_prefix": "103.98.37.0/24",
       "payloads": [
         "POST /GponForm/diag_Form?images/"
+      ]
+    },
+    {
+      "ip": "66.240.223.208",
+      "family": "v4",
+      "first_seen": "2026-05-07T20:00:00Z",
+      "last_seen": "2026-05-07T20:00:00Z",
+      "scenarios": [
+        "suricata/ET SCAN Zmap User-Agent (Inbound)"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "payloads": [
+        "GET /"
+      ]
+    },
+    {
+      "ip": "20.169.80.121",
+      "family": "v4",
+      "first_seen": "2026-05-07T20:00:00Z",
+      "last_seen": "2026-05-07T20:00:00Z",
+      "scenarios": [
+        "suricata/ET SCAN Zmap User-Agent (Inbound)"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "tags": [
+        "mwl:cloud=\"azure\""
+      ],
+      "payloads": [
+        "GET /portal/redlion"
+      ]
+    },
+    {
+      "ip": "51.68.186.168",
+      "family": "v4",
+      "first_seen": "2026-05-07T19:00:00Z",
+      "last_seen": "2026-05-07T19:00:00Z",
+      "scenarios": [
+        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "payloads": [
+        "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
+        "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
+      ]
+    },
+    {
+      "ip": "20.127.202.120",
+      "family": "v4",
+      "first_seen": "2026-05-08T00:00:00Z",
+      "last_seen": "2026-05-08T00:00:00Z",
+      "scenarios": [
+        "suricata/SURICATA HTTP unable to match response to request"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "tags": [
+        "mwl:cloud=\"azure\""
       ]
     }
   ]
