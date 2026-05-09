@@ -1,67 +1,13 @@
 {
-  "generated_at": "2026-05-09T01:00:00Z",
+  "generated_at": "2026-05-09T13:00:00Z",
   "ttl_days": 7,
   "scope": "crowdsec",
   "counts": {
-    "total": 30,
-    "v4": 30,
+    "total": 29,
+    "v4": 29,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "68.69.177.112",
-      "family": "v4",
-      "first_seen": "2026-05-02T09:00:00Z",
-      "last_seen": "2026-05-02T09:00:00Z",
-      "scenarios": [
-        "crowdsec/http-backdoors-attempts",
-        "crowdsec/http-bad-user-agent"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "402226",
-      "asn_name": "ONLYSCANS - OnlyScans LLC",
-      "asn_prefix": "68.69.177.0/24",
-      "payloads": [
-        "GET /upl.php",
-        "GET /t4",
-        "GET /ab2g",
-        "GET /ab2h"
-      ]
-    },
-    {
-      "ip": "104.28.235.58",
-      "family": "v4",
-      "first_seen": "2026-05-02T08:00:00Z",
-      "last_seen": "2026-05-02T08:00:00Z",
-      "scenarios": [
-        "crowdsec/http-admin-interface-probing",
-        "crowdsec/http-probing",
-        "crowdsec/http-wordpress-scan"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "13335",
-      "asn_name": "CLOUDFLARENET - Cloudflare",
-      "asn_prefix": "104.28.235.0/24",
-      "payloads": [
-        "GET /wp-admin/style.php",
-        "GET /wp-admin/admin-ajax.php",
-        "GET /wp-admin/zwso.php",
-        "GET /style.php",
-        "GET /wp-content/style.php",
-        "GET /wp-content/themes/style.php",
-        "GET /wp-includes/style.php",
-        "GET /chosen.php?p=",
-        "GET /file.php",
-        "GET /flower.php",
-        "GET /gifclass.php",
-        "GET /bless.php",
-        "GET /class-t.api.php"
-      ]
-    },
     {
       "ip": "172.202.47.245",
       "family": "v4",
@@ -781,6 +727,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "22295",
+      "asn_name": "ADVIN - Advin Services LLC",
+      "asn_prefix": "208.84.100.0/24",
       "payloads": [
         "GET /",
         "GET /secrets.json",
@@ -807,6 +756,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "14618",
+      "asn_name": "AMAZON-AES - Amazon.com",
+      "asn_prefix": "3.80.0.0/12",
       "tags": [
         "mwl:cloud=\"aws\""
       ],
@@ -839,6 +791,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.192.0.0/10",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -881,6 +836,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.150.0.0/15",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -919,6 +877,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "4.224.0.0/12",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -934,6 +895,35 @@
         "GET /bthil.php",
         "GET /333.php",
         "GET /ccou.php"
+      ]
+    },
+    {
+      "ip": "165.22.193.12",
+      "family": "v4",
+      "first_seen": "2026-05-09T04:00:00Z",
+      "last_seen": "2026-05-09T04:00:00Z",
+      "scenarios": [
+        "crowdsec/CVE-2017-9841",
+        "crowdsec/http-admin-interface-probing",
+        "crowdsec/http-probing"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /assets/admin/bower_components/jquery.filer/php/readme.txt",
+        "GET /admin/jquery-file-upload/server/php/",
+        "GET /admin/galerie/server/php/",
+        "GET /.git/config",
+        "GET /",
+        "POST /alfacgiapi/perl.alfa",
+        "POST /ALFA_DATA/alfacgiapi/perl.alfa",
+        "GET /assets/plugins/jquery.filer/php/readme.txt",
+        "GET /plugins/jquery.filer/php/readme.txt",
+        "GET /assets/plugins/jQuery-File-Upload/server/php/",
+        "GET /file-manager/initialize",
+        "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+        "GET /assets/vendor/jquery.filer/php/readme.txt"
       ]
     }
   ]
