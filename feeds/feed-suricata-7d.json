@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T13:00:00Z",
+  "generated_at": "2026-05-09T01:00:00Z",
   "ttl_days": 7,
   "scope": "suricata",
   "counts": {
@@ -8,72 +8,6 @@
     "v6": 0
   },
   "items": [
-    {
-      "ip": "167.250.226.29",
-      "family": "v4",
-      "first_seen": "2026-05-01T20:00:00Z",
-      "last_seen": "2026-05-01T20:00:00Z",
-      "scenarios": [
-        "suricata/SURICATA HTTP Host header invalid"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "265210",
-      "asn_name": "OSCAR M DE CARVALHO - ME",
-      "asn_prefix": "167.250.226.0/24",
-      "payloads": [
-        "GET /admin/config.php"
-      ]
-    },
-    {
-      "ip": "185.38.148.2",
-      "family": "v4",
-      "first_seen": "2026-05-01T15:00:00Z",
-      "last_seen": "2026-05-01T15:00:00Z",
-      "scenarios": [
-        "suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 6"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "25369",
-      "asn_name": "BANDWIDTH-AS - Hydra Communications Ltd",
-      "asn_prefix": "185.38.148.0/22"
-    },
-    {
-      "ip": "173.197.14.231",
-      "family": "v4",
-      "first_seen": "2026-05-01T13:00:00Z",
-      "last_seen": "2026-05-01T13:00:00Z",
-      "scenarios": [
-        "suricata/SERVER-WEBAPP JBoss JMX console access attempt"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "11427",
-      "asn_name": "TWC-11427-TEXAS - Charter Communications Inc",
-      "asn_prefix": "173.197.0.0/18",
-      "payloads": [
-        "HEAD /jmx-console/HtmlAdaptor?action=inspectMBean&name=jboss.system:type=ServerInfo"
-      ]
-    },
-    {
-      "ip": "62.45.67.8",
-      "family": "v4",
-      "first_seen": "2026-05-01T21:00:00Z",
-      "last_seen": "2026-05-01T21:00:00Z",
-      "scenarios": [
-        "suricata/SURICATA HTTP unable to match response to request"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "15435",
-      "asn_name": "KABELFOON DELTA Fiber Nederland B.V.",
-      "asn_prefix": "62.45.0.0/16"
-    },
     {
       "ip": "47.238.236.74",
       "family": "v4",
@@ -1014,6 +948,64 @@
       "family": "v4",
       "first_seen": "2026-05-08T07:00:00Z",
       "last_seen": "2026-05-08T07:00:00Z",
+      "scenarios": [
+        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "payloads": [
+        "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
+        "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
+      ]
+    },
+    {
+      "ip": "85.208.10.201",
+      "family": "v4",
+      "first_seen": "2026-05-08T18:00:00Z",
+      "last_seen": "2026-05-08T18:00:00Z",
+      "scenarios": [
+        "suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "payloads": [
+        "GET /d/msdownload/update/software/defu/2026/05/am_delta_patch_1.449.512.0_3fcb6a61a5d60c36ac1969dec3c5931b640d0e1d.exe?cacheHostOrigin=2.au.download.windowsupdate.com"
+      ]
+    },
+    {
+      "ip": "71.6.199.87",
+      "family": "v4",
+      "first_seen": "2026-05-08T14:00:00Z",
+      "last_seen": "2026-05-08T14:00:00Z",
+      "scenarios": [
+        "suricata/ET SCAN Zmap User-Agent (Inbound)"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "payloads": [
+        "GET /"
+      ]
+    },
+    {
+      "ip": "160.119.76.24",
+      "family": "v4",
+      "first_seen": "2026-05-08T14:00:00Z",
+      "last_seen": "2026-05-08T14:00:00Z",
+      "scenarios": [
+        "suricata/SURICATA HTTP unable to match response to request"
+      ],
+      "sources": [
+        "suricata"
+      ]
+    },
+    {
+      "ip": "178.128.84.133",
+      "family": "v4",
+      "first_seen": "2026-05-09T00:00:00Z",
+      "last_seen": "2026-05-09T00:00:00Z",
       "scenarios": [
         "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt"
       ],
