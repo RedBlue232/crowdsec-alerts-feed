@@ -1,142 +1,8 @@
 {
   "schema_version": "2",
   "ttl_days": 7,
-  "updated_at": "2026-05-11T01:00:02.808200Z",
+  "updated_at": "2026-05-11T13:00:03.714700Z",
   "items": {
-    "194.165.16.164": {
-      "ip": "194.165.16.164",
-      "family": "v4",
-      "first_seen": "2026-05-04T08:53:30Z",
-      "last_seen": "2026-05-04T08:53:30Z",
-      "scenarios": {
-        "suricata/ET SCAN MS Terminal Server Traffic on Non-standard Port": {
-          "count": 1,
-          "last_seen": "2026-05-04T08:53:30Z"
-        }
-      },
-      "sources": {
-        "suricata": {
-          "count": 1,
-          "first_seen": "2026-05-04T08:53:30Z",
-          "last_seen": "2026-05-04T08:53:30Z",
-          "sids": [
-            2023753
-          ],
-          "max_priority": 2
-        }
-      },
-      "asn": "48721",
-      "asn_prefix": "194.165.16.0/24"
-    },
-    "5.187.35.26": {
-      "ip": "5.187.35.26",
-      "family": "v4",
-      "first_seen": "2026-05-04T03:13:58Z",
-      "last_seen": "2026-05-04T03:13:58Z",
-      "scenarios": {
-        "suricata/ET WEB_SERVER /etc/passwd Detected in URI": {
-          "count": 1,
-          "last_seen": "2026-05-04T03:13:58Z"
-        }
-      },
-      "sources": {
-        "suricata": {
-          "count": 1,
-          "first_seen": "2026-05-04T03:13:58Z",
-          "last_seen": "2026-05-04T03:13:58Z",
-          "sids": [
-            2049400
-          ],
-          "max_priority": 2,
-          "payloads": [
-            "GET /..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd"
-          ]
-        }
-      },
-      "asn": "206264",
-      "asn_prefix": "5.187.35.0/24"
-    },
-    "64.227.150.86": {
-      "ip": "64.227.150.86",
-      "family": "v4",
-      "first_seen": "2026-05-04T01:48:11Z",
-      "last_seen": "2026-05-04T01:48:11Z",
-      "scenarios": {
-        "suricata/ET SCAN Zmap User-Agent (Inbound)": {
-          "count": 1,
-          "last_seen": "2026-05-04T01:48:11Z"
-        }
-      },
-      "sources": {
-        "suricata": {
-          "count": 1,
-          "first_seen": "2026-05-04T01:48:11Z",
-          "last_seen": "2026-05-04T01:48:11Z",
-          "sids": [
-            2029054
-          ],
-          "max_priority": 3,
-          "payloads": [
-            "GET /"
-          ]
-        }
-      },
-      "asn": "14061",
-      "asn_prefix": "64.227.128.0/19"
-    },
-    "45.139.122.80": {
-      "ip": "45.139.122.80",
-      "family": "v4",
-      "first_seen": "2026-05-04T01:17:45Z",
-      "last_seen": "2026-05-04T01:17:45Z",
-      "scenarios": {
-        "suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 11": {
-          "count": 1,
-          "last_seen": "2026-05-04T01:17:45Z"
-        }
-      },
-      "sources": {
-        "suricata": {
-          "count": 1,
-          "first_seen": "2026-05-04T01:17:45Z",
-          "last_seen": "2026-05-04T01:17:45Z",
-          "sids": [
-            2500020
-          ],
-          "max_priority": 2
-        }
-      },
-      "asn": "206264",
-      "asn_prefix": "45.139.122.0/24"
-    },
-    "194.165.16.165": {
-      "ip": "194.165.16.165",
-      "family": "v4",
-      "first_seen": "2026-05-04T11:03:04Z",
-      "last_seen": "2026-05-04T11:03:04Z",
-      "scenarios": {
-        "suricata/ET SCAN MS Terminal Server Traffic on Non-standard Port": {
-          "count": 1,
-          "last_seen": "2026-05-04T11:03:04Z"
-        }
-      },
-      "sources": {
-        "suricata": {
-          "count": 1,
-          "first_seen": "2026-05-04T11:03:04Z",
-          "last_seen": "2026-05-04T11:03:04Z",
-          "sids": [
-            2023753
-          ],
-          "max_priority": 2,
-          "payloads": [
-            "\u0003/*\\xe0Cookie: mstshash=Administr"
-          ]
-        }
-      },
-      "asn": "48721",
-      "asn_prefix": "194.165.16.0/24"
-    },
     "20.29.119.89": {
       "ip": "20.29.119.89",
       "family": "v4",
@@ -2806,6 +2672,263 @@
             2023753
           ],
           "max_priority": 2
+        }
+      }
+    },
+    "142.248.80.245": {
+      "ip": "142.248.80.245",
+      "family": "v4",
+      "first_seen": "2026-05-11T11:22:23Z",
+      "last_seen": "2026-05-11T11:22:23Z",
+      "scenarios": {
+        "crowdsec/http-probing": {
+          "count": 1,
+          "last_seen": "2026-05-11T11:22:23Z"
+        },
+        "crowdsec/http-sensitive-files": {
+          "count": 1,
+          "last_seen": "2026-05-11T11:22:23Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 2,
+          "first_seen": "2026-05-11T11:22:23Z",
+          "last_seen": "2026-05-11T11:22:23Z",
+          "last_alert_id": 6357,
+          "last_alert_uuid": "b7a326d2-df6d-4fd3-9ccf-fd299bf51047",
+          "payloads": [
+            "GET /",
+            "GET /secrets.json",
+            "GET /.env.local",
+            "GET /.env.production",
+            "GET /app/.env",
+            "GET /.env",
+            "GET /.aws/credentials",
+            "GET /serviceAccountKey.json",
+            "GET /backend/.env",
+            "GET /api/.env",
+            "GET /credentials.json"
+          ]
+        }
+      }
+    },
+    "185.213.174.18": {
+      "ip": "185.213.174.18",
+      "family": "v4",
+      "first_seen": "2026-05-11T10:36:14Z",
+      "last_seen": "2026-05-11T10:36:14Z",
+      "scenarios": {
+        "crowdsec/http-probing": {
+          "count": 1,
+          "last_seen": "2026-05-11T10:36:14Z"
+        },
+        "crowdsec/http-sensitive-files": {
+          "count": 1,
+          "last_seen": "2026-05-11T10:36:14Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 2,
+          "first_seen": "2026-05-11T10:36:14Z",
+          "last_seen": "2026-05-11T10:36:14Z",
+          "last_alert_id": 6355,
+          "last_alert_uuid": "5518e76a-bb82-4ae3-b9cf-7154541f3312",
+          "payloads": [
+            "GET /",
+            "GET /settings.py",
+            "GET /.aws/credentials",
+            "GET /.env.bak",
+            "GET /.git/config",
+            "GET /.env.backup",
+            "GET /.env.production",
+            "GET /.env",
+            "GET /secrets.json",
+            "GET /.env.staging",
+            "GET /backend/.env"
+          ]
+        }
+      }
+    },
+    "64.62.156.52": {
+      "ip": "64.62.156.52",
+      "family": "v4",
+      "first_seen": "2026-05-11T06:21:11Z",
+      "last_seen": "2026-05-11T06:21:11Z",
+      "scenarios": {
+        "crowdsec/http-technology-probing": {
+          "count": 1,
+          "last_seen": "2026-05-11T06:21:11Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 1,
+          "first_seen": "2026-05-11T06:21:11Z",
+          "last_seen": "2026-05-11T06:21:11Z",
+          "last_alert_id": 6352,
+          "last_alert_uuid": "90d9ffaa-a9f6-4ef2-aae8-f333b314a2e1",
+          "payloads": [
+            "GET /remote/logincheck"
+          ]
+        }
+      }
+    },
+    "66.132.195.47": {
+      "ip": "66.132.195.47",
+      "family": "v4",
+      "first_seen": "2026-05-11T03:32:40Z",
+      "last_seen": "2026-05-11T03:32:40Z",
+      "scenarios": {
+        "crowdsec/http-bad-user-agent": {
+          "count": 1,
+          "last_seen": "2026-05-11T03:32:40Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 1,
+          "first_seen": "2026-05-11T03:32:40Z",
+          "last_seen": "2026-05-11T03:32:40Z",
+          "last_alert_id": 6349,
+          "last_alert_uuid": "f4538cb7-37ef-47c6-8420-e590c73a5c76",
+          "payloads": [
+            "GET /",
+            "GET /debug/pprof/"
+          ]
+        }
+      }
+    },
+    "180.76.172.156": {
+      "ip": "180.76.172.156",
+      "family": "v4",
+      "first_seen": "2026-05-11T06:37:37Z",
+      "last_seen": "2026-05-11T06:37:37Z",
+      "scenarios": {
+        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt": {
+          "count": 1,
+          "last_seen": "2026-05-11T06:37:37Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-05-11T06:37:37Z",
+          "last_seen": "2026-05-11T06:37:37Z",
+          "sids": [
+            58276
+          ],
+          "max_priority": 1,
+          "payloads": [
+            "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
+            "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
+          ]
+        }
+      }
+    },
+    "121.37.201.22": {
+      "ip": "121.37.201.22",
+      "family": "v4",
+      "first_seen": "2026-05-11T02:45:28Z",
+      "last_seen": "2026-05-11T02:45:28Z",
+      "scenarios": {
+        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt": {
+          "count": 1,
+          "last_seen": "2026-05-11T02:45:28Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-05-11T02:45:28Z",
+          "last_seen": "2026-05-11T02:45:28Z",
+          "sids": [
+            58276
+          ],
+          "max_priority": 1,
+          "payloads": [
+            "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
+            "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
+          ]
+        }
+      }
+    },
+    "20.65.192.71": {
+      "ip": "20.65.192.71",
+      "family": "v4",
+      "first_seen": "2026-05-11T01:26:40Z",
+      "last_seen": "2026-05-11T01:26:40Z",
+      "scenarios": {
+        "suricata/ET SCAN Zmap User-Agent (Inbound)": {
+          "count": 1,
+          "last_seen": "2026-05-11T01:26:40Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-05-11T01:26:40Z",
+          "last_seen": "2026-05-11T01:26:40Z",
+          "sids": [
+            2029054
+          ],
+          "max_priority": 3,
+          "payloads": [
+            "GET /portal/redlion"
+          ]
+        }
+      }
+    },
+    "40.80.201.49": {
+      "ip": "40.80.201.49",
+      "family": "v4",
+      "first_seen": "2026-05-11T01:08:22Z",
+      "last_seen": "2026-05-11T01:08:22Z",
+      "scenarios": {
+        "suricata/ET SCAN Zmap User-Agent (Inbound)": {
+          "count": 1,
+          "last_seen": "2026-05-11T01:08:22Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-05-11T01:08:22Z",
+          "last_seen": "2026-05-11T01:08:22Z",
+          "sids": [
+            2029054
+          ],
+          "max_priority": 3,
+          "payloads": [
+            "GET /ReportServer"
+          ]
+        }
+      }
+    },
+    "47.76.94.55": {
+      "ip": "47.76.94.55",
+      "family": "v4",
+      "first_seen": "2026-05-11T12:25:58Z",
+      "last_seen": "2026-05-11T12:25:58Z",
+      "scenarios": {
+        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt": {
+          "count": 1,
+          "last_seen": "2026-05-11T12:25:58Z"
+        }
+      },
+      "sources": {
+        "suricata": {
+          "count": 1,
+          "first_seen": "2026-05-11T12:25:58Z",
+          "last_seen": "2026-05-11T12:25:58Z",
+          "sids": [
+            58276
+          ],
+          "max_priority": 1,
+          "payloads": [
+            "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
+          ]
         }
       }
     }
