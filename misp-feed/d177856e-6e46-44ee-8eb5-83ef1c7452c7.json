@@ -5,9 +5,9 @@
     "info": "CrowdSec rolling feed (7 jours)",
     "published": true,
     "uuid": "d177856e-6e46-44ee-8eb5-83ef1c7452c7",
-    "attribute_count": "414",
+    "attribute_count": "415",
     "analysis": "2",
-    "timestamp": "1778418035",
+    "timestamp": "1778461221",
     "distribution": "3",
     "publish_timestamp": "1775988744",
     "first_publication": "1775988744",
@@ -12935,6 +12935,38 @@
         "first_seen": null,
         "last_seen": null,
         "value": "173.255.221.189",
+        "Galaxy": [],
+        "Tag": [
+          {
+            "id": "9",
+            "name": "source:suricata",
+            "colour": "#99cd0a",
+            "exportable": true,
+            "user_id": "0",
+            "hide_tag": false,
+            "numerical_value": null,
+            "is_galaxy": false,
+            "is_custom_galaxy": false,
+            "local_only": false,
+            "local": false,
+            "relationship_type": null
+          }
+        ]
+      },
+      {
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "uuid": "d4bebcee-b140-49e2-bc87-21646cf622b2",
+        "distribution": "5",
+        "timestamp": "1778461221",
+        "comment": "Sources: suricata | first_seen: 2026-05-10T23:46:29Z | last_seen: 2026-05-10T23:46:29Z | hits: 1 | scenarios: suricata/ET SCAN MS Terminal Server Traffic on Non-standard Port",
+        "deleted": false,
+        "disable_correlation": false,
+        "object_relation": null,
+        "first_seen": null,
+        "last_seen": null,
+        "value": "88.214.25.124",
         "Galaxy": [],
         "Tag": [
           {
