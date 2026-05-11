@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-11T01:00:00Z",
+  "generated_at": "2026-05-11T13:00:00Z",
   "ttl_days": 7,
   "scope": "crowdsec",
   "counts": {
-    "total": 27,
-    "v4": 27,
+    "total": 31,
+    "v4": 31,
     "v6": 0
   },
   "items": [
@@ -866,6 +866,92 @@
         "GET /wp-admin/css/colors/blue/index.php",
         "GET /wp-admin/maint/about.php",
         "GET /admin.php?p="
+      ]
+    },
+    {
+      "ip": "142.248.80.245",
+      "family": "v4",
+      "first_seen": "2026-05-11T11:00:00Z",
+      "last_seen": "2026-05-11T11:00:00Z",
+      "scenarios": [
+        "crowdsec/http-probing",
+        "crowdsec/http-sensitive-files"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /",
+        "GET /secrets.json",
+        "GET /.env.local",
+        "GET /.env.production",
+        "GET /app/.env",
+        "GET /.env",
+        "GET /.aws/credentials",
+        "GET /serviceAccountKey.json",
+        "GET /backend/.env",
+        "GET /api/.env",
+        "GET /credentials.json"
+      ]
+    },
+    {
+      "ip": "185.213.174.18",
+      "family": "v4",
+      "first_seen": "2026-05-11T10:00:00Z",
+      "last_seen": "2026-05-11T10:00:00Z",
+      "scenarios": [
+        "crowdsec/http-probing",
+        "crowdsec/http-sensitive-files"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /",
+        "GET /settings.py",
+        "GET /.aws/credentials",
+        "GET /.env.bak",
+        "GET /.git/config",
+        "GET /.env.backup",
+        "GET /.env.production",
+        "GET /.env",
+        "GET /secrets.json",
+        "GET /.env.staging",
+        "GET /backend/.env"
+      ]
+    },
+    {
+      "ip": "64.62.156.52",
+      "family": "v4",
+      "first_seen": "2026-05-11T06:00:00Z",
+      "last_seen": "2026-05-11T06:00:00Z",
+      "scenarios": [
+        "crowdsec/http-technology-probing"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "tags": [
+        "mwl:scanner=\"shadowserver\""
+      ],
+      "payloads": [
+        "GET /remote/logincheck"
+      ]
+    },
+    {
+      "ip": "66.132.195.47",
+      "family": "v4",
+      "first_seen": "2026-05-11T03:00:00Z",
+      "last_seen": "2026-05-11T03:00:00Z",
+      "scenarios": [
+        "crowdsec/http-bad-user-agent"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /",
+        "GET /debug/pprof/"
       ]
     }
   ]
