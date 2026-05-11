@@ -1,97 +1,13 @@
 {
-  "generated_at": "2026-05-11T01:00:00Z",
+  "generated_at": "2026-05-11T13:00:00Z",
   "ttl_days": 7,
   "scope": "all",
   "counts": {
-    "total": 87,
-    "v4": 87,
+    "total": 91,
+    "v4": 91,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "194.165.16.164",
-      "family": "v4",
-      "first_seen": "2026-05-04T08:00:00Z",
-      "last_seen": "2026-05-04T08:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN MS Terminal Server Traffic on Non-standard Port"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "48721",
-      "asn_name": "FLYSERVERS-ENDCLIENTS - Flyservers S.A.",
-      "asn_prefix": "194.165.16.0/24"
-    },
-    {
-      "ip": "5.187.35.26",
-      "family": "v4",
-      "first_seen": "2026-05-04T03:00:00Z",
-      "last_seen": "2026-05-04T03:00:00Z",
-      "scenarios": [
-        "suricata/ET WEB_SERVER /etc/passwd Detected in URI"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "206264",
-      "asn_name": "AMARUTU-TECHNOLOGY Amarutu Technology Ltd",
-      "asn_prefix": "5.187.35.0/24",
-      "payloads": [
-        "GET /..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd"
-      ]
-    },
-    {
-      "ip": "64.227.150.86",
-      "family": "v4",
-      "first_seen": "2026-05-04T01:00:00Z",
-      "last_seen": "2026-05-04T01:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN Zmap User-Agent (Inbound)"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "14061",
-      "asn_name": "DIGITALOCEAN-ASN - DigitalOcean",
-      "asn_prefix": "64.227.128.0/19",
-      "payloads": [
-        "GET /"
-      ]
-    },
-    {
-      "ip": "45.139.122.80",
-      "family": "v4",
-      "first_seen": "2026-05-04T01:00:00Z",
-      "last_seen": "2026-05-04T01:00:00Z",
-      "scenarios": [
-        "suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 11"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "206264",
-      "asn_name": "AMARUTU-TECHNOLOGY Amarutu Technology Ltd",
-      "asn_prefix": "45.139.122.0/24"
-    },
-    {
-      "ip": "194.165.16.165",
-      "family": "v4",
-      "first_seen": "2026-05-04T11:00:00Z",
-      "last_seen": "2026-05-04T11:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN MS Terminal Server Traffic on Non-standard Port"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "48721",
-      "asn_name": "FLYSERVERS-ENDCLIENTS - Flyservers S.A.",
-      "asn_prefix": "194.165.16.0/24",
-      "payloads": [
-        "\u0003/*\\xe0Cookie: mstshash=Administr"
-      ]
-    },
     {
       "ip": "20.29.119.89",
       "family": "v4",
@@ -1938,6 +1854,175 @@
       ],
       "sources": [
         "suricata"
+      ]
+    },
+    {
+      "ip": "142.248.80.245",
+      "family": "v4",
+      "first_seen": "2026-05-11T11:00:00Z",
+      "last_seen": "2026-05-11T11:00:00Z",
+      "scenarios": [
+        "crowdsec/http-probing",
+        "crowdsec/http-sensitive-files"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /",
+        "GET /secrets.json",
+        "GET /.env.local",
+        "GET /.env.production",
+        "GET /app/.env",
+        "GET /.env",
+        "GET /.aws/credentials",
+        "GET /serviceAccountKey.json",
+        "GET /backend/.env",
+        "GET /api/.env",
+        "GET /credentials.json"
+      ]
+    },
+    {
+      "ip": "185.213.174.18",
+      "family": "v4",
+      "first_seen": "2026-05-11T10:00:00Z",
+      "last_seen": "2026-05-11T10:00:00Z",
+      "scenarios": [
+        "crowdsec/http-probing",
+        "crowdsec/http-sensitive-files"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /",
+        "GET /settings.py",
+        "GET /.aws/credentials",
+        "GET /.env.bak",
+        "GET /.git/config",
+        "GET /.env.backup",
+        "GET /.env.production",
+        "GET /.env",
+        "GET /secrets.json",
+        "GET /.env.staging",
+        "GET /backend/.env"
+      ]
+    },
+    {
+      "ip": "64.62.156.52",
+      "family": "v4",
+      "first_seen": "2026-05-11T06:00:00Z",
+      "last_seen": "2026-05-11T06:00:00Z",
+      "scenarios": [
+        "crowdsec/http-technology-probing"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "tags": [
+        "mwl:scanner=\"shadowserver\""
+      ],
+      "payloads": [
+        "GET /remote/logincheck"
+      ]
+    },
+    {
+      "ip": "66.132.195.47",
+      "family": "v4",
+      "first_seen": "2026-05-11T03:00:00Z",
+      "last_seen": "2026-05-11T03:00:00Z",
+      "scenarios": [
+        "crowdsec/http-bad-user-agent"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /",
+        "GET /debug/pprof/"
+      ]
+    },
+    {
+      "ip": "180.76.172.156",
+      "family": "v4",
+      "first_seen": "2026-05-11T06:00:00Z",
+      "last_seen": "2026-05-11T06:00:00Z",
+      "scenarios": [
+        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "payloads": [
+        "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
+        "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
+      ]
+    },
+    {
+      "ip": "121.37.201.22",
+      "family": "v4",
+      "first_seen": "2026-05-11T02:00:00Z",
+      "last_seen": "2026-05-11T02:00:00Z",
+      "scenarios": [
+        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "payloads": [
+        "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
+        "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
+      ]
+    },
+    {
+      "ip": "20.65.192.71",
+      "family": "v4",
+      "first_seen": "2026-05-11T01:00:00Z",
+      "last_seen": "2026-05-11T01:00:00Z",
+      "scenarios": [
+        "suricata/ET SCAN Zmap User-Agent (Inbound)"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "tags": [
+        "mwl:cloud=\"azure\""
+      ],
+      "payloads": [
+        "GET /portal/redlion"
+      ]
+    },
+    {
+      "ip": "40.80.201.49",
+      "family": "v4",
+      "first_seen": "2026-05-11T01:00:00Z",
+      "last_seen": "2026-05-11T01:00:00Z",
+      "scenarios": [
+        "suricata/ET SCAN Zmap User-Agent (Inbound)"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "tags": [
+        "mwl:cloud=\"azure\""
+      ],
+      "payloads": [
+        "GET /ReportServer"
+      ]
+    },
+    {
+      "ip": "47.76.94.55",
+      "family": "v4",
+      "first_seen": "2026-05-11T12:00:00Z",
+      "last_seen": "2026-05-11T12:00:00Z",
+      "scenarios": [
+        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt"
+      ],
+      "sources": [
+        "suricata"
+      ],
+      "payloads": [
+        "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
       ]
     }
   ]
