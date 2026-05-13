@@ -1,31 +1,13 @@
 {
-  "generated_at": "2026-05-13T01:00:00Z",
+  "generated_at": "2026-05-13T13:00:00Z",
   "ttl_days": 7,
   "scope": "suricata",
   "counts": {
-    "total": 57,
-    "v4": 57,
+    "total": 56,
+    "v4": 56,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "185.213.175.72",
-      "family": "v4",
-      "first_seen": "2026-05-06T01:00:00Z",
-      "last_seen": "2026-05-06T01:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN DuckDuckGo Webcrawler User-Agent (DuckDuckBot)"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "41608",
-      "asn_name": "NextGenWebs-NL NextGenWebs, S.L.",
-      "asn_prefix": "185.213.175.0/24",
-      "payloads": [
-        "GET /"
-      ]
-    },
     {
       "ip": "20.84.153.129",
       "family": "v4",
@@ -1014,6 +996,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "396982",
+      "asn_name": "GOOGLE-CLOUD-PLATFORM - Google LLC",
+      "asn_prefix": "34.134.80.0/20",
       "tags": [
         "mwl:cloud=\"gcp\""
       ],
@@ -1032,6 +1017,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "209702",
+      "asn_name": "SOLDATOV-AS SOLDATOV ALEXEY VALEREVICH",
+      "asn_prefix": "80.66.66.0/24",
       "payloads": [
         "\u0003/*\\xe0Cookie: mstshash=Administr"
       ]
@@ -1047,6 +1035,9 @@
       "sources": [
         "suricata"
       ],
+      "asn": "38623",
+      "asn_name": "VIETTELCAMBODIA-AS-AP ISPIXP IN CAMBODIA WITH THE BEST VERVICE IN THERE.",
+      "asn_prefix": "36.37.209.0/24",
       "payloads": [
         "GET /sftp-config.json"
       ]
