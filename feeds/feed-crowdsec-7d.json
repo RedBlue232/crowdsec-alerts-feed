@@ -1,42 +1,13 @@
 {
-  "generated_at": "2026-05-14T01:00:00Z",
+  "generated_at": "2026-05-14T13:00:00Z",
   "ttl_days": 7,
   "scope": "crowdsec",
   "counts": {
-    "total": 28,
-    "v4": 28,
+    "total": 32,
+    "v4": 32,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "208.84.100.197",
-      "family": "v4",
-      "first_seen": "2026-05-07T10:00:00Z",
-      "last_seen": "2026-05-07T10:00:00Z",
-      "scenarios": [
-        "crowdsec/http-probing",
-        "crowdsec/http-sensitive-files"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "22295",
-      "asn_name": "ADVIN - Advin Services LLC",
-      "asn_prefix": "208.84.100.0/24",
-      "payloads": [
-        "GET /",
-        "GET /secrets.json",
-        "GET /.env",
-        "GET /credentials.json",
-        "GET /backend/.env",
-        "GET /.aws/credentials",
-        "GET /.env.local",
-        "GET /.env.production",
-        "GET /api/.env",
-        "GET /serviceAccountKey.json",
-        "GET /app/.env"
-      ]
-    },
     {
       "ip": "104.28.246.112",
       "family": "v4",
@@ -770,6 +741,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "396982",
+      "asn_name": "GOOGLE-CLOUD-PLATFORM - Google LLC",
+      "asn_prefix": "216.180.246.0/24",
       "payloads": [
         "GET /remote/login",
         "GET /admin/index.html",
@@ -823,6 +797,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "396982",
+      "asn_name": "GOOGLE-CLOUD-PLATFORM - Google LLC",
+      "asn_prefix": "216.180.246.0/24",
       "payloads": [
         "GET /manage/account/login",
         "GET /admin/index.html",
@@ -851,6 +828,129 @@
       "asn": "398722",
       "asn_name": "CENSYS-ARIN-03 - Censys",
       "asn_prefix": "199.45.154.0/24",
+      "tags": [
+        "mwl:scanner=\"censys\""
+      ],
+      "payloads": [
+        "GET /",
+        "GET /debug/pprof/"
+      ]
+    },
+    {
+      "ip": "68.183.9.16",
+      "family": "v4",
+      "first_seen": "2026-05-14T12:00:00Z",
+      "last_seen": "2026-05-14T12:00:00Z",
+      "scenarios": [
+        "crowdsec/http-probing",
+        "crowdsec/http-technology-probing",
+        "crowdsec/jira_cve-2021-26086"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /info.php",
+        "GET /s/2353e2935313e27363e22383/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties",
+        "GET /",
+        "GET /console/",
+        "GET /server",
+        "GET /server-status",
+        "GET /about",
+        "GET /login.action",
+        "GET /___proxy_subdomain_whm/login",
+        "GET /___proxy_subdomain_cpanel",
+        "GET /v2/_catalog",
+        "GET /.DS_Store",
+        "GET /.env"
+      ]
+    },
+    {
+      "ip": "157.245.36.108",
+      "family": "v4",
+      "first_seen": "2026-05-14T12:00:00Z",
+      "last_seen": "2026-05-14T12:00:00Z",
+      "scenarios": [
+        "crowdsec/http-probing",
+        "crowdsec/http-technology-probing",
+        "crowdsec/jira_cve-2021-26086"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /info.php",
+        "GET /s/2353e2935313e27363e22383/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties",
+        "GET /",
+        "GET /console/",
+        "GET /server",
+        "GET /server-status",
+        "GET /about",
+        "GET /login.action",
+        "GET /___proxy_subdomain_whm/login",
+        "GET /___proxy_subdomain_cpanel",
+        "GET /v2/_catalog",
+        "GET /.DS_Store",
+        "GET /.env"
+      ]
+    },
+    {
+      "ip": "179.43.186.241",
+      "family": "v4",
+      "first_seen": "2026-05-14T05:00:00Z",
+      "last_seen": "2026-05-14T05:00:00Z",
+      "scenarios": [
+        "crowdsec/http-technology-probing"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /owa/"
+      ]
+    },
+    {
+      "ip": "20.220.233.65",
+      "family": "v4",
+      "first_seen": "2026-05-14T01:00:00Z",
+      "last_seen": "2026-05-14T01:00:00Z",
+      "scenarios": [
+        "crowdsec/http-probing",
+        "crowdsec/http-wordpress-scan"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "tags": [
+        "mwl:cloud=\"azure\""
+      ],
+      "payloads": [
+        "GET /wp-content/plugins/hellopress/wp_filemanager.php",
+        "GET /wp-conflg.php?p=",
+        "GET /wp-gr.php",
+        "GET /wp-config-disabled.php",
+        "GET /moon.php?p=",
+        "GET /a1.php",
+        "GET /ahax.php",
+        "GET /lite.php?p=",
+        "GET /k.php",
+        "GET /leaf.php",
+        "GET /wp_filemanager.php?p=",
+        "GET /pp.php",
+        "GET /index26.php"
+      ]
+    },
+    {
+      "ip": "199.45.155.91",
+      "family": "v4",
+      "first_seen": "2026-05-14T01:00:00Z",
+      "last_seen": "2026-05-14T01:00:00Z",
+      "scenarios": [
+        "crowdsec/http-bad-user-agent"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
       "tags": [
         "mwl:scanner=\"censys\""
       ],
