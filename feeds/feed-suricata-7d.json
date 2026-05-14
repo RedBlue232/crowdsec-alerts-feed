@@ -1,120 +1,13 @@
 {
-  "generated_at": "2026-05-13T13:00:00Z",
+  "generated_at": "2026-05-14T01:00:00Z",
   "ttl_days": 7,
   "scope": "suricata",
   "counts": {
-    "total": 56,
-    "v4": 56,
+    "total": 50,
+    "v4": 50,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "20.84.153.129",
-      "family": "v4",
-      "first_seen": "2026-05-06T14:00:00Z",
-      "last_seen": "2026-05-06T14:00:00Z",
-      "scenarios": [
-        "crowdsec/http-cve-probing",
-        "suricata/ET SCAN Zmap User-Agent (Inbound)"
-      ],
-      "sources": [
-        "crowdsec",
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "20.64.0.0/10",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /developmentserver/metadatauploader"
-      ]
-    },
-    {
-      "ip": "190.2.135.111",
-      "family": "v4",
-      "first_seen": "2026-05-06T19:00:00Z",
-      "last_seen": "2026-05-06T19:00:00Z",
-      "scenarios": [
-        "suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 6"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "49981",
-      "asn_name": "WorldStream WorldStream B.V.",
-      "asn_prefix": "190.2.128.0/20"
-    },
-    {
-      "ip": "40.124.171.173",
-      "family": "v4",
-      "first_seen": "2026-05-06T15:00:00Z",
-      "last_seen": "2026-05-06T15:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN Zmap User-Agent (Inbound)"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "40.124.0.0/16",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /"
-      ]
-    },
-    {
-      "ip": "109.172.55.64",
-      "family": "v4",
-      "first_seen": "2026-05-06T13:00:00Z",
-      "last_seen": "2026-05-06T13:00:00Z",
-      "scenarios": [
-        "suricata/ET COMPROMISED Known Compromised or Hostile Host Traffic group 1"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "215540",
-      "asn_name": "GCS-AS GLOBAL CONNECTIVITY SOLUTIONS LLP",
-      "asn_prefix": "109.172.55.0/24"
-    },
-    {
-      "ip": "8.145.53.115",
-      "family": "v4",
-      "first_seen": "2026-05-06T13:00:00Z",
-      "last_seen": "2026-05-06T13:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN Zmap User-Agent (Inbound)"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "37963",
-      "asn_name": "ALIBABA-CN-NET Hangzhou Alibaba Advertising Co.,Ltd.",
-      "asn_prefix": "8.145.0.0/16",
-      "payloads": [
-        "GET /"
-      ]
-    },
-    {
-      "ip": "176.65.139.168",
-      "family": "v4",
-      "first_seen": "2026-05-07T00:00:00Z",
-      "last_seen": "2026-05-07T00:00:00Z",
-      "scenarios": [
-        "suricata/ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 283"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "214472",
-      "asn_name": "STORMINDUSTRIES Offshore LC",
-      "asn_prefix": "176.65.139.0/24"
-    },
     {
       "ip": "14.19.192.138",
       "family": "v4",
