@@ -1,145 +1,8 @@
 {
   "schema_version": "2",
   "ttl_days": 7,
-  "updated_at": "2026-05-15T01:00:02.309026Z",
+  "updated_at": "2026-05-15T13:00:02.371210Z",
   "items": {
-    "208.84.100.152": {
-      "ip": "208.84.100.152",
-      "family": "v4",
-      "first_seen": "2026-05-08T11:57:31Z",
-      "last_seen": "2026-05-08T11:57:31Z",
-      "scenarios": {
-        "crowdsec/http-probing": {
-          "count": 1,
-          "last_seen": "2026-05-08T11:57:31Z"
-        },
-        "crowdsec/http-sensitive-files": {
-          "count": 1,
-          "last_seen": "2026-05-08T11:57:31Z"
-        }
-      },
-      "sources": {
-        "crowdsec": {
-          "count": 2,
-          "first_seen": "2026-05-08T11:57:31Z",
-          "last_seen": "2026-05-08T11:57:31Z",
-          "last_alert_id": 6280,
-          "last_alert_uuid": "714e3421-2b30-4865-b146-c2efbc0d2b93",
-          "payloads": [
-            "GET /",
-            "GET /secrets.json",
-            "GET /.env",
-            "GET /serviceAccountKey.json",
-            "GET /api/.env",
-            "GET /.aws/credentials",
-            "GET /backend/.env",
-            "GET /credentials.json",
-            "GET /.env.production",
-            "GET /.env.local",
-            "GET /app/.env"
-          ]
-        }
-      },
-      "asn": "22295",
-      "asn_prefix": "208.84.100.0/24"
-    },
-    "3.81.115.206": {
-      "ip": "3.81.115.206",
-      "family": "v4",
-      "first_seen": "2026-05-08T03:41:49Z",
-      "last_seen": "2026-05-08T03:41:50Z",
-      "scenarios": {
-        "crowdsec/http-probing": {
-          "count": 1,
-          "last_seen": "2026-05-08T03:41:50Z"
-        },
-        "crowdsec/http-sensitive-files": {
-          "count": 1,
-          "last_seen": "2026-05-08T03:41:49Z"
-        }
-      },
-      "sources": {
-        "crowdsec": {
-          "count": 2,
-          "first_seen": "2026-05-08T03:41:49Z",
-          "last_seen": "2026-05-08T03:41:50Z",
-          "last_alert_id": 6274,
-          "last_alert_uuid": "b64e9005-ce33-42c8-b241-02a50493dbdd",
-          "payloads": [
-            "GET /dpgpbcobylm4md",
-            "GET /.env",
-            "GET /.env.local",
-            "GET /.env.production",
-            "GET /.env.development",
-            "GET /.env.dev",
-            "GET /.env.prod",
-            "GET /.env.test",
-            "GET /.env.staging",
-            "GET /.env.backup",
-            "GET /.env.save"
-          ]
-        }
-      },
-      "asn": "14618",
-      "asn_prefix": "3.80.0.0/12"
-    },
-    "85.208.10.202": {
-      "ip": "85.208.10.202",
-      "family": "v4",
-      "first_seen": "2026-05-08T05:23:13Z",
-      "last_seen": "2026-05-08T05:23:13Z",
-      "scenarios": {
-        "suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response": {
-          "count": 1,
-          "last_seen": "2026-05-08T05:23:13Z"
-        }
-      },
-      "sources": {
-        "suricata": {
-          "count": 1,
-          "first_seen": "2026-05-08T05:23:13Z",
-          "last_seen": "2026-05-08T05:23:13Z",
-          "sids": [
-            2021076
-          ],
-          "max_priority": 2,
-          "payloads": [
-            "GET /d/msdownload/update/software/defu/2026/05/am_delta_patch_1.449.496.0_20b1dc22ad3fdaa98bbe6124ebc83480788e3fec.exe?cacheHostOrigin=4.au.download.windowsupdate.com"
-          ]
-        }
-      },
-      "asn": "215724",
-      "asn_prefix": "85.208.10.0/24"
-    },
-    "94.231.113.91": {
-      "ip": "94.231.113.91",
-      "family": "v4",
-      "first_seen": "2026-05-08T07:40:16Z",
-      "last_seen": "2026-05-08T07:40:16Z",
-      "scenarios": {
-        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt": {
-          "count": 1,
-          "last_seen": "2026-05-08T07:40:16Z"
-        }
-      },
-      "sources": {
-        "suricata": {
-          "count": 1,
-          "first_seen": "2026-05-08T07:40:16Z",
-          "last_seen": "2026-05-08T07:40:16Z",
-          "sids": [
-            58276
-          ],
-          "max_priority": 1,
-          "payloads": [
-            "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
-            "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
-          ]
-        }
-      },
-      "asn": "56420",
-      "asn_prefix": "94.231.112.0/20"
-    },
     "20.226.1.243": {
       "ip": "20.226.1.243",
       "family": "v4",
@@ -2169,7 +2032,9 @@
             "GET /resolve?name=1.odns.m.dnsmeasure.top&type=A"
           ]
         }
-      }
+      },
+      "asn": "45102",
+      "asn_prefix": "47.89.128.0/19"
     },
     "216.180.246.125": {
       "ip": "216.180.246.125",
@@ -2284,7 +2149,9 @@
             "GET /.env"
           ]
         }
-      }
+      },
+      "asn": "14061",
+      "asn_prefix": "68.183.0.0/20"
     },
     "157.245.36.108": {
       "ip": "157.245.36.108",
@@ -2328,7 +2195,9 @@
             "GET /.env"
           ]
         }
-      }
+      },
+      "asn": "14061",
+      "asn_prefix": "157.245.32.0/20"
     },
     "179.43.186.241": {
       "ip": "179.43.186.241",
@@ -2352,7 +2221,9 @@
             "GET /owa/"
           ]
         }
-      }
+      },
+      "asn": "51852",
+      "asn_prefix": "179.43.186.0/24"
     },
     "20.220.233.65": {
       "ip": "20.220.233.65",
@@ -2544,6 +2415,95 @@
             "GET /.env.staging",
             "GET /.env.backup",
             "GET /.env.save"
+          ]
+        }
+      },
+      "asn": "14618",
+      "asn_prefix": "54.90.0.0/15"
+    },
+    "172.212.136.43": {
+      "ip": "172.212.136.43",
+      "family": "v4",
+      "first_seen": "2026-05-15T03:47:17Z",
+      "last_seen": "2026-05-15T03:47:25Z",
+      "scenarios": {
+        "crowdsec/http-crawl-non_statics": {
+          "count": 1,
+          "last_seen": "2026-05-15T03:47:25Z"
+        },
+        "crowdsec/http-probing": {
+          "count": 1,
+          "last_seen": "2026-05-15T03:47:17Z"
+        },
+        "crowdsec/http-wordpress-scan": {
+          "count": 1,
+          "last_seen": "2026-05-15T03:47:17Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 3,
+          "first_seen": "2026-05-15T03:47:17Z",
+          "last_seen": "2026-05-15T03:47:25Z",
+          "last_alert_id": 6467,
+          "last_alert_uuid": "eae2fe9a-ba45-4717-aca6-57816a58aa9d",
+          "payloads": [
+            "GET /19.php",
+            "GET /geforce.php",
+            "GET /dostshell.php",
+            "GET /doc.php",
+            "GET /mar.php",
+            "GET /casp1.php",
+            "GET /wp-content/plugins/hellopress/wp_filemanager.php",
+            "GET /adminfuns.php",
+            "GET /sx_pms.php",
+            "GET /wp-info.php",
+            "GET /wp-test.php",
+            "GET /we.php",
+            "GET /wp.php",
+            "GET /wp-indx.php",
+            "GET /zoo.php",
+            "GET /wp-link-spm.php",
+            "GET /wp-link-snpm.php"
+          ]
+        }
+      }
+    },
+    "23.180.120.134": {
+      "ip": "23.180.120.134",
+      "family": "v4",
+      "first_seen": "2026-05-15T02:22:35Z",
+      "last_seen": "2026-05-15T02:22:37Z",
+      "scenarios": {
+        "crowdsec/http-probing": {
+          "count": 1,
+          "last_seen": "2026-05-15T02:22:37Z"
+        },
+        "crowdsec/http-sensitive-files": {
+          "count": 1,
+          "last_seen": "2026-05-15T02:22:35Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 2,
+          "first_seen": "2026-05-15T02:22:35Z",
+          "last_seen": "2026-05-15T02:22:37Z",
+          "last_alert_id": 6464,
+          "last_alert_uuid": "ba3140b2-afef-4358-b221-e024d1cccfda",
+          "payloads": [
+            "GET /backup.sql.zip",
+            "GET /database.sql",
+            "GET /backup.zip",
+            "GET /db_backup.sql",
+            "GET /db.sql.zip",
+            "GET /database.sqlite",
+            "GET /old.sql",
+            "GET /import.sql",
+            "GET /master.sql",
+            "GET /export.sql",
+            "GET /schema.sql",
+            "GET /backup.sql.gz"
           ]
         }
       }
