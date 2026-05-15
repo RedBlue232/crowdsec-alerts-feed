@@ -1,50 +1,13 @@
 {
-  "generated_at": "2026-05-15T01:00:00Z",
+  "generated_at": "2026-05-15T13:00:00Z",
   "ttl_days": 7,
   "scope": "suricata",
   "counts": {
-    "total": 43,
-    "v4": 43,
+    "total": 41,
+    "v4": 41,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "85.208.10.202",
-      "family": "v4",
-      "first_seen": "2026-05-08T05:00:00Z",
-      "last_seen": "2026-05-08T05:00:00Z",
-      "scenarios": [
-        "suricata/ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "215724",
-      "asn_name": "EDGEVANA-AS-RP Edgevana, Inc.",
-      "asn_prefix": "85.208.10.0/24",
-      "payloads": [
-        "GET /d/msdownload/update/software/defu/2026/05/am_delta_patch_1.449.496.0_20b1dc22ad3fdaa98bbe6124ebc83480788e3fec.exe?cacheHostOrigin=4.au.download.windowsupdate.com"
-      ]
-    },
-    {
-      "ip": "94.231.113.91",
-      "family": "v4",
-      "first_seen": "2026-05-08T07:00:00Z",
-      "last_seen": "2026-05-08T07:00:00Z",
-      "scenarios": [
-        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "56420",
-      "asn_name": "RYAZAN-AS JSC \"ER-Telecom Holding\"",
-      "asn_prefix": "94.231.112.0/20",
-      "payloads": [
-        "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
-        "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
-      ]
-    },
     {
       "ip": "85.208.10.201",
       "family": "v4",
