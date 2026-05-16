@@ -1,45 +1,13 @@
 {
-  "generated_at": "2026-05-16T01:00:00Z",
+  "generated_at": "2026-05-16T13:00:00Z",
   "ttl_days": 7,
   "scope": "crowdsec",
   "counts": {
-    "total": 34,
-    "v4": 34,
+    "total": 35,
+    "v4": 35,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "165.22.193.12",
-      "family": "v4",
-      "first_seen": "2026-05-09T04:00:00Z",
-      "last_seen": "2026-05-09T04:00:00Z",
-      "scenarios": [
-        "crowdsec/CVE-2017-9841",
-        "crowdsec/http-admin-interface-probing",
-        "crowdsec/http-probing"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "14061",
-      "asn_name": "DIGITALOCEAN-ASN - DigitalOcean",
-      "asn_prefix": "165.22.192.0/20",
-      "payloads": [
-        "GET /assets/admin/bower_components/jquery.filer/php/readme.txt",
-        "GET /admin/jquery-file-upload/server/php/",
-        "GET /admin/galerie/server/php/",
-        "GET /.git/config",
-        "GET /",
-        "POST /alfacgiapi/perl.alfa",
-        "POST /ALFA_DATA/alfacgiapi/perl.alfa",
-        "GET /assets/plugins/jquery.filer/php/readme.txt",
-        "GET /plugins/jquery.filer/php/readme.txt",
-        "GET /assets/plugins/jQuery-File-Upload/server/php/",
-        "GET /file-manager/initialize",
-        "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-        "GET /assets/vendor/jquery.filer/php/readme.txt"
-      ]
-    },
     {
       "ip": "20.104.97.84",
       "family": "v4",
@@ -972,6 +940,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "138.91.0.0/16",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -1005,11 +976,69 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.64.0.0/10",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
       "payloads": [
         "GET /autodiscover/autodiscover.json?@zdi/Powershell"
+      ]
+    },
+    {
+      "ip": "185.177.72.51",
+      "family": "v4",
+      "first_seen": "2026-05-16T07:00:00Z",
+      "last_seen": "2026-05-16T07:00:00Z",
+      "scenarios": [
+        "crowdsec/http-admin-interface-probing",
+        "crowdsec/http-probing",
+        "crowdsec/http-sensitive-files"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /admin/config",
+        "GET /phpinfo.php",
+        "GET /phpinfo",
+        "GET /",
+        "GET /.env",
+        "GET /.env.local",
+        "GET /.env.save",
+        "GET /api/.env",
+        "GET /backend/.env",
+        "GET /uploads/.env",
+        "GET /@fs/proc/self/environ?raw??",
+        "GET /config/php.ini",
+        "GET /index.html"
+      ]
+    },
+    {
+      "ip": "208.84.100.214",
+      "family": "v4",
+      "first_seen": "2026-05-16T04:00:00Z",
+      "last_seen": "2026-05-16T04:00:00Z",
+      "scenarios": [
+        "crowdsec/http-probing",
+        "crowdsec/http-sensitive-files"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /",
+        "GET /secrets.json",
+        "GET /.env",
+        "GET /google-service-account.json",
+        "GET /api/.env",
+        "GET /service-account.json",
+        "GET /.env.production",
+        "GET /app/.env",
+        "GET /.aws/credentials",
+        "GET /backend/.env",
+        "GET /serviceAccountKey.json"
       ]
     }
   ]
