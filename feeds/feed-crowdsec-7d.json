@@ -1,55 +1,13 @@
 {
-  "generated_at": "2026-05-16T13:00:00Z",
+  "generated_at": "2026-05-17T01:00:00Z",
   "ttl_days": 7,
   "scope": "crowdsec",
   "counts": {
-    "total": 35,
-    "v4": 35,
+    "total": 37,
+    "v4": 37,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "20.104.97.84",
-      "family": "v4",
-      "first_seen": "2026-05-09T15:00:00Z",
-      "last_seen": "2026-05-09T15:00:00Z",
-      "scenarios": [
-        "crowdsec/http-crawl-non_statics",
-        "crowdsec/http-probing",
-        "crowdsec/http-wordpress-scan"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "20.64.0.0/10",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /gelio1.php",
-        "GET /wp-content/plugins/hellopress/wp_filemanager.php",
-        "GET /wp-k7djufwez2.php",
-        "GET /wp-kz.php",
-        "GET /wp-tiroto.php",
-        "GET /file60.php",
-        "GET /bc.php",
-        "GET /100.php",
-        "GET /xmu.php",
-        "GET /bob.php",
-        "GET /av.php",
-        "GET /casp1.php",
-        "GET /file6.php",
-        "GET /xs.php",
-        "GET /zo.php",
-        "GET /xper1.php",
-        "GET /tiny.php",
-        "GET /bthil.php",
-        "GET /s1.php",
-        "GET /de.php"
-      ]
-    },
     {
       "ip": "172.212.180.108",
       "family": "v4",
@@ -999,6 +957,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "211590",
+      "asn_name": "BUCKLOG Bucklog SARL",
+      "asn_prefix": "185.177.72.0/24",
       "payloads": [
         "GET /admin/config",
         "GET /phpinfo.php",
@@ -1039,6 +1000,73 @@
         "GET /.aws/credentials",
         "GET /backend/.env",
         "GET /serviceAccountKey.json"
+      ]
+    },
+    {
+      "ip": "199.45.155.88",
+      "family": "v4",
+      "first_seen": "2026-05-16T23:00:00Z",
+      "last_seen": "2026-05-16T23:00:00Z",
+      "scenarios": [
+        "crowdsec/http-bad-user-agent"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "asn": "398722",
+      "asn_name": "CENSYS-ARIN-03 - Censys",
+      "asn_prefix": "199.45.155.0/24",
+      "tags": [
+        "mwl:scanner=\"censys\""
+      ],
+      "payloads": [
+        "GET /"
+      ]
+    },
+    {
+      "ip": "146.190.251.123",
+      "family": "v4",
+      "first_seen": "2026-05-16T20:00:00Z",
+      "last_seen": "2026-05-16T20:00:00Z",
+      "scenarios": [
+        "crowdsec/CVE-2017-9841",
+        "crowdsec/http-admin-interface-probing",
+        "crowdsec/http-probing"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /assets/admin/bower_components/jquery.filer/php/readme.txt",
+        "GET /admin/blueimp-jQuery-File-Upload/server/php/",
+        "GET /admin/galerie/server/php/",
+        "GET /.git/config",
+        "GET /",
+        "GET /jquery.filer/php/readme.txt",
+        "GET /assets/js/frontend/jquery-file-upload/server/php/",
+        "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+        "GET /assets/plugins/jQuery-File-Upload/server/php/",
+        "GET /assets/plugins/jquery.filer/php/readme.txt",
+        "GET /plugins/jquery.filer/php/readme.txt",
+        "GET /static/lib/jquery-file-upload/server/php/",
+        "POST /ALFA_DATA/alfacgiapi/perl.alfa",
+        "GET /file-manager/initialize"
+      ]
+    },
+    {
+      "ip": "46.105.46.43",
+      "family": "v4",
+      "first_seen": "2026-05-16T14:00:00Z",
+      "last_seen": "2026-05-16T14:00:00Z",
+      "scenarios": [
+        "crowdsec/http-bad-user-agent"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "payloads": [
+        "GET /robots.txt",
+        "GET /"
       ]
     }
   ]
