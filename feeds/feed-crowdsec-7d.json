@@ -1,127 +1,13 @@
 {
-  "generated_at": "2026-05-18T13:00:00Z",
+  "generated_at": "2026-05-19T01:00:00Z",
   "ttl_days": 7,
   "scope": "crowdsec",
   "counts": {
-    "total": 49,
-    "v4": 49,
+    "total": 45,
+    "v4": 45,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "184.105.247.195",
-      "family": "v4",
-      "first_seen": "2026-05-12T00:00:00Z",
-      "last_seen": "2026-05-12T00:00:00Z",
-      "scenarios": [
-        "crowdsec/http-technology-probing"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "6939",
-      "asn_name": "HURRICANE - Hurricane Electric LLC",
-      "asn_prefix": "184.104.0.0/15",
-      "tags": [
-        "mwl:scanner=\"shadowserver\""
-      ],
-      "payloads": [
-        "GET /remote/logincheck"
-      ]
-    },
-    {
-      "ip": "199.45.155.82",
-      "family": "v4",
-      "first_seen": "2026-05-11T17:00:00Z",
-      "last_seen": "2026-05-11T17:00:00Z",
-      "scenarios": [
-        "crowdsec/http-bad-user-agent"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "398722",
-      "asn_name": "CENSYS-ARIN-03 - Censys",
-      "asn_prefix": "199.45.155.0/24",
-      "tags": [
-        "mwl:scanner=\"censys\""
-      ],
-      "payloads": [
-        "GET /",
-        "GET /debug/pprof/"
-      ]
-    },
-    {
-      "ip": "66.132.224.238",
-      "family": "v4",
-      "first_seen": "2026-05-11T17:00:00Z",
-      "last_seen": "2026-05-11T17:00:00Z",
-      "scenarios": [
-        "crowdsec/http-bad-user-agent"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "398324",
-      "asn_name": "CENSYS-ARIN-01 - Censys, Inc.",
-      "asn_prefix": "66.132.224.0/24",
-      "payloads": [
-        "GET /debug/pprof/",
-        "GET /metrics"
-      ]
-    },
-    {
-      "ip": "5.255.127.96",
-      "family": "v4",
-      "first_seen": "2026-05-11T15:00:00Z",
-      "last_seen": "2026-05-11T15:00:00Z",
-      "scenarios": [
-        "crowdsec/http-probing",
-        "crowdsec/http-sensitive-files"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "60404",
-      "asn_name": "Liteserver The Infrastructure Group B.V.",
-      "asn_prefix": "5.255.96.0/19",
-      "payloads": [
-        "GET /",
-        "GET /secrets.json",
-        "GET /.env",
-        "GET /.env.local",
-        "GET /credentials.json",
-        "GET /.env.production",
-        "GET /app/.env",
-        "GET /api/.env",
-        "GET /serviceAccountKey.json",
-        "GET /backend/.env",
-        "GET /.aws/credentials"
-      ]
-    },
-    {
-      "ip": "172.202.114.25",
-      "family": "v4",
-      "first_seen": "2026-05-11T15:00:00Z",
-      "last_seen": "2026-05-11T15:00:00Z",
-      "scenarios": [
-        "crowdsec/http-technology-probing",
-        "suricata/ET SCAN Zmap User-Agent (Inbound)"
-      ],
-      "sources": [
-        "crowdsec",
-        "suricata"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "172.200.0.0/13",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /druid/index.html"
-      ]
-    },
     {
       "ip": "52.138.31.126",
       "family": "v4",
@@ -1279,6 +1165,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.150.0.0/15",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -1381,6 +1270,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.48.0.0/12",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -1405,6 +1297,27 @@
         "GET /style.php",
         "GET /inputs.php",
         "GET /file.php"
+      ]
+    },
+    {
+      "ip": "20.168.0.218",
+      "family": "v4",
+      "first_seen": "2026-05-19T00:00:00Z",
+      "last_seen": "2026-05-19T00:00:00Z",
+      "scenarios": [
+        "crowdsec/http-technology-probing"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.160.0.0/12",
+      "tags": [
+        "mwl:cloud=\"azure\""
+      ],
+      "payloads": [
+        "GET /owa/auth/logon.aspx"
       ]
     }
   ]
