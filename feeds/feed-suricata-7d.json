@@ -1,70 +1,13 @@
 {
-  "generated_at": "2026-05-19T01:00:00Z",
+  "generated_at": "2026-05-19T13:00:00Z",
   "ttl_days": 7,
   "scope": "suricata",
   "counts": {
-    "total": 6,
-    "v4": 6,
+    "total": 3,
+    "v4": 3,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "34.134.90.102",
-      "family": "v4",
-      "first_seen": "2026-05-12T10:00:00Z",
-      "last_seen": "2026-05-12T10:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN WordPress Scanner Performing Multiple Requests to Windows Live Writer XML"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "396982",
-      "asn_name": "GOOGLE-CLOUD-PLATFORM - Google LLC",
-      "asn_prefix": "34.134.80.0/20",
-      "tags": [
-        "mwl:cloud=\"gcp\""
-      ],
-      "payloads": [
-        "GET /wordpress/wp-includes/wlwmanifest.xml"
-      ]
-    },
-    {
-      "ip": "80.66.66.31",
-      "family": "v4",
-      "first_seen": "2026-05-12T06:00:00Z",
-      "last_seen": "2026-05-12T06:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN MS Terminal Server Traffic on Non-standard Port"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "209702",
-      "asn_name": "SOLDATOV-AS SOLDATOV ALEXEY VALEREVICH",
-      "asn_prefix": "80.66.66.0/24",
-      "payloads": [
-        "\u0003/*\\xe0Cookie: mstshash=Administr"
-      ]
-    },
-    {
-      "ip": "36.37.209.184",
-      "family": "v4",
-      "first_seen": "2026-05-12T12:00:00Z",
-      "last_seen": "2026-05-12T12:00:00Z",
-      "scenarios": [
-        "suricata/ET SCAN SFTP/FTP Password Exposure via sftp-config.json"
-      ],
-      "sources": [
-        "suricata"
-      ],
-      "asn": "38623",
-      "asn_name": "VIETTELCAMBODIA-AS-AP ISPIXP IN CAMBODIA WITH THE BEST VERVICE IN THERE.",
-      "asn_prefix": "36.37.209.0/24",
-      "payloads": [
-        "GET /sftp-config.json"
-      ]
-    },
     {
       "ip": "139.135.41.58",
       "family": "v4",
