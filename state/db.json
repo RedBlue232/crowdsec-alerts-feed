@@ -1,96 +1,8 @@
 {
   "schema_version": "2",
   "ttl_days": 7,
-  "updated_at": "2026-05-20T13:00:02.429028Z",
+  "updated_at": "2026-05-21T01:00:02.002496Z",
   "items": {
-    "20.48.166.247": {
-      "ip": "20.48.166.247",
-      "family": "v4",
-      "first_seen": "2026-05-12T18:15:45Z",
-      "last_seen": "2026-05-13T23:02:16Z",
-      "scenarios": {
-        "crowdsec/http-backdoors-attempts": {
-          "count": 2,
-          "last_seen": "2026-05-13T23:02:16Z"
-        },
-        "crowdsec/http-crawl-non_statics": {
-          "count": 2,
-          "last_seen": "2026-05-13T23:02:16Z"
-        },
-        "crowdsec/http-admin-interface-probing": {
-          "count": 2,
-          "last_seen": "2026-05-13T23:02:11Z"
-        },
-        "crowdsec/http-wordpress-scan": {
-          "count": 2,
-          "last_seen": "2026-05-13T23:02:10Z"
-        },
-        "crowdsec/http-probing": {
-          "count": 2,
-          "last_seen": "2026-05-13T23:02:08Z"
-        }
-      },
-      "sources": {
-        "crowdsec": {
-          "count": 10,
-          "first_seen": "2026-05-12T18:15:45Z",
-          "last_seen": "2026-05-13T23:02:16Z",
-          "last_alert_id": 6429,
-          "last_alert_uuid": "e01285b6-9bb9-4b6c-96a0-0c674eab3969",
-          "payloads": [
-            "GET /0x.php",
-            "GET /xenon1337.php",
-            "GET /LDEFxj.php",
-            "GET /206.php",
-            "GET /zero.php",
-            "GET /koala.php",
-            "GET /mac.php",
-            "GET /hayuk.php",
-            "GET /0d.php",
-            "GET /wefile.php",
-            "GET /shell.php",
-            "GET /seo.php",
-            "GET /7.php",
-            "GET /8.php",
-            "GET /1.php",
-            "GET /wp-admin/js/",
-            "GET /wp-admin/css/colour.php",
-            "GET /wp-content/plugins/hellopress/wp_filemanager.php",
-            "GET /38.php",
-            "GET /02.php"
-          ]
-        }
-      },
-      "asn": "8075",
-      "asn_prefix": "20.48.0.0/12"
-    },
-    "199.45.154.128": {
-      "ip": "199.45.154.128",
-      "family": "v4",
-      "first_seen": "2026-05-13T17:22:31Z",
-      "last_seen": "2026-05-13T17:22:31Z",
-      "scenarios": {
-        "crowdsec/http-bad-user-agent": {
-          "count": 1,
-          "last_seen": "2026-05-13T17:22:31Z"
-        }
-      },
-      "sources": {
-        "crowdsec": {
-          "count": 1,
-          "first_seen": "2026-05-13T17:22:31Z",
-          "last_seen": "2026-05-13T17:22:31Z",
-          "last_alert_id": 6422,
-          "last_alert_uuid": "26fee02a-2b7e-4b3d-95ed-2684fc06f9bc",
-          "payloads": [
-            "GET /",
-            "GET /debug/pprof/"
-          ]
-        }
-      },
-      "asn": "398722",
-      "asn_prefix": "199.45.154.0/24"
-    },
     "68.183.9.16": {
       "ip": "68.183.9.16",
       "family": "v4",
@@ -1824,7 +1736,9 @@
             "GET /app/.env"
           ]
         }
-      }
+      },
+      "asn": "396982",
+      "asn_prefix": "34.50.64.0/18"
     },
     "216.180.246.236": {
       "ip": "216.180.246.236",
@@ -1867,7 +1781,9 @@
             "GET /doc/index.html"
           ]
         }
-      }
+      },
+      "asn": "396982",
+      "asn_prefix": "216.180.246.0/24"
     },
     "165.227.80.231": {
       "ip": "165.227.80.231",
@@ -1922,7 +1838,9 @@
             "GET /firebase.json"
           ]
         }
-      }
+      },
+      "asn": "14061",
+      "asn_prefix": "165.227.80.0/20"
     },
     "64.62.197.152": {
       "ip": "64.62.197.152",
@@ -1946,7 +1864,9 @@
             "GET /remote/logincheck"
           ]
         }
-      }
+      },
+      "asn": "6939",
+      "asn_prefix": "64.62.128.0/17"
     },
     "208.84.101.17": {
       "ip": "208.84.101.17",
@@ -1982,6 +1902,379 @@
             "GET /app/.env",
             "GET /.aws/credentials",
             "GET /.env.production"
+          ]
+        }
+      },
+      "asn": "22295",
+      "asn_prefix": "208.84.101.0/24"
+    },
+    "135.237.127.54": {
+      "ip": "135.237.127.54",
+      "family": "v4",
+      "first_seen": "2026-05-21T00:57:05Z",
+      "last_seen": "2026-05-21T00:57:05Z",
+      "scenarios": {
+        "crowdsec/http-technology-probing": {
+          "count": 1,
+          "last_seen": "2026-05-21T00:57:05Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 1,
+          "first_seen": "2026-05-21T00:57:05Z",
+          "last_seen": "2026-05-21T00:57:05Z",
+          "last_alert_id": 6641,
+          "last_alert_uuid": "731fe857-8b8b-4a84-b62f-03baa958f04f",
+          "payloads": [
+            "GET /owa/auth/logon.aspx"
+          ]
+        }
+      }
+    },
+    "20.84.145.61": {
+      "ip": "20.84.145.61",
+      "family": "v4",
+      "first_seen": "2026-05-21T00:47:12Z",
+      "last_seen": "2026-05-21T00:47:12Z",
+      "scenarios": {
+        "crowdsec/http-cve-probing": {
+          "count": 1,
+          "last_seen": "2026-05-21T00:47:12Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 1,
+          "first_seen": "2026-05-21T00:47:12Z",
+          "last_seen": "2026-05-21T00:47:12Z",
+          "last_alert_id": 6640,
+          "last_alert_uuid": "89237374-fb8c-4677-b7b0-66d2ba4aeaaf",
+          "payloads": [
+            "GET /developmentserver/metadatauploader"
+          ]
+        }
+      }
+    },
+    "181.215.65.35": {
+      "ip": "181.215.65.35",
+      "family": "v4",
+      "first_seen": "2026-05-20T23:36:16Z",
+      "last_seen": "2026-05-20T23:36:16Z",
+      "scenarios": {
+        "crowdsec/CVE-2023-49103": {
+          "count": 1,
+          "last_seen": "2026-05-20T23:36:16Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 1,
+          "first_seen": "2026-05-20T23:36:16Z",
+          "last_seen": "2026-05-20T23:36:16Z",
+          "last_alert_id": 6638,
+          "last_alert_uuid": "582d16e1-66af-48ea-a050-f009f5075af0",
+          "payloads": [
+            "HEAD /owncloud/apps/graphapi/vendor/microsoft/microsoft-graph/tests/GetPhpInfo.php"
+          ]
+        }
+      }
+    },
+    "181.215.65.39": {
+      "ip": "181.215.65.39",
+      "family": "v4",
+      "first_seen": "2026-05-20T23:36:10Z",
+      "last_seen": "2026-05-20T23:36:10Z",
+      "scenarios": {
+        "crowdsec/CVE-2023-49103": {
+          "count": 1,
+          "last_seen": "2026-05-20T23:36:10Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 1,
+          "first_seen": "2026-05-20T23:36:10Z",
+          "last_seen": "2026-05-20T23:36:10Z",
+          "last_alert_id": 6637,
+          "last_alert_uuid": "bceca805-8110-4dc5-a386-0ddb934fb3ff",
+          "payloads": [
+            "HEAD /owncloud/apps/graphapi/vendor/microsoft/microsoft-graph/tests/GetPhpInfo.php"
+          ]
+        }
+      }
+    },
+    "181.215.65.46": {
+      "ip": "181.215.65.46",
+      "family": "v4",
+      "first_seen": "2026-05-20T23:36:07Z",
+      "last_seen": "2026-05-20T23:36:07Z",
+      "scenarios": {
+        "crowdsec/http-technology-probing": {
+          "count": 1,
+          "last_seen": "2026-05-20T23:36:07Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 1,
+          "first_seen": "2026-05-20T23:36:07Z",
+          "last_seen": "2026-05-20T23:36:07Z",
+          "last_alert_id": 6636,
+          "last_alert_uuid": "42a8f0b4-8437-47ed-9f43-ec3cac813c84",
+          "payloads": [
+            "HEAD /info.php"
+          ]
+        }
+      }
+    },
+    "181.215.65.49": {
+      "ip": "181.215.65.49",
+      "family": "v4",
+      "first_seen": "2026-05-20T23:34:05Z",
+      "last_seen": "2026-05-20T23:34:06Z",
+      "scenarios": {
+        "crowdsec/http-sensitive-files": {
+          "count": 1,
+          "last_seen": "2026-05-20T23:34:06Z"
+        },
+        "crowdsec/http-probing": {
+          "count": 1,
+          "last_seen": "2026-05-20T23:34:05Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 2,
+          "first_seen": "2026-05-20T23:34:05Z",
+          "last_seen": "2026-05-20T23:34:06Z",
+          "last_alert_id": 6635,
+          "last_alert_uuid": "c61dadbd-ddc5-42ae-802f-e43fe8d16c07",
+          "payloads": [
+            "POST /.env",
+            "GET /.env.save",
+            "GET /.env.prod",
+            "GET /api/.env",
+            "GET /cp/.env",
+            "GET /.DS_Store",
+            "GET /.env.old",
+            "GET /.env.production",
+            "GET /.env.development%20",
+            "GET /laravel/.env%20",
+            "GET /admin-app/.env%20",
+            "GET /app/.env%20"
+          ]
+        }
+      }
+    },
+    "181.215.65.48": {
+      "ip": "181.215.65.48",
+      "family": "v4",
+      "first_seen": "2026-05-20T23:34:02Z",
+      "last_seen": "2026-05-20T23:34:03Z",
+      "scenarios": {
+        "crowdsec/http-sensitive-files": {
+          "count": 1,
+          "last_seen": "2026-05-20T23:34:03Z"
+        },
+        "crowdsec/http-probing": {
+          "count": 1,
+          "last_seen": "2026-05-20T23:34:02Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 2,
+          "first_seen": "2026-05-20T23:34:02Z",
+          "last_seen": "2026-05-20T23:34:03Z",
+          "last_alert_id": 6633,
+          "last_alert_uuid": "1996c187-1ffb-4086-9311-b516748bc52c",
+          "payloads": [
+            "POST /.env",
+            "GET /.env.save",
+            "GET /.env.prod",
+            "GET /api/.env",
+            "GET /cp/.env",
+            "GET /.env.old",
+            "GET /.env.production",
+            "GET /.env.development%20",
+            "GET /laravel/.env%20",
+            "GET /admin-app/.env%20",
+            "GET /app/.env%20",
+            "GET /development/.env%20"
+          ]
+        }
+      }
+    },
+    "181.215.65.40": {
+      "ip": "181.215.65.40",
+      "family": "v4",
+      "first_seen": "2026-05-20T23:33:53Z",
+      "last_seen": "2026-05-20T23:33:53Z",
+      "scenarios": {
+        "crowdsec/CVE-2017-9841": {
+          "count": 1,
+          "last_seen": "2026-05-20T23:33:53Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 1,
+          "first_seen": "2026-05-20T23:33:53Z",
+          "last_seen": "2026-05-20T23:33:53Z",
+          "last_alert_id": 6631,
+          "last_alert_uuid": "8fa16fb1-4513-4c3f-b111-674cb7ff3827",
+          "payloads": [
+            "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php"
+          ]
+        }
+      }
+    },
+    "20.249.8.202": {
+      "ip": "20.249.8.202",
+      "family": "v4",
+      "first_seen": "2026-05-20T19:24:13Z",
+      "last_seen": "2026-05-20T19:24:30Z",
+      "scenarios": {
+        "crowdsec/http-wordpress-scan": {
+          "count": 1,
+          "last_seen": "2026-05-20T19:24:30Z"
+        },
+        "crowdsec/http-crawl-non_statics": {
+          "count": 1,
+          "last_seen": "2026-05-20T19:24:29Z"
+        },
+        "crowdsec/http-technology-probing": {
+          "count": 1,
+          "last_seen": "2026-05-20T19:24:20Z"
+        },
+        "crowdsec/http-backdoors-attempts": {
+          "count": 1,
+          "last_seen": "2026-05-20T19:24:18Z"
+        },
+        "crowdsec/http-probing": {
+          "count": 1,
+          "last_seen": "2026-05-20T19:24:13Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 5,
+          "first_seen": "2026-05-20T19:24:13Z",
+          "last_seen": "2026-05-20T19:24:30Z",
+          "last_alert_id": 6628,
+          "last_alert_uuid": "641e8ff0-73dd-4ef0-a773-31fc805772dd",
+          "payloads": [
+            "GET /wp-signin.php",
+            "GET /t.php",
+            "GET /up.php",
+            "GET /ultra.php",
+            "GET /vv.php",
+            "GET /V5.php",
+            "GET /info.php",
+            "GET /css.php",
+            "GET /ee.php",
+            "GET /1.php",
+            "GET /2.php",
+            "GET /7.php",
+            "GET /10.php",
+            "GET /13.php",
+            "GET /100.php",
+            "GET /222.php",
+            "GET /adminfuns.php",
+            "GET /abcd.php",
+            "GET /al.php",
+            "GET /alfa.php"
+          ]
+        }
+      }
+    },
+    "20.89.229.127": {
+      "ip": "20.89.229.127",
+      "family": "v4",
+      "first_seen": "2026-05-20T19:14:46Z",
+      "last_seen": "2026-05-20T19:14:50Z",
+      "scenarios": {
+        "crowdsec/http-wordpress-scan": {
+          "count": 1,
+          "last_seen": "2026-05-20T19:14:50Z"
+        },
+        "crowdsec/http-admin-interface-probing": {
+          "count": 1,
+          "last_seen": "2026-05-20T19:14:49Z"
+        },
+        "crowdsec/http-technology-probing": {
+          "count": 1,
+          "last_seen": "2026-05-20T19:14:47Z"
+        },
+        "crowdsec/http-probing": {
+          "count": 1,
+          "last_seen": "2026-05-20T19:14:46Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 4,
+          "first_seen": "2026-05-20T19:14:46Z",
+          "last_seen": "2026-05-20T19:14:50Z",
+          "last_alert_id": 6623,
+          "last_alert_uuid": "1b6ac87e-9343-47ca-b48c-8399959654c9",
+          "payloads": [
+            "GET /wp-content/admin.php",
+            "GET /wp-content/plugins/index.php",
+            "GET /wp-content/themes/admin.php",
+            "GET /wp-content/themes/index.php",
+            "GET /admin.php",
+            "GET /adminfuns.php",
+            "GET /wp-admin/css/colors/ectoplasm/",
+            "GET /info.php",
+            "GET /.well-known/",
+            "GET /404.php",
+            "GET /abc.php",
+            "GET /abcd.php",
+            "GET /about.php",
+            "GET /an.php",
+            "GET /as.php",
+            "GET /cache.php",
+            "GET /cgi-bin/"
+          ]
+        }
+      }
+    },
+    "142.248.80.118": {
+      "ip": "142.248.80.118",
+      "family": "v4",
+      "first_seen": "2026-05-20T14:11:57Z",
+      "last_seen": "2026-05-20T14:11:57Z",
+      "scenarios": {
+        "crowdsec/http-probing": {
+          "count": 1,
+          "last_seen": "2026-05-20T14:11:57Z"
+        },
+        "crowdsec/http-sensitive-files": {
+          "count": 1,
+          "last_seen": "2026-05-20T14:11:57Z"
+        }
+      },
+      "sources": {
+        "crowdsec": {
+          "count": 2,
+          "first_seen": "2026-05-20T14:11:57Z",
+          "last_seen": "2026-05-20T14:11:57Z",
+          "last_alert_id": 6615,
+          "last_alert_uuid": "8bdc67c5-d646-4070-9e5c-8f8efd97d602",
+          "payloads": [
+            "GET /",
+            "GET /secrets.json",
+            "GET /.env.local",
+            "GET /service-account.json",
+            "GET /serviceAccountKey.json",
+            "GET /google-service-account.json",
+            "GET /.env",
+            "GET /credentials.json",
+            "GET /app/.env",
+            "GET /.aws/credentials",
+            "GET /backend/.env"
           ]
         }
       }
