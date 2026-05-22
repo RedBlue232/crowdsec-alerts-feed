@@ -1,110 +1,13 @@
 {
-  "generated_at": "2026-05-21T13:00:00Z",
+  "generated_at": "2026-05-22T01:00:00Z",
   "ttl_days": 7,
   "scope": "crowdsec",
   "counts": {
-    "total": 60,
-    "v4": 60,
+    "total": 58,
+    "v4": 58,
     "v6": 0
   },
   "items": [
-    {
-      "ip": "20.55.99.64",
-      "family": "v4",
-      "first_seen": "2026-05-14T23:00:00Z",
-      "last_seen": "2026-05-14T23:00:00Z",
-      "scenarios": [
-        "crowdsec/http-cve-probing"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "20.48.0.0/12",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /developmentserver/metadatauploader"
-      ]
-    },
-    {
-      "ip": "20.206.116.235",
-      "family": "v4",
-      "first_seen": "2026-05-14T16:00:00Z",
-      "last_seen": "2026-05-14T16:00:00Z",
-      "scenarios": [
-        "crowdsec/http-admin-interface-probing",
-        "crowdsec/http-crawl-non_statics",
-        "crowdsec/http-probing",
-        "crowdsec/http-technology-probing",
-        "crowdsec/http-wordpress-scan"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "8075",
-      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
-      "asn_prefix": "20.192.0.0/10",
-      "tags": [
-        "mwl:cloud=\"azure\""
-      ],
-      "payloads": [
-        "GET /s1.php",
-        "GET /de.php",
-        "GET /adminfuns.php",
-        "GET /phpinfo/info.php",
-        "GET /wp-content/admin.php",
-        "GET /wp-content/plugins/hellopress/wp_filemanager.php",
-        "GET /wp-mail.php",
-        "GET /wp-the.php",
-        "GET /wp-block.php",
-        "GET /info.php",
-        "GET /r.php",
-        "GET /ight.php",
-        "GET /wpns.php",
-        "GET /er.php",
-        "GET /sql.php",
-        "GET /lang/es.php",
-        "GET /404.php",
-        "GET /getir.php",
-        "GET /core/init.php",
-        "GET /aa.php"
-      ]
-    },
-    {
-      "ip": "54.91.225.59",
-      "family": "v4",
-      "first_seen": "2026-05-14T14:00:00Z",
-      "last_seen": "2026-05-14T14:00:00Z",
-      "scenarios": [
-        "crowdsec/http-probing",
-        "crowdsec/http-sensitive-files"
-      ],
-      "sources": [
-        "crowdsec"
-      ],
-      "asn": "14618",
-      "asn_name": "AMAZON-AES - Amazon.com",
-      "asn_prefix": "54.90.0.0/15",
-      "tags": [
-        "mwl:cloud=\"aws\""
-      ],
-      "payloads": [
-        "GET /d1m5dzpcqhsubf",
-        "GET /.env",
-        "GET /.env.local",
-        "GET /.env.production",
-        "GET /.env.development",
-        "GET /.env.dev",
-        "GET /.env.prod",
-        "GET /.env.test",
-        "GET /.env.staging",
-        "GET /.env.backup",
-        "GET /.env.save"
-      ]
-    },
     {
       "ip": "172.212.136.43",
       "family": "v4",
@@ -1245,6 +1148,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "135.236.0.0/15",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -1263,6 +1169,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.64.0.0/10",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -1281,6 +1190,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "212238",
+      "asn_name": "CDNEXT Datacamp Limited",
+      "asn_prefix": "181.215.65.0/24",
       "payloads": [
         "HEAD /owncloud/apps/graphapi/vendor/microsoft/microsoft-graph/tests/GetPhpInfo.php"
       ]
@@ -1296,6 +1208,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "212238",
+      "asn_name": "CDNEXT Datacamp Limited",
+      "asn_prefix": "181.215.65.0/24",
       "payloads": [
         "HEAD /owncloud/apps/graphapi/vendor/microsoft/microsoft-graph/tests/GetPhpInfo.php"
       ]
@@ -1311,6 +1226,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "212238",
+      "asn_name": "CDNEXT Datacamp Limited",
+      "asn_prefix": "181.215.65.0/24",
       "payloads": [
         "HEAD /info.php"
       ]
@@ -1327,6 +1245,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "212238",
+      "asn_name": "CDNEXT Datacamp Limited",
+      "asn_prefix": "181.215.65.0/24",
       "payloads": [
         "POST /.env",
         "GET /.env.save",
@@ -1354,6 +1275,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "212238",
+      "asn_name": "CDNEXT Datacamp Limited",
+      "asn_prefix": "181.215.65.0/24",
       "payloads": [
         "POST /.env",
         "GET /.env.save",
@@ -1380,6 +1304,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "212238",
+      "asn_name": "CDNEXT Datacamp Limited",
+      "asn_prefix": "181.215.65.0/24",
       "payloads": [
         "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php"
       ]
@@ -1399,6 +1326,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.192.0.0/10",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -1439,6 +1369,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.64.0.0/10",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -1474,6 +1407,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "22295",
+      "asn_name": "ADVIN - Advin Services LLC",
+      "asn_prefix": "142.248.80.0/24",
       "payloads": [
         "GET /",
         "GET /secrets.json",
@@ -1500,6 +1436,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "22295",
+      "asn_name": "ADVIN - Advin Services LLC",
+      "asn_prefix": "208.84.101.0/24",
       "payloads": [
         "GET /",
         "GET /secrets.json",
@@ -1525,6 +1464,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.64.0.0/10",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -1545,6 +1487,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "396982",
+      "asn_name": "GOOGLE-CLOUD-PLATFORM - Google LLC",
+      "asn_prefix": "216.180.246.0/24",
       "payloads": [
         "GET /admin/index.html",
         "GET /+CSCOE+/logon.html",
@@ -1571,6 +1516,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "398722",
+      "asn_name": "CENSYS-ARIN-03 - Censys",
+      "asn_prefix": "199.45.155.0/24",
       "tags": [
         "mwl:scanner=\"censys\""
       ],
@@ -1595,6 +1543,9 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "8075",
+      "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+      "asn_prefix": "20.150.0.0/15",
       "tags": [
         "mwl:cloud=\"azure\""
       ],
@@ -1632,11 +1583,51 @@
       "sources": [
         "crowdsec"
       ],
+      "asn": "6939",
+      "asn_name": "HURRICANE - Hurricane Electric LLC",
+      "asn_prefix": "74.82.0.0/18",
       "tags": [
         "mwl:scanner=\"shadowserver\""
       ],
       "payloads": [
         "GET /remote/logincheck"
+      ]
+    },
+    {
+      "ip": "40.115.141.123",
+      "family": "v4",
+      "first_seen": "2026-05-21T13:00:00Z",
+      "last_seen": "2026-05-21T13:00:00Z",
+      "scenarios": [
+        "crowdsec/http-admin-interface-probing",
+        "crowdsec/http-probing",
+        "crowdsec/http-technology-probing",
+        "crowdsec/http-wordpress-scan"
+      ],
+      "sources": [
+        "crowdsec"
+      ],
+      "tags": [
+        "mwl:cloud=\"azure\""
+      ],
+      "payloads": [
+        "GET /wp-content/admin.php",
+        "GET /wp-content/plugins/index.php",
+        "GET /wp-content/themes/admin.php",
+        "GET /wp-content/themes/index.php",
+        "GET /admin.php",
+        "GET /adminfuns.php",
+        "GET /wp-admin/css/colors/ectoplasm/",
+        "GET /info.php",
+        "GET /.well-known/",
+        "GET /404.php",
+        "GET /abc.php",
+        "GET /abcd.php",
+        "GET /about.php",
+        "GET /an.php",
+        "GET /as.php",
+        "GET /cache.php",
+        "GET /cgi-bin/"
       ]
     }
   ]
